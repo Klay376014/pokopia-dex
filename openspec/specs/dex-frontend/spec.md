@@ -49,22 +49,309 @@ The system SHALL allow filtering Pokemon by weather condition: sunny, cloudy, ra
 ---
 ### Requirement: Filter by skill
 
-The system SHALL allow filtering Pokemon by skill type.
+The system SHALL allow filtering Pokemon by skill type using a collapsible filter group. The filter group SHALL be collapsed by default and expandable by clicking the header.
 
 #### Scenario: Skill filter applied
 
-- **WHEN** the user selects a specific skill filter
+- **WHEN** the user expands the skill filter and selects a specific skill filter
 - **THEN** only Pokemon whose `skills` array contains that skill SHALL be displayed
+
+#### Scenario: Multiple skill filters applied
+
+- **WHEN** the user selects multiple skill filters
+- **THEN** only Pokemon whose `skills` array contains ANY of the selected skills SHALL be displayed
+
+
+<!-- @trace
+source: filterbar-ui-optimization
+updated: 2026-03-22
+code:
+  - node_modules/entities/dist/commonjs/decode-codepoint.js
+  - node_modules/entities/dist/esm/generated/encode-html.d.ts
+  - node_modules/entities/dist/esm/escape.d.ts
+  - vite.config.ts
+  - node_modules/estree-walker/src/package.json
+  - node_modules/entities/dist/esm/generated/encode-html.js.map
+  - node_modules/entities/src/decode.ts
+  - node_modules/entities/dist/commonjs/index.d.ts.map
+  - tsconfig.app.tsbuildinfo
+  - node_modules/entities/dist/esm/decode.d.ts
+  - node_modules/entities/src/internal/bin-trie-flags.ts
+  - node_modules/entities/dist/esm/generated/decode-data-xml.d.ts.map
+  - node_modules/entities/dist/esm/index.d.ts
+  - node_modules/entities/dist/commonjs/index.d.ts
+  - node_modules/estree-walker/src/index.js
+  - package.json
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.js.map
+  - src/components/SearchableDropdown.vue
+  - node_modules/entities/dist/commonjs/escape.d.ts.map
+  - node_modules/entities/dist/esm/internal/decode-shared.d.ts.map
+  - node_modules/estree-walker/types/index.d.ts
+  - src/components/CollapsibleFilterBar.vue
+  - node_modules/entities/readme.md
+  - node_modules/entities/dist/commonjs/internal/encode-shared.js
+  - node_modules/entities/dist/commonjs/internal/encode-shared.js.map
+  - node_modules/.vite/deps/_metadata.json
+  - node_modules/entities/dist/esm/encode.js
+  - node_modules/entities/package.json
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.d.ts
+  - node_modules/entities/src/index.ts
+  - node_modules/estree-walker/package.json
+  - node_modules/entities/dist/commonjs/index.js.map
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.js.map
+  - node_modules/entities/dist/esm/internal/decode-shared.js.map
+  - node_modules/estree-walker/src/async.js
+  - node_modules/entities/dist/esm/internal/decode-shared.d.ts
+  - node_modules/entities/dist/commonjs/escape.js
+  - node_modules/entities/dist/commonjs/generated/encode-html.js
+  - node_modules/entities/escape.d.ts
+  - node_modules/entities/dist/commonjs/internal/decode-shared.js
+  - node_modules/estree-walker/types/walker.d.ts
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.js.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.d.ts.map
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.js
+  - node_modules/estree-walker/README.md
+  - node_modules/entities/dist/commonjs/index.js
+  - node_modules/estree-walker/dist/esm/estree-walker.js
+  - node_modules/entities/dist/commonjs/internal/encode-shared.d.ts.map
+  - node_modules/entities/dist/esm/internal/decode-shared.js
+  - node_modules/entities/src/escape.ts
+  - node_modules/entities/dist/commonjs/decode.js.map
+  - node_modules/entities/dist/esm/internal/encode-shared.d.ts
+  - node_modules/entities/dist/esm/generated/decode-data-xml.js.map
+  - node_modules/entities/dist/esm/index.d.ts.map
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.d.ts.map
+  - node_modules/entities/dist/commonjs/decode-codepoint.d.ts.map
+  - node_modules/entities/src/internal/decode-shared.ts
+  - node_modules/estree-walker/types/async.d.ts
+  - node_modules/entities/dist/esm/decode-codepoint.js
+  - node_modules/entities/dist/esm/generated/decode-data-html.d.ts.map
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.d.ts
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.js
+  - dist/index.html
+  - node_modules/entities/dist/esm/generated/decode-data-html.js
+  - node_modules/entities/decode.d.ts
+  - node_modules/entities/dist/esm/generated/encode-html.js
+  - node_modules/entities/dist/commonjs/internal/decode-shared.d.ts
+  - node_modules/estree-walker/dist/esm/package.json
+  - node_modules/entities/dist/esm/generated/decode-data-xml.js
+  - node_modules/estree-walker/src/sync.js
+  - node_modules/entities/dist/esm/decode-codepoint.d.ts.map
+  - node_modules/entities/dist/commonjs/internal/encode-shared.d.ts
+  - node_modules/entities/dist/esm/escape.js.map
+  - node_modules/entities/dist/esm/escape.js
+  - node_modules/entities/dist/esm/encode.js.map
+  - node_modules/entities/src/generated/encode-html.ts
+  - dist/assets/index-BS1S6Oz6.css
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.d.ts.map
+  - node_modules/entities/dist/esm/decode.js.map
+  - node_modules/entities/src/internal/encode-shared.ts
+  - node_modules/entities/dist/commonjs/decode.d.ts.map
+  - node_modules/entities/dist/esm/index.js.map
+  - node_modules/estree-walker/types/tsconfig.tsbuildinfo
+  - node_modules/entities/dist/commonjs/internal/decode-shared.js.map
+  - node_modules/entities/dist/commonjs/decode-codepoint.js.map
+  - node_modules/entities/dist/esm/decode-codepoint.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.d.ts.map
+  - bun.lock
+  - node_modules/entities/dist/commonjs/encode.d.ts.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.js
+  - node_modules/estree-walker/CHANGELOG.md
+  - node_modules/entities/dist/commonjs/decode.js
+  - node_modules/entities/dist/commonjs/encode.js.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.d.ts.map
+  - dist/assets/index-BwDA347X.js
+  - node_modules/entities/dist/esm/decode.d.ts.map
+  - dist/assets/index-DbPjWfGW.js
+  - node_modules/entities/dist/commonjs/escape.d.ts
+  - node_modules/entities/dist/esm/encode.d.ts.map
+  - dist/assets/index-t6Dvf4r1.css
+  - node_modules/entities/dist/commonjs/escape.js.map
+  - node_modules/entities/dist/esm/decode.js
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.d.ts
+  - src/App.vue
+  - node_modules/estree-walker/src/walker.js
+  - node_modules/entities/src/generated/decode-data-html.ts
+  - node_modules/entities/src/generated/decode-data-xml.ts
+  - node_modules/entities/src/encode.ts
+  - node_modules/entities/dist/esm/index.js
+  - node_modules/entities/dist/esm/internal/encode-shared.js
+  - node_modules/estree-walker/dist/umd/estree-walker.js
+  - assets/skills/Pokopia_skill_transform.png
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.js
+  - node_modules/entities/dist/commonjs/encode.js
+  - node_modules/entities/dist/commonjs/internal/decode-shared.d.ts.map
+  - node_modules/entities/dist/commonjs/decode.d.ts
+  - node_modules/entities/dist/esm/escape.d.ts.map
+  - node_modules/entities/src/decode-codepoint.ts
+  - assets/skills/Pokopia_skill_unknown.png
+  - node_modules/estree-walker/types/sync.d.ts
+  - node_modules/entities/dist/esm/internal/encode-shared.js.map
+  - node_modules/entities/dist/esm/generated/encode-html.d.ts.map
+  - node_modules/entities/dist/esm/internal/encode-shared.d.ts.map
+  - node_modules/entities/dist/esm/generated/decode-data-html.js.map
+tests:
+  - src/components/__tests__/CollapsibleFilterBar.test.ts
+  - src/components/__tests__/SearchableDropdown.test.ts
+-->
 
 ---
 ### Requirement: Filter by habitat
 
-The system SHALL allow filtering Pokemon by habitat location.
+The system SHALL allow filtering Pokemon by habitat location using a searchable single-select dropdown. The user SHALL select at most one habitat at a time.
 
 #### Scenario: Habitat filter applied
 
-- **WHEN** the user selects a specific habitat
+- **WHEN** the user selects a specific habitat from the searchable dropdown
 - **THEN** only Pokemon whose `habitats` array contains that habitat SHALL be displayed
+
+#### Scenario: Habitat filter cleared
+
+- **WHEN** the user clears the habitat selection
+- **THEN** all Pokemon (subject to other active filters) SHALL be displayed
+
+#### Scenario: Search for habitat
+
+- **WHEN** the user types in the habitat search input
+- **THEN** the dropdown SHALL display only habitats matching the search text
+
+
+<!-- @trace
+source: filterbar-ui-optimization
+updated: 2026-03-22
+code:
+  - node_modules/entities/dist/commonjs/decode-codepoint.js
+  - node_modules/entities/dist/esm/generated/encode-html.d.ts
+  - node_modules/entities/dist/esm/escape.d.ts
+  - vite.config.ts
+  - node_modules/estree-walker/src/package.json
+  - node_modules/entities/dist/esm/generated/encode-html.js.map
+  - node_modules/entities/src/decode.ts
+  - node_modules/entities/dist/commonjs/index.d.ts.map
+  - tsconfig.app.tsbuildinfo
+  - node_modules/entities/dist/esm/decode.d.ts
+  - node_modules/entities/src/internal/bin-trie-flags.ts
+  - node_modules/entities/dist/esm/generated/decode-data-xml.d.ts.map
+  - node_modules/entities/dist/esm/index.d.ts
+  - node_modules/entities/dist/commonjs/index.d.ts
+  - node_modules/estree-walker/src/index.js
+  - package.json
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.js.map
+  - src/components/SearchableDropdown.vue
+  - node_modules/entities/dist/commonjs/escape.d.ts.map
+  - node_modules/entities/dist/esm/internal/decode-shared.d.ts.map
+  - node_modules/estree-walker/types/index.d.ts
+  - src/components/CollapsibleFilterBar.vue
+  - node_modules/entities/readme.md
+  - node_modules/entities/dist/commonjs/internal/encode-shared.js
+  - node_modules/entities/dist/commonjs/internal/encode-shared.js.map
+  - node_modules/.vite/deps/_metadata.json
+  - node_modules/entities/dist/esm/encode.js
+  - node_modules/entities/package.json
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.d.ts
+  - node_modules/entities/src/index.ts
+  - node_modules/estree-walker/package.json
+  - node_modules/entities/dist/commonjs/index.js.map
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.js.map
+  - node_modules/entities/dist/esm/internal/decode-shared.js.map
+  - node_modules/estree-walker/src/async.js
+  - node_modules/entities/dist/esm/internal/decode-shared.d.ts
+  - node_modules/entities/dist/commonjs/escape.js
+  - node_modules/entities/dist/commonjs/generated/encode-html.js
+  - node_modules/entities/escape.d.ts
+  - node_modules/entities/dist/commonjs/internal/decode-shared.js
+  - node_modules/estree-walker/types/walker.d.ts
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.js.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.d.ts.map
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.js
+  - node_modules/estree-walker/README.md
+  - node_modules/entities/dist/commonjs/index.js
+  - node_modules/estree-walker/dist/esm/estree-walker.js
+  - node_modules/entities/dist/commonjs/internal/encode-shared.d.ts.map
+  - node_modules/entities/dist/esm/internal/decode-shared.js
+  - node_modules/entities/src/escape.ts
+  - node_modules/entities/dist/commonjs/decode.js.map
+  - node_modules/entities/dist/esm/internal/encode-shared.d.ts
+  - node_modules/entities/dist/esm/generated/decode-data-xml.js.map
+  - node_modules/entities/dist/esm/index.d.ts.map
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.d.ts.map
+  - node_modules/entities/dist/commonjs/decode-codepoint.d.ts.map
+  - node_modules/entities/src/internal/decode-shared.ts
+  - node_modules/estree-walker/types/async.d.ts
+  - node_modules/entities/dist/esm/decode-codepoint.js
+  - node_modules/entities/dist/esm/generated/decode-data-html.d.ts.map
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.d.ts
+  - node_modules/entities/dist/commonjs/internal/bin-trie-flags.js
+  - dist/index.html
+  - node_modules/entities/dist/esm/generated/decode-data-html.js
+  - node_modules/entities/decode.d.ts
+  - node_modules/entities/dist/esm/generated/encode-html.js
+  - node_modules/entities/dist/commonjs/internal/decode-shared.d.ts
+  - node_modules/estree-walker/dist/esm/package.json
+  - node_modules/entities/dist/esm/generated/decode-data-xml.js
+  - node_modules/estree-walker/src/sync.js
+  - node_modules/entities/dist/esm/decode-codepoint.d.ts.map
+  - node_modules/entities/dist/commonjs/internal/encode-shared.d.ts
+  - node_modules/entities/dist/esm/escape.js.map
+  - node_modules/entities/dist/esm/escape.js
+  - node_modules/entities/dist/esm/encode.js.map
+  - node_modules/entities/src/generated/encode-html.ts
+  - dist/assets/index-BS1S6Oz6.css
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.d.ts.map
+  - node_modules/entities/dist/esm/decode.js.map
+  - node_modules/entities/src/internal/encode-shared.ts
+  - node_modules/entities/dist/commonjs/decode.d.ts.map
+  - node_modules/entities/dist/esm/index.js.map
+  - node_modules/estree-walker/types/tsconfig.tsbuildinfo
+  - node_modules/entities/dist/commonjs/internal/decode-shared.js.map
+  - node_modules/entities/dist/commonjs/decode-codepoint.js.map
+  - node_modules/entities/dist/esm/decode-codepoint.js.map
+  - node_modules/entities/dist/commonjs/generated/encode-html.d.ts.map
+  - bun.lock
+  - node_modules/entities/dist/commonjs/encode.d.ts.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.js
+  - node_modules/estree-walker/CHANGELOG.md
+  - node_modules/entities/dist/commonjs/decode.js
+  - node_modules/entities/dist/commonjs/encode.js.map
+  - node_modules/entities/dist/commonjs/generated/decode-data-html.d.ts.map
+  - dist/assets/index-BwDA347X.js
+  - node_modules/entities/dist/esm/decode.d.ts.map
+  - dist/assets/index-DbPjWfGW.js
+  - node_modules/entities/dist/commonjs/escape.d.ts
+  - node_modules/entities/dist/esm/encode.d.ts.map
+  - dist/assets/index-t6Dvf4r1.css
+  - node_modules/entities/dist/commonjs/escape.js.map
+  - node_modules/entities/dist/esm/decode.js
+  - node_modules/entities/dist/esm/internal/bin-trie-flags.d.ts
+  - src/App.vue
+  - node_modules/estree-walker/src/walker.js
+  - node_modules/entities/src/generated/decode-data-html.ts
+  - node_modules/entities/src/generated/decode-data-xml.ts
+  - node_modules/entities/src/encode.ts
+  - node_modules/entities/dist/esm/index.js
+  - node_modules/entities/dist/esm/internal/encode-shared.js
+  - node_modules/estree-walker/dist/umd/estree-walker.js
+  - assets/skills/Pokopia_skill_transform.png
+  - node_modules/entities/dist/commonjs/generated/decode-data-xml.js
+  - node_modules/entities/dist/commonjs/encode.js
+  - node_modules/entities/dist/commonjs/internal/decode-shared.d.ts.map
+  - node_modules/entities/dist/commonjs/decode.d.ts
+  - node_modules/entities/dist/esm/escape.d.ts.map
+  - node_modules/entities/src/decode-codepoint.ts
+  - assets/skills/Pokopia_skill_unknown.png
+  - node_modules/estree-walker/types/sync.d.ts
+  - node_modules/entities/dist/esm/internal/encode-shared.js.map
+  - node_modules/entities/dist/esm/generated/encode-html.d.ts.map
+  - node_modules/entities/dist/esm/internal/encode-shared.d.ts.map
+  - node_modules/entities/dist/esm/generated/decode-data-html.js.map
+tests:
+  - src/components/__tests__/CollapsibleFilterBar.test.ts
+  - src/components/__tests__/SearchableDropdown.test.ts
+-->
 
 ---
 ### Requirement: Search by name or number

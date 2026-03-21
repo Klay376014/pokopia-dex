@@ -2,6 +2,8 @@
 import { ref, computed } from 'vue'
 import PokemonCard from './components/PokemonCard.vue'
 import FilterBar from './components/FilterBar.vue'
+import CollapsibleFilterBar from './components/CollapsibleFilterBar.vue'
+import SearchableDropdown from './components/SearchableDropdown.vue'
 import PokemonDetail from './components/PokemonDetail.vue'
 import type { Pokemon, PokopiaData, HabitatInfo } from './types'
 import { skillLabels } from './skillLabels'
@@ -18,7 +20,7 @@ const searchQuery = ref('')
 const selectedTimes = ref<string[]>([])
 const selectedWeathers = ref<string[]>([])
 const selectedSkills = ref<string[]>([])
-const selectedHabitats = ref<string[]>([])
+const selectedHabitat = ref<string | null>(null)
 
 // Derive available options from data
 const timeOptions = ['清晨', '白天', '黃昏', '夜晚']
@@ -78,11 +80,9 @@ const filteredPokemon = computed(() => {
       if (!hasMatch) return false
     }
 
-    // Habitat filter (OR within, AND with others)
-    if (selectedHabitats.value.length > 0) {
-      const hasMatch = selectedHabitats.value.some(h =>
-        p.habitats.some(ph => ph.name === h)
-      )
+    // Habitat filter (single select)
+    if (selectedHabitat.value) {
+      const hasMatch = p.habitats.some(ph => ph.name === selectedHabitat.value)
       if (!hasMatch) return false
     }
 
@@ -129,19 +129,19 @@ function onCloseDetail() {
         @toggle="v => toggleFilter(selectedWeathers, v)"
       />
 
-      <FilterBar
+      <CollapsibleFilterBar
         label="特長"
         :options="allSkills"
         :selected="selectedSkills"
         :labels="skillLabels"
+        :defaultExpanded="false"
         @toggle="v => toggleFilter(selectedSkills, v)"
       />
 
-      <FilterBar
+      <SearchableDropdown
         label="棲息地"
         :options="allHabitatNames"
-        :selected="selectedHabitats"
-        @toggle="v => toggleFilter(selectedHabitats, v)"
+        v-model="selectedHabitat"
       />
     </section>
 
