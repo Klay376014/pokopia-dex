@@ -1,0 +1,8274 @@
+{
+  "pokemon": [
+    {
+      "pokopia_id": "001",
+      "national_id": "0001",
+      "name_zh": "妙蛙種子",
+      "habitats": [
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        },
+        {
+          "name": "綠色的長椅",
+          "habitat_id": "022"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "002",
+      "national_id": "0002",
+      "name_zh": "妙蛙草",
+      "habitats": [
+        {
+          "name": "綠色的長椅",
+          "habitat_id": "022"
+        },
+        {
+          "name": "整片的花海",
+          "habitat_id": "011"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "003",
+      "national_id": "0003",
+      "name_zh": "妙蛙花",
+      "habitats": [
+        {
+          "name": "庭園露台",
+          "habitat_id": "046"
+        },
+        {
+          "name": "整片的花海",
+          "habitat_id": "011"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "004",
+      "national_id": "0004",
+      "name_zh": "小火龍",
+      "habitats": [
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": false
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "005",
+      "national_id": "0005",
+      "name_zh": "火恐龍",
+      "habitats": [
+        {
+          "name": "露營組合",
+          "habitat_id": "017"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": false
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "006",
+      "national_id": "0006",
+      "name_zh": "噴火龍",
+      "habitats": [
+        {
+          "name": "樹果露營大餐",
+          "habitat_id": "040"
+        },
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": false
+      },
+      "skills": [
+        "ignite",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "007",
+      "national_id": "0007",
+      "name_zh": "傑尼龜",
+      "habitats": [
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        },
+        {
+          "name": "濕潤的草叢",
+          "habitat_id": "004"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "008",
+      "national_id": "0008",
+      "name_zh": "卡咪龜",
+      "habitats": [
+        {
+          "name": "濕潤的草叢",
+          "habitat_id": "004"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "009",
+      "national_id": "0009",
+      "name_zh": "水箭龜",
+      "habitats": [
+        {
+          "name": "在陰涼處漂浮玩水",
+          "habitat_id": "036"
+        },
+        {
+          "name": "濕潤的草叢",
+          "habitat_id": "004"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "010",
+      "national_id": "0016",
+      "name_zh": "波波",
+      "habitats": [
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        },
+        {
+          "name": "高崗的草叢",
+          "habitat_id": "006"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "011",
+      "national_id": "0017",
+      "name_zh": "比比鳥",
+      "habitats": [
+        {
+          "name": "高崗的草叢",
+          "habitat_id": "006"
+        },
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "012",
+      "national_id": "0018",
+      "name_zh": "大比鳥",
+      "habitats": [
+        {
+          "name": "嘰嘰咕咕奢華大餐",
+          "habitat_id": "039"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "013",
+      "national_id": "0043",
+      "name_zh": "走路草",
+      "habitats": [
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "014",
+      "national_id": "0044",
+      "name_zh": "臭臭花",
+      "habitats": [
+        {
+          "name": "南國氛圍",
+          "habitat_id": "057"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "015",
+      "national_id": "0045",
+      "name_zh": "霸王花",
+      "habitats": [
+        {
+          "name": "吉利蛋休息處",
+          "habitat_id": "034"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "016",
+      "national_id": "0182",
+      "name_zh": "美麗花",
+      "habitats": [
+        {
+          "name": "吉利蛋休息處",
+          "habitat_id": "034"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "017",
+      "national_id": "0046",
+      "name_zh": "派拉斯",
+      "habitats": [
+        {
+          "name": "高崗的花田",
+          "habitat_id": "012"
+        },
+        {
+          "name": "庭園",
+          "habitat_id": "014"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "018",
+      "national_id": "0047",
+      "name_zh": "派拉斯特",
+      "habitats": [
+        {
+          "name": "庭園",
+          "habitat_id": "014"
+        },
+        {
+          "name": "高崗的花田",
+          "habitat_id": "012"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "019",
+      "national_id": "0048",
+      "name_zh": "毛球",
+      "habitats": [
+        {
+          "name": "光照的草叢",
+          "habitat_id": "007"
+        },
+        {
+          "name": "光照的長椅",
+          "habitat_id": "023"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "020",
+      "national_id": "0049",
+      "name_zh": "摩魯蛾",
+      "habitats": [
+        {
+          "name": "光照的長椅",
+          "habitat_id": "023"
+        },
+        {
+          "name": "光照的草叢",
+          "habitat_id": "007"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "021",
+      "national_id": "0069",
+      "name_zh": "喇叭芽",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "022",
+      "national_id": "0070",
+      "name_zh": "口呆花",
+      "habitats": [
+        {
+          "name": "燈光與香氣的誘惑",
+          "habitat_id": "035"
+        },
+        {
+          "name": "華麗的桌子",
+          "habitat_id": "021"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "023",
+      "national_id": "0071",
+      "name_zh": "大食花",
+      "habitats": [
+        {
+          "name": "燈光與香氣的誘惑",
+          "habitat_id": "035"
+        },
+        {
+          "name": "華麗的桌子",
+          "habitat_id": "021"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "024",
+      "national_id": "0079",
+      "name_zh": "呆呆獸",
+      "habitats": [
+        {
+          "name": "海浪邊的草叢",
+          "habitat_id": "005"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "yawn"
+      ]
+    },
+    {
+      "pokopia_id": "025",
+      "national_id": "0080",
+      "name_zh": "呆殼獸",
+      "habitats": [
+        {
+          "name": "釣魚場",
+          "habitat_id": "184"
+        },
+        {
+          "name": "布偶伴好眠",
+          "habitat_id": "030"
+        },
+        {
+          "name": "海浪邊的草叢",
+          "habitat_id": "005"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "026",
+      "national_id": "0199",
+      "name_zh": "呆呆王",
+      "habitats": [
+        {
+          "name": "釣魚場",
+          "habitat_id": "184"
+        },
+        {
+          "name": "布偶伴好眠",
+          "habitat_id": "030"
+        },
+        {
+          "name": "海浪邊的草叢",
+          "habitat_id": "005"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "027",
+      "national_id": "0081",
+      "name_zh": "小磁怪",
+      "habitats": [
+        {
+          "name": "工廠的儲藏室",
+          "habitat_id": "038"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "028",
+      "national_id": "0082",
+      "name_zh": "三合一磁怪",
+      "habitats": [
+        {
+          "name": "迷你遊戲城",
+          "habitat_id": "085"
+        },
+        {
+          "name": "好多垃圾桶",
+          "habitat_id": "064"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "029",
+      "national_id": "0462",
+      "name_zh": "自爆磁怪",
+      "habitats": [
+        {
+          "name": "迷你遊戲城",
+          "habitat_id": "085"
+        },
+        {
+          "name": "好多垃圾桶",
+          "habitat_id": "064"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "030",
+      "national_id": "0095",
+      "name_zh": "大岩蛇",
+      "habitats": [
+        {
+          "name": "乾乾的草叢",
+          "habitat_id": "037"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "031",
+      "national_id": "0208",
+      "name_zh": "大鋼蛇",
+      "habitats": [
+        {
+          "name": "咚隆咣啷鋼架工程",
+          "habitat_id": "117"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "032",
+      "national_id": "0104",
+      "name_zh": "卡拉卡拉",
+      "habitats": [
+        {
+          "name": "花朵圍繞的墓地",
+          "habitat_id": "013"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "033",
+      "national_id": "0105",
+      "name_zh": "嘎啦嘎啦",
+      "habitats": [
+        {
+          "name": "花朵圍繞的墓地",
+          "habitat_id": "013"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "034",
+      "national_id": "0236",
+      "name_zh": "無畏小子",
+      "habitats": [
+        {
+          "name": "修行瀑布",
+          "habitat_id": "018"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "035",
+      "national_id": "0106",
+      "name_zh": "飛腿郎",
+      "habitats": [
+        {
+          "name": "緊急救護站",
+          "habitat_id": "025"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "036",
+      "national_id": "0107",
+      "name_zh": "快拳郎",
+      "habitats": [
+        {
+          "name": "健身區休息處",
+          "habitat_id": "024"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "037",
+      "national_id": "0237",
+      "name_zh": "戰舞郎",
+      "habitats": [
+        {
+          "name": "健身區救護處",
+          "habitat_id": "026"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "038",
+      "national_id": "0109",
+      "name_zh": "瓦斯彈",
+      "habitats": [
+        {
+          "name": "垃圾集中站",
+          "habitat_id": "063"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "039",
+      "national_id": "0110",
+      "name_zh": "雙彈瓦斯",
+      "habitats": [
+        {
+          "name": "古色古香",
+          "habitat_id": "048"
+        },
+        {
+          "name": "垃圾集中站",
+          "habitat_id": "063"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "040",
+      "national_id": "0114",
+      "name_zh": "蔓藤怪",
+      "habitats": [
+        {
+          "name": "滿是精靈球",
+          "habitat_id": "049"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "041",
+      "national_id": "0465",
+      "name_zh": "巨蔓藤博士",
+      "habitats": [
+        {
+          "name": "博士的寶物",
+          "habitat_id": "043"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "appraise"
+      ]
+    },
+    {
+      "pokopia_id": "042",
+      "national_id": "0123",
+      "name_zh": "飛天螳螂",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "043",
+      "national_id": "0212",
+      "name_zh": "巨鉗螳螂",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "044",
+      "national_id": "0127",
+      "name_zh": "凱羅斯",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "045",
+      "national_id": "0129",
+      "name_zh": "鯉魚王",
+      "habitats": [
+        {
+          "name": "海釣場",
+          "habitat_id": "185"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "unknown"
+      ]
+    },
+    {
+      "pokopia_id": "046",
+      "national_id": "0130",
+      "name_zh": "暴鯉龍",
+      "habitats": [
+        {
+          "name": "光照的瀑布",
+          "habitat_id": "146"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "047",
+      "national_id": "0132",
+      "name_zh": "百變怪",
+      "habitats": [],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "transform"
+      ]
+    },
+    {
+      "pokopia_id": "048",
+      "national_id": "0163",
+      "name_zh": "咕咕",
+      "habitats": [
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        },
+        {
+          "name": "高崗的草叢",
+          "habitat_id": "006"
+        },
+        {
+          "name": "柔光伴好眠",
+          "habitat_id": "031"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "049",
+      "national_id": "0164",
+      "name_zh": "貓頭夜鷹",
+      "habitats": [
+        {
+          "name": "柔光伴好眠",
+          "habitat_id": "031"
+        },
+        {
+          "name": "高崗的草叢",
+          "habitat_id": "006"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "050",
+      "national_id": "0214",
+      "name_zh": "赫拉克羅斯",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "051",
+      "national_id": "0313",
+      "name_zh": "電螢蟲",
+      "habitats": [
+        {
+          "name": "濕潤的花田",
+          "habitat_id": "010"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "052",
+      "national_id": "0314",
+      "name_zh": "甜甜螢",
+      "habitats": [
+        {
+          "name": "濕潤的花田",
+          "habitat_id": "010"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "053",
+      "national_id": "0316",
+      "name_zh": "溶食獸",
+      "habitats": [
+        {
+          "name": "餓肚肚用餐處",
+          "habitat_id": "019"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "storage"
+      ]
+    },
+    {
+      "pokopia_id": "054",
+      "national_id": "0317",
+      "name_zh": "吞食獸",
+      "habitats": [
+        {
+          "name": "充滿期待的餐桌",
+          "habitat_id": "120"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "storage"
+      ]
+    },
+    {
+      "pokopia_id": "055",
+      "national_id": "0331",
+      "name_zh": "刺球仙人掌",
+      "habitats": [
+        {
+          "name": "大晴天地點",
+          "habitat_id": "042"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "056",
+      "national_id": "0332",
+      "name_zh": "夢歌仙人掌",
+      "habitats": [
+        {
+          "name": "樹蔭的花田",
+          "habitat_id": "009"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "057",
+      "national_id": "0415",
+      "name_zh": "三蜜蜂",
+      "habitats": [
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "058",
+      "national_id": "0416",
+      "name_zh": "蜂女王",
+      "habitats": [
+        {
+          "name": "整片的花海",
+          "habitat_id": "011"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "gather-honey",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "059",
+      "national_id": "0422",
+      "name_zh": "無殼海兔西海",
+      "habitats": [
+        {
+          "name": "指路牌",
+          "habitat_id": "027"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "059",
+      "national_id": "0422",
+      "name_zh": "無殼海兔東海",
+      "habitats": [
+        {
+          "name": "指路牌",
+          "habitat_id": "027"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "060",
+      "national_id": "0423",
+      "name_zh": "海兔獸西海",
+      "habitats": [
+        {
+          "name": "海釣場",
+          "habitat_id": "185"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "060",
+      "national_id": "0423",
+      "name_zh": "海兔獸東海",
+      "habitats": [
+        {
+          "name": "海釣場",
+          "habitat_id": "185"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "061",
+      "national_id": "0425",
+      "name_zh": "飄飄球",
+      "habitats": [
+        {
+          "name": "乘著暖風",
+          "habitat_id": "016"
+        },
+        {
+          "name": "布偶堆",
+          "habitat_id": "181"
+        },
+        {
+          "name": "布偶伴好眠",
+          "habitat_id": "030"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "dream-island"
+      ]
+    },
+    {
+      "pokopia_id": "062",
+      "national_id": "0426",
+      "name_zh": "隨風球",
+      "habitats": [
+        {
+          "name": "布偶堆",
+          "habitat_id": "181"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "063",
+      "national_id": "0529",
+      "name_zh": "螺釘地鼠",
+      "habitats": [
+        {
+          "name": "新鮮蔬菜田",
+          "habitat_id": "015"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "064",
+      "national_id": "0530",
+      "name_zh": "龍頭地鼠",
+      "habitats": [
+        {
+          "name": "新鮮蔬菜田",
+          "habitat_id": "015"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "065",
+      "national_id": "0532",
+      "name_zh": "搬運小匠",
+      "habitats": [
+        {
+          "name": "岩影的草叢",
+          "habitat_id": "003"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "066",
+      "national_id": "0533",
+      "name_zh": "鐵骨土人",
+      "habitats": [
+        {
+          "name": "裝上大貨物",
+          "habitat_id": "028"
+        },
+        {
+          "name": "岩影的草叢",
+          "habitat_id": "003"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "067",
+      "national_id": "0534",
+      "name_zh": "修建老匠",
+      "habitats": [
+        {
+          "name": "工地的發電廠",
+          "habitat_id": "177"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "068",
+      "national_id": "0607",
+      "name_zh": "燭光靈",
+      "habitats": [
+        {
+          "name": "詭異的墓前的供品",
+          "habitat_id": "033"
+        },
+        {
+          "name": "墓前的供品",
+          "habitat_id": "032"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "069",
+      "national_id": "0608",
+      "name_zh": "燈火幽靈",
+      "habitats": [
+        {
+          "name": "詭異的墓前的供品",
+          "habitat_id": "033"
+        },
+        {
+          "name": "墓前的供品",
+          "habitat_id": "032"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "070",
+      "national_id": "0609",
+      "name_zh": "水晶燈火靈",
+      "habitats": [
+        {
+          "name": "詭異的墓前的供品",
+          "habitat_id": "033"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "071",
+      "national_id": "0610",
+      "name_zh": "牙牙",
+      "habitats": [
+        {
+          "name": "樵夫工作區",
+          "habitat_id": "029"
+        },
+        {
+          "name": "有溫度感的圓木",
+          "habitat_id": "044"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "072",
+      "national_id": "0611",
+      "name_zh": "斧牙龍",
+      "habitats": [
+        {
+          "name": "樵夫工作區",
+          "habitat_id": "029"
+        },
+        {
+          "name": "有溫度感的圓木",
+          "habitat_id": "044"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "073",
+      "national_id": "0612",
+      "name_zh": "雙斧戰龍",
+      "habitats": [
+        {
+          "name": "樵夫工作區",
+          "habitat_id": "029"
+        },
+        {
+          "name": "有溫度感的圓木",
+          "habitat_id": "044"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "074",
+      "national_id": "0704",
+      "name_zh": "黏黏寶",
+      "habitats": [
+        {
+          "name": "求雨地點",
+          "habitat_id": "041"
+        },
+        {
+          "name": "樹蔭的花田",
+          "habitat_id": "009"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "075",
+      "national_id": "0705",
+      "name_zh": "黏美兒",
+      "habitats": [
+        {
+          "name": "濕潤的草叢",
+          "habitat_id": "004"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "076",
+      "national_id": "0706",
+      "name_zh": "黏美龍",
+      "habitats": [
+        {
+          "name": "樹果大集合",
+          "habitat_id": "045"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "077",
+      "national_id": "0845",
+      "name_zh": "古月鳥",
+      "habitats": [
+        {
+          "name": "濕潤的草叢",
+          "habitat_id": "004"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly",
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "078",
+      "national_id": "0172",
+      "name_zh": "皮丘",
+      "habitats": [
+        {
+          "name": "野餐氛圍桌",
+          "habitat_id": "020"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "079",
+      "national_id": "0025",
+      "name_zh": "皮卡丘淺色",
+      "habitats": [
+        {
+          "name": "睡一覺來康復",
+          "habitat_id": "081"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "glow"
+      ]
+    },
+    {
+      "pokopia_id": "079",
+      "national_id": "0025",
+      "name_zh": "皮卡丘",
+      "habitats": [
+        {
+          "name": "野餐氛圍桌",
+          "habitat_id": "020"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "080",
+      "national_id": "0026",
+      "name_zh": "雷丘",
+      "habitats": [
+        {
+          "name": "大自然中的集市",
+          "habitat_id": "176"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "081",
+      "national_id": "0041",
+      "name_zh": "超音蝠",
+      "habitats": [
+        {
+          "name": "樹蔭的黃色草叢",
+          "habitat_id": "051"
+        },
+        {
+          "name": "公園的長椅",
+          "habitat_id": "066"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "082",
+      "national_id": "0042",
+      "name_zh": "大嘴蝠",
+      "habitats": [
+        {
+          "name": "樹蔭的黃色草叢",
+          "habitat_id": "051"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "083",
+      "national_id": "0169",
+      "name_zh": "叉字蝠",
+      "habitats": [
+        {
+          "name": "垃圾場",
+          "habitat_id": "065"
+        },
+        {
+          "name": "高崗的黃色草叢",
+          "habitat_id": "052"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "084",
+      "national_id": "0052",
+      "name_zh": "喵喵",
+      "habitats": [
+        {
+          "name": "在櫃檯結帳",
+          "habitat_id": "091"
+        },
+        {
+          "name": "休息處",
+          "habitat_id": "061"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "085",
+      "national_id": "0053",
+      "name_zh": "貓老大",
+      "habitats": [
+        {
+          "name": "邪惡組織的基地",
+          "habitat_id": "179"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "086",
+      "national_id": "0054",
+      "name_zh": "可達鴨",
+      "habitats": [
+        {
+          "name": "溫泉沖洗區",
+          "habitat_id": "078"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "087",
+      "national_id": "0055",
+      "name_zh": "哥達鴨",
+      "habitats": [
+        {
+          "name": "溫泉沖洗區",
+          "habitat_id": "078"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "088",
+      "national_id": "0058",
+      "name_zh": "卡蒂狗",
+      "habitats": [
+        {
+          "name": "在度假區準備做飯",
+          "habitat_id": "079"
+        },
+        {
+          "name": "來收拾吧",
+          "habitat_id": "062"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "089",
+      "national_id": "0059",
+      "name_zh": "風速狗",
+      "habitats": [
+        {
+          "name": "熔岩釣場",
+          "habitat_id": "188"
+        },
+        {
+          "name": "小小博物館",
+          "habitat_id": "129"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "090",
+      "national_id": "0083",
+      "name_zh": "大蔥鴨",
+      "habitats": [
+        {
+          "name": "打包好了",
+          "habitat_id": "080"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "091",
+      "national_id": "0088",
+      "name_zh": "臭泥",
+      "habitats": [
+        {
+          "name": "沼釣場",
+          "habitat_id": "186"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "092",
+      "national_id": "0089",
+      "name_zh": "臭臭泥",
+      "habitats": [
+        {
+          "name": "沼釣場",
+          "habitat_id": "186"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "093",
+      "national_id": "0092",
+      "name_zh": "鬼斯",
+      "habitats": [
+        {
+          "name": "詭異的書房",
+          "habitat_id": "089"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "094",
+      "national_id": "0093",
+      "name_zh": "鬼斯通",
+      "habitats": [
+        {
+          "name": "小心機關",
+          "habitat_id": "073"
+        },
+        {
+          "name": "詭異的書房",
+          "habitat_id": "089"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "095",
+      "national_id": "0094",
+      "name_zh": "耿鬼",
+      "habitats": [
+        {
+          "name": "小心機關",
+          "habitat_id": "073"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "096",
+      "national_id": "0100",
+      "name_zh": "霹靂電球",
+      "habitats": [
+        {
+          "name": "水手過家家",
+          "habitat_id": "090"
+        },
+        {
+          "name": "公園的長椅",
+          "habitat_id": "066"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "explode"
+      ]
+    },
+    {
+      "pokopia_id": "097",
+      "national_id": "0101",
+      "name_zh": "頑皮雷彈",
+      "habitats": [
+        {
+          "name": "水手過家家",
+          "habitat_id": "090"
+        },
+        {
+          "name": "公園的長椅",
+          "habitat_id": "066"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "explode"
+      ]
+    },
+    {
+      "pokopia_id": "098",
+      "national_id": "0102",
+      "name_zh": "蛋蛋",
+      "habitats": [
+        {
+          "name": "沙灘的樹蔭",
+          "habitat_id": "059"
+        },
+        {
+          "name": "南國氛圍",
+          "habitat_id": "057"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "099",
+      "national_id": "0103",
+      "name_zh": "椰蛋樹",
+      "habitats": [
+        {
+          "name": "沙灘的樹蔭",
+          "habitat_id": "059"
+        },
+        {
+          "name": "南國氛圍",
+          "habitat_id": "057"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "100",
+      "national_id": "0440",
+      "name_zh": "小福蛋",
+      "habitats": [
+        {
+          "name": "在櫃檯結帳",
+          "habitat_id": "091"
+        },
+        {
+          "name": "鬧鐘床位",
+          "habitat_id": "082"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "101",
+      "national_id": "0113",
+      "name_zh": "吉利蛋",
+      "habitats": [
+        {
+          "name": "睡一覺來康復",
+          "habitat_id": "081"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "102",
+      "national_id": "0242",
+      "name_zh": "幸福蛋",
+      "habitats": [
+        {
+          "name": "超可愛空間",
+          "habitat_id": "095"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "103",
+      "national_id": "0239",
+      "name_zh": "電擊怪",
+      "habitats": [
+        {
+          "name": "自動售貨機套組",
+          "habitat_id": "084"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "104",
+      "national_id": "0125",
+      "name_zh": "電擊獸",
+      "habitats": [
+        {
+          "name": "聚光舞台",
+          "habitat_id": "072"
+        },
+        {
+          "name": "好多垃圾桶",
+          "habitat_id": "064"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "105",
+      "national_id": "0466",
+      "name_zh": "電擊魔獸",
+      "habitats": [
+        {
+          "name": "聚光舞台",
+          "habitat_id": "072"
+        },
+        {
+          "name": "自動售貨機套組",
+          "habitat_id": "084"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "106",
+      "national_id": "0131",
+      "name_zh": "拉普拉斯",
+      "habitats": [
+        {
+          "name": "熱帶海濱",
+          "habitat_id": "060"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "107",
+      "national_id": "0446",
+      "name_zh": "小卡比獸",
+      "habitats": [
+        {
+          "name": "樹蔭下熟睡的卡比獸",
+          "habitat_id": "047"
+        },
+        {
+          "name": "布偶伴好眠",
+          "habitat_id": "030"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "108",
+      "national_id": "0143",
+      "name_zh": "卡比獸萌苔",
+      "habitats": [
+        {
+          "name": "美味的供品",
+          "habitat_id": "093"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "glutton"
+      ]
+    },
+    {
+      "pokopia_id": "108",
+      "national_id": "0143",
+      "name_zh": "卡比獸",
+      "habitats": [
+        {
+          "name": "樹蔭下熟睡的卡比獸",
+          "habitat_id": "047"
+        },
+        {
+          "name": "古色古香",
+          "habitat_id": "048"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "109",
+      "national_id": "0167",
+      "name_zh": "圓絲蛛",
+      "habitats": [
+        {
+          "name": "黃色的草叢",
+          "habitat_id": "050"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "110",
+      "national_id": "0168",
+      "name_zh": "阿利多斯",
+      "habitats": [
+        {
+          "name": "黃色的草叢",
+          "habitat_id": "050"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "111",
+      "national_id": "0179",
+      "name_zh": "咩利羊",
+      "habitats": [
+        {
+          "name": "織毛線",
+          "habitat_id": "077"
+        },
+        {
+          "name": "草叢的自動售貨機",
+          "habitat_id": "055"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "112",
+      "national_id": "0180",
+      "name_zh": "茸茸羊",
+      "habitats": [
+        {
+          "name": "夜晚的慶典會場",
+          "habitat_id": "074"
+        },
+        {
+          "name": "織毛線",
+          "habitat_id": "077"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "113",
+      "national_id": "0181",
+      "name_zh": "電龍",
+      "habitats": [
+        {
+          "name": "自然風生活",
+          "habitat_id": "097"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "114",
+      "national_id": "0298",
+      "name_zh": "露力麗",
+      "habitats": [
+        {
+          "name": "濕潤的黃色草叢",
+          "habitat_id": "053"
+        },
+        {
+          "name": "來收拾吧",
+          "habitat_id": "062"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "115",
+      "national_id": "0183",
+      "name_zh": "瑪力露",
+      "habitats": [
+        {
+          "name": "碼頭",
+          "habitat_id": "088"
+        },
+        {
+          "name": "濕潤的黃色草叢",
+          "habitat_id": "053"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "116",
+      "national_id": "0184",
+      "name_zh": "瑪力露麗",
+      "habitats": [
+        {
+          "name": "碼頭",
+          "habitat_id": "088"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "117",
+      "national_id": "0194",
+      "name_zh": "烏波帕底亞的樣子",
+      "habitats": [
+        {
+          "name": "沼澤的草叢",
+          "habitat_id": "054"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "118",
+      "national_id": "0980",
+      "name_zh": "土王",
+      "habitats": [
+        {
+          "name": "沼釣場",
+          "habitat_id": "186"
+        },
+        {
+          "name": "沼澤的草叢",
+          "habitat_id": "054"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "119",
+      "national_id": "0235",
+      "name_zh": "圖圖犬彩繪匠",
+      "habitats": [
+        {
+          "name": "小小畫室",
+          "habitat_id": "092"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "paint"
+      ]
+    },
+    {
+      "pokopia_id": "120",
+      "national_id": "0255",
+      "name_zh": "火稚雞",
+      "habitats": [
+        {
+          "name": "嘰嘰咕咕大餐",
+          "habitat_id": "069"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "121",
+      "national_id": "0256",
+      "name_zh": "力壯雞",
+      "habitats": [
+        {
+          "name": "火力發電廠",
+          "habitat_id": "087"
+        },
+        {
+          "name": "在度假區準備做飯",
+          "habitat_id": "079"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "122",
+      "national_id": "0257",
+      "name_zh": "火焰雞",
+      "habitats": [
+        {
+          "name": "火力發電廠",
+          "habitat_id": "087"
+        },
+        {
+          "name": "嘰嘰咕咕大餐",
+          "habitat_id": "069"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "123",
+      "national_id": "0278",
+      "name_zh": "長翅鷗",
+      "habitats": [
+        {
+          "name": "高崗的黃色草叢",
+          "habitat_id": "052"
+        },
+        {
+          "name": "風之花田",
+          "habitat_id": "058"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "124",
+      "national_id": "0279",
+      "name_zh": "大嘴鷗",
+      "habitats": [
+        {
+          "name": "風之花田",
+          "habitat_id": "058"
+        },
+        {
+          "name": "高崗的黃色草叢",
+          "habitat_id": "052"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "125",
+      "national_id": "0296",
+      "name_zh": "幕下力士",
+      "habitats": [
+        {
+          "name": "樹蔭的黃色草叢",
+          "habitat_id": "051"
+        },
+        {
+          "name": "打包好了",
+          "habitat_id": "080"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "126",
+      "national_id": "0297",
+      "name_zh": "鐵掌力士",
+      "habitats": [
+        {
+          "name": "樹蔭的黃色草叢",
+          "habitat_id": "051"
+        },
+        {
+          "name": "打包好了",
+          "habitat_id": "080"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "127",
+      "national_id": "0359",
+      "name_zh": "阿勃梭魯",
+      "habitats": [
+        {
+          "name": "歡迎來到度假區",
+          "habitat_id": "096"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "128",
+      "national_id": "0393",
+      "name_zh": "波加曼",
+      "habitats": [
+        {
+          "name": "濕潤的黃色草叢",
+          "habitat_id": "053"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "129",
+      "national_id": "0394",
+      "name_zh": "波皇子",
+      "habitats": [
+        {
+          "name": "水力發電廠",
+          "habitat_id": "086"
+        },
+        {
+          "name": "濕潤的黃色草叢",
+          "habitat_id": "053"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "130",
+      "national_id": "0395",
+      "name_zh": "帝王拿波",
+      "habitats": [
+        {
+          "name": "料理送來了",
+          "habitat_id": "068"
+        },
+        {
+          "name": "水力發電廠",
+          "habitat_id": "086"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "131",
+      "national_id": "0531",
+      "name_zh": "差不多娃娃",
+      "habitats": [
+        {
+          "name": "在櫃檯結帳",
+          "habitat_id": "091"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "132",
+      "national_id": "0568",
+      "name_zh": "破破袋",
+      "habitats": [
+        {
+          "name": "垃圾集中站",
+          "habitat_id": "063"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "133",
+      "national_id": "0569",
+      "name_zh": "灰塵山",
+      "habitats": [
+        {
+          "name": "垃圾集中站",
+          "habitat_id": "063"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "134",
+      "national_id": "0570",
+      "name_zh": "索羅亞",
+      "habitats": [
+        {
+          "name": "涼爽的花田",
+          "habitat_id": "056"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "135",
+      "national_id": "0571",
+      "name_zh": "索羅亞克",
+      "habitats": [
+        {
+          "name": "小心機關",
+          "habitat_id": "073"
+        },
+        {
+          "name": "涼爽的花田",
+          "habitat_id": "056"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "136",
+      "national_id": "0572",
+      "name_zh": "泡沫栗鼠",
+      "habitats": [
+        {
+          "name": "更衣區",
+          "habitat_id": "075"
+        },
+        {
+          "name": "打扮時不許偷看",
+          "habitat_id": "076"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "137",
+      "national_id": "0573",
+      "name_zh": "奇諾栗鼠",
+      "habitats": [
+        {
+          "name": "打扮時不許偷看",
+          "habitat_id": "076"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "138",
+      "national_id": "0736",
+      "name_zh": "強顎雞母蟲",
+      "habitats": [
+        {
+          "name": "黃色的草叢",
+          "habitat_id": "050"
+        },
+        {
+          "name": "在自動售貨機旁小憩",
+          "habitat_id": "083"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "139",
+      "national_id": "0737",
+      "name_zh": "蟲電寶",
+      "habitats": [
+        {
+          "name": "在自動售貨機旁小憩",
+          "habitat_id": "083"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "140",
+      "national_id": "0738",
+      "name_zh": "鍬農炮蟲",
+      "habitats": [
+        {
+          "name": "樹蔭的花田",
+          "habitat_id": "009"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "141",
+      "national_id": "0778",
+      "name_zh": "謎擬Ｑ",
+      "habitats": [
+        {
+          "name": "皮卡丘空間",
+          "habitat_id": "094"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "142",
+      "national_id": "0921",
+      "name_zh": "布撥",
+      "habitats": [
+        {
+          "name": "涼爽的花田",
+          "habitat_id": "056"
+        },
+        {
+          "name": "餓肚肚餐廳",
+          "habitat_id": "067"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "143",
+      "national_id": "0922",
+      "name_zh": "布土撥",
+      "habitats": [
+        {
+          "name": "餓肚肚餐廳",
+          "habitat_id": "067"
+        },
+        {
+          "name": "茶水休息區",
+          "habitat_id": "070"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "144",
+      "national_id": "0923",
+      "name_zh": "巴布土撥",
+      "habitats": [
+        {
+          "name": "茶水休息區",
+          "habitat_id": "070"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "145",
+      "national_id": "0978",
+      "name_zh": "米立龍上弓姿勢",
+      "habitats": [
+        {
+          "name": "沙灘套組",
+          "habitat_id": "071"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "145",
+      "national_id": "0978",
+      "name_zh": "米立龍下垂姿勢",
+      "habitats": [
+        {
+          "name": "沙灘套組",
+          "habitat_id": "071"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "145",
+      "national_id": "0978",
+      "name_zh": "米立龍平挺姿勢",
+      "habitats": [
+        {
+          "name": "沙灘套組",
+          "habitat_id": "071"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "146",
+      "national_id": "0023",
+      "name_zh": "阿柏蛇",
+      "habitats": [
+        {
+          "name": "濕潤的優雅花田",
+          "habitat_id": "106"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "147",
+      "national_id": "0024",
+      "name_zh": "阿柏怪",
+      "habitats": [
+        {
+          "name": "濕潤的優雅花田",
+          "habitat_id": "106"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "148",
+      "national_id": "0173",
+      "name_zh": "皮寶寶",
+      "habitats": [
+        {
+          "name": "優雅的花田",
+          "habitat_id": "104"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "149",
+      "national_id": "0035",
+      "name_zh": "皮皮",
+      "habitats": [
+        {
+          "name": "銅像觀光景點",
+          "habitat_id": "131"
+        },
+        {
+          "name": "優雅的花田",
+          "habitat_id": "104"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "150",
+      "national_id": "0036",
+      "name_zh": "皮可西",
+      "habitats": [
+        {
+          "name": "銅像觀光景點",
+          "habitat_id": "131"
+        },
+        {
+          "name": "優雅的花田",
+          "habitat_id": "104"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "151",
+      "national_id": "0174",
+      "name_zh": "寶寶丁",
+      "habitats": [
+        {
+          "name": "花田裡的樹樁舞台",
+          "habitat_id": "107"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "152",
+      "national_id": "0039",
+      "name_zh": "胖丁",
+      "habitats": [
+        {
+          "name": "獨唱舞台",
+          "habitat_id": "126"
+        },
+        {
+          "name": "花田裡的樹樁舞台",
+          "habitat_id": "107"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "153",
+      "national_id": "0040",
+      "name_zh": "胖可丁",
+      "habitats": [
+        {
+          "name": "獨唱舞台",
+          "habitat_id": "126"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "154",
+      "national_id": "0050",
+      "name_zh": "地鼠",
+      "habitats": [
+        {
+          "name": "在貨物擺放處偷吃",
+          "habitat_id": "119"
+        },
+        {
+          "name": "樹蔭的紅色草叢",
+          "habitat_id": "099"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "155",
+      "national_id": "0051",
+      "name_zh": "三地鼠",
+      "habitats": [
+        {
+          "name": "大家一起開派對",
+          "habitat_id": "123"
+        },
+        {
+          "name": "樹蔭的紅色草叢",
+          "habitat_id": "099"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "156",
+      "national_id": "0066",
+      "name_zh": "腕力",
+      "habitats": [
+        {
+          "name": "岩影的草叢",
+          "habitat_id": "003"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "157",
+      "national_id": "0067",
+      "name_zh": "豪力",
+      "habitats": [
+        {
+          "name": "草叢訓練場",
+          "habitat_id": "103"
+        },
+        {
+          "name": "跟著節奏一二三",
+          "habitat_id": "127"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "158",
+      "national_id": "0068",
+      "name_zh": "怪力",
+      "habitats": [
+        {
+          "name": "咚隆咣啷鋼架工程",
+          "habitat_id": "117"
+        },
+        {
+          "name": "草叢訓練場",
+          "habitat_id": "103"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "159",
+      "national_id": "0074",
+      "name_zh": "小拳石",
+      "habitats": [
+        {
+          "name": "綠色的草叢",
+          "habitat_id": "001"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "160",
+      "national_id": "0075",
+      "name_zh": "隆隆石",
+      "habitats": [
+        {
+          "name": "長滿苔蘚的岩石",
+          "habitat_id": "111"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "161",
+      "national_id": "0076",
+      "name_zh": "隆隆岩",
+      "habitats": [
+        {
+          "name": "長滿苔蘚的岩石",
+          "habitat_id": "111"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "162",
+      "national_id": "0240",
+      "name_zh": "鴨嘴寶寶",
+      "habitats": [
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "163",
+      "national_id": "0126",
+      "name_zh": "鴨嘴火獸",
+      "habitats": [
+        {
+          "name": "挖掘和煅燒",
+          "habitat_id": "116"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "164",
+      "national_id": "0467",
+      "name_zh": "鴨嘴炎獸",
+      "habitats": [
+        {
+          "name": "迷你廚房",
+          "habitat_id": "122"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "165",
+      "national_id": "0438",
+      "name_zh": "盆才怪",
+      "habitats": [
+        {
+          "name": "樹蔭的紅色草叢",
+          "habitat_id": "099"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "166",
+      "national_id": "0185",
+      "name_zh": "樹才怪",
+      "habitats": [
+        {
+          "name": "大家一起開派對",
+          "habitat_id": "123"
+        },
+        {
+          "name": "樹蔭的紅色草叢",
+          "habitat_id": "099"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "167",
+      "national_id": "0198",
+      "name_zh": "黑暗鴉",
+      "habitats": [
+        {
+          "name": "樹蔭的優雅花田",
+          "habitat_id": "105"
+        },
+        {
+          "name": "高崗的紅色草叢",
+          "habitat_id": "102"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "168",
+      "national_id": "0430",
+      "name_zh": "烏鴉頭頭",
+      "habitats": [
+        {
+          "name": "高崗的紅色草叢",
+          "habitat_id": "102"
+        },
+        {
+          "name": "鳴唱會",
+          "habitat_id": "125"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "169",
+      "national_id": "0246",
+      "name_zh": "幼基拉斯",
+      "habitats": [
+        {
+          "name": "滿是苔蘚",
+          "habitat_id": "110"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "170",
+      "national_id": "0247",
+      "name_zh": "沙基拉斯",
+      "habitats": [
+        {
+          "name": "樹蔭的粉紅色草叢",
+          "habitat_id": "138"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "171",
+      "national_id": "0248",
+      "name_zh": "班基拉斯",
+      "habitats": [
+        {
+          "name": "種田不容易",
+          "habitat_id": "108"
+        },
+        {
+          "name": "滿是苔蘚",
+          "habitat_id": "110"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "stomp"
+      ]
+    },
+    {
+      "pokopia_id": "172",
+      "national_id": "0270",
+      "name_zh": "蓮葉童子",
+      "habitats": [
+        {
+          "name": "溫泉釣場",
+          "habitat_id": "187"
+        },
+        {
+          "name": "浮浮水窪",
+          "habitat_id": "109"
+        },
+        {
+          "name": "濕潤的紅色草叢",
+          "habitat_id": "101"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "173",
+      "national_id": "0271",
+      "name_zh": "蓮帽小童",
+      "habitats": [
+        {
+          "name": "溫泉釣場",
+          "habitat_id": "187"
+        },
+        {
+          "name": "濕潤的紅色草叢",
+          "habitat_id": "101"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "174",
+      "national_id": "0272",
+      "name_zh": "樂天河童",
+      "habitats": [
+        {
+          "name": "浮浮水窪",
+          "habitat_id": "109"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "175",
+      "national_id": "0303",
+      "name_zh": "大嘴娃",
+      "habitats": [
+        {
+          "name": "在櫃檯結帳",
+          "habitat_id": "091"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "176",
+      "national_id": "0324",
+      "name_zh": "煤炭龜",
+      "habitats": [
+        {
+          "name": "綠苔溫泉",
+          "habitat_id": "112"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "177",
+      "national_id": "0401",
+      "name_zh": "圓法師",
+      "habitats": [
+        {
+          "name": "音樂與閱讀",
+          "habitat_id": "128"
+        },
+        {
+          "name": "紅色的草叢",
+          "habitat_id": "098"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "178",
+      "national_id": "0402",
+      "name_zh": "音箱蟀",
+      "habitats": [
+        {
+          "name": "音樂與閱讀",
+          "habitat_id": "128"
+        },
+        {
+          "name": "紅色的草叢",
+          "habitat_id": "098"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "179",
+      "national_id": "0441",
+      "name_zh": "聒噪鳥",
+      "habitats": [
+        {
+          "name": "高崗的紅色草叢",
+          "habitat_id": "102"
+        },
+        {
+          "name": "鳴唱會",
+          "habitat_id": "125"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "180",
+      "national_id": "0447",
+      "name_zh": "利歐路",
+      "habitats": [
+        {
+          "name": "跟著節奏一二三",
+          "habitat_id": "127"
+        },
+        {
+          "name": "紅色的草叢",
+          "habitat_id": "098"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "181",
+      "national_id": "0448",
+      "name_zh": "路卡利歐",
+      "habitats": [
+        {
+          "name": "跟著節奏一二三",
+          "habitat_id": "127"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "182",
+      "national_id": "0479",
+      "name_zh": "洛托姆立體音響洛托姆",
+      "habitats": [
+        {
+          "name": "音樂與閱讀",
+          "habitat_id": "128"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "dj"
+      ]
+    },
+    {
+      "pokopia_id": "183",
+      "national_id": "0636",
+      "name_zh": "燃燒蟲",
+      "habitats": [
+        {
+          "name": "樹蔭的優雅花田",
+          "habitat_id": "105"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "184",
+      "national_id": "0637",
+      "name_zh": "火神蛾",
+      "habitats": [
+        {
+          "name": "熔岩熔岩熱乎乎",
+          "habitat_id": "115"
+        },
+        {
+          "name": "樹蔭的優雅花田",
+          "habitat_id": "105"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "185",
+      "national_id": "0722",
+      "name_zh": "木木梟",
+      "habitats": [
+        {
+          "name": "新鮮蔬菜田",
+          "habitat_id": "015"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "186",
+      "national_id": "0723",
+      "name_zh": "投羽梟",
+      "habitats": [
+        {
+          "name": "三角形樹蔭的岩石和草叢",
+          "habitat_id": "100"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "187",
+      "national_id": "0724",
+      "name_zh": "狙射樹梟",
+      "habitats": [
+        {
+          "name": "摩登生活",
+          "habitat_id": "136"
+        },
+        {
+          "name": "三角形樹蔭的岩石和草叢",
+          "habitat_id": "100"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "188",
+      "national_id": "0813",
+      "name_zh": "炎兔兒",
+      "habitats": [
+        {
+          "name": "紅色的草叢",
+          "habitat_id": "098"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "189",
+      "national_id": "0814",
+      "name_zh": "騰蹴小將",
+      "habitats": [
+        {
+          "name": "清爽的儲物間",
+          "habitat_id": "130"
+        },
+        {
+          "name": "露天溫泉",
+          "habitat_id": "113"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "190",
+      "national_id": "0815",
+      "name_zh": "閃焰王牌",
+      "habitats": [
+        {
+          "name": "清爽的儲物間",
+          "habitat_id": "130"
+        },
+        {
+          "name": "紅色的草叢",
+          "habitat_id": "098"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "191",
+      "national_id": "0819",
+      "name_zh": "貪心栗鼠",
+      "habitats": [
+        {
+          "name": "樹蔭的草叢",
+          "habitat_id": "002"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "192",
+      "national_id": "0820",
+      "name_zh": "藏飽栗鼠廚師",
+      "habitats": [
+        {
+          "name": "廚師的廚房",
+          "habitat_id": "133"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "party"
+      ]
+    },
+    {
+      "pokopia_id": "193",
+      "national_id": "0837",
+      "name_zh": "小炭仔",
+      "habitats": [
+        {
+          "name": "平交道",
+          "habitat_id": "132"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "194",
+      "national_id": "0838",
+      "name_zh": "大炭車",
+      "habitats": [
+        {
+          "name": "平交道",
+          "habitat_id": "132"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "195",
+      "national_id": "0839",
+      "name_zh": "巨炭山",
+      "habitats": [
+        {
+          "name": "沉沉鐵色",
+          "habitat_id": "135"
+        },
+        {
+          "name": "平交道",
+          "habitat_id": "132"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "196",
+      "national_id": "0848",
+      "name_zh": "毒電嬰",
+      "habitats": [
+        {
+          "name": "悠閒地重溫照片",
+          "habitat_id": "124"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "197",
+      "national_id": "0849",
+      "name_zh": "顫弦蠑螈低調的樣子",
+      "habitats": [
+        {
+          "name": "高調的搖滾舞台",
+          "habitat_id": "189"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "197",
+      "national_id": "0849",
+      "name_zh": "顫弦蠑螈高調的樣子",
+      "habitats": [
+        {
+          "name": "低調的搖滾舞台",
+          "habitat_id": "190"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "198",
+      "national_id": "0926",
+      "name_zh": "狗仔包",
+      "habitats": [
+        {
+          "name": "大口麵包工坊",
+          "habitat_id": "121"
+        },
+        {
+          "name": "優雅的花田",
+          "habitat_id": "104"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "199",
+      "national_id": "0927",
+      "name_zh": "麻花犬",
+      "habitats": [
+        {
+          "name": "大口麵包工坊",
+          "habitat_id": "121"
+        },
+        {
+          "name": "優雅的花田",
+          "habitat_id": "104"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "200",
+      "national_id": "0935",
+      "name_zh": "炭小侍",
+      "habitats": [
+        {
+          "name": "熔岩熔岩熱乎乎",
+          "habitat_id": "115"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "201",
+      "national_id": "0936",
+      "name_zh": "紅蓮鎧騎",
+      "habitats": [
+        {
+          "name": "忠誠騎士的祭壇",
+          "habitat_id": "192"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "202",
+      "national_id": "0937",
+      "name_zh": "蒼炎刃鬼",
+      "habitats": [
+        {
+          "name": "怨念騎士的祭壇",
+          "habitat_id": "191"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "203",
+      "national_id": "0969",
+      "name_zh": "晶光芽",
+      "habitats": [
+        {
+          "name": "詭異的白色岩石",
+          "habitat_id": "118"
+        },
+        {
+          "name": "在貨物擺放處偷吃",
+          "habitat_id": "119"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "204",
+      "national_id": "0970",
+      "name_zh": "晶光花",
+      "habitats": [
+        {
+          "name": "在貨物擺放處偷吃",
+          "habitat_id": "119"
+        },
+        {
+          "name": "詭異的白色岩石",
+          "habitat_id": "118"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "205",
+      "national_id": "0999",
+      "name_zh": "索財靈",
+      "habitats": [
+        {
+          "name": "小小博物館",
+          "habitat_id": "129"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "collector"
+      ]
+    },
+    {
+      "pokopia_id": "206",
+      "national_id": "1000",
+      "name_zh": "賽富豪",
+      "habitats": [
+        {
+          "name": "極致豪華",
+          "habitat_id": "134"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "collector"
+      ]
+    },
+    {
+      "pokopia_id": "207",
+      "national_id": "0037",
+      "name_zh": "六尾",
+      "habitats": [
+        {
+          "name": "茸茸花田",
+          "habitat_id": "142"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "208",
+      "national_id": "0038",
+      "name_zh": "九尾",
+      "habitats": [
+        {
+          "name": "九團火焰",
+          "habitat_id": "180"
+        },
+        {
+          "name": "茸茸花田",
+          "habitat_id": "142"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "209",
+      "national_id": "0060",
+      "name_zh": "蚊香蝌蚪",
+      "habitats": [
+        {
+          "name": "擦得鋥亮",
+          "habitat_id": "161"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "210",
+      "national_id": "0061",
+      "name_zh": "蚊香君",
+      "habitats": [
+        {
+          "name": "濕潤的茸茸花田",
+          "habitat_id": "144"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "211",
+      "national_id": "0062",
+      "name_zh": "蚊香泳士",
+      "habitats": [
+        {
+          "name": "在道場訓練",
+          "habitat_id": "178"
+        },
+        {
+          "name": "井蓋檢修中",
+          "habitat_id": "156"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "212",
+      "national_id": "0186",
+      "name_zh": "蚊香蛙皇",
+      "habitats": [
+        {
+          "name": "養生溫泉",
+          "habitat_id": "114"
+        },
+        {
+          "name": "花田裡的樹樁舞台",
+          "habitat_id": "107"
+        },
+        {
+          "name": "濕潤的優雅花田",
+          "habitat_id": "106"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "213",
+      "national_id": "0063",
+      "name_zh": "凱西",
+      "habitats": [
+        {
+          "name": "水晶占卜",
+          "habitat_id": "152"
+        },
+        {
+          "name": "精神力量滿溢",
+          "habitat_id": "151"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "214",
+      "national_id": "0064",
+      "name_zh": "勇基拉",
+      "habitats": [
+        {
+          "name": "水晶占卜",
+          "habitat_id": "152"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "215",
+      "national_id": "0065",
+      "name_zh": "胡地",
+      "habitats": [
+        {
+          "name": "實驗空間",
+          "habitat_id": "168"
+        },
+        {
+          "name": "精神力量滿溢",
+          "habitat_id": "151"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "216",
+      "national_id": "0439",
+      "name_zh": "魔尼尼",
+      "habitats": [
+        {
+          "name": "亮晶晶洗手台",
+          "habitat_id": "157"
+        },
+        {
+          "name": "請自由取閱",
+          "habitat_id": "171"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "217",
+      "national_id": "0122",
+      "name_zh": "魔牆人偶",
+      "habitats": [
+        {
+          "name": "亮晶晶洗手台",
+          "habitat_id": "157"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "218",
+      "national_id": "0137",
+      "name_zh": "多邊獸",
+      "habitats": [
+        {
+          "name": "研究員的桌子",
+          "habitat_id": "170"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "219",
+      "national_id": "0233",
+      "name_zh": "多邊獸Ⅱ",
+      "habitats": [
+        {
+          "name": "辦公區",
+          "habitat_id": "166"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "220",
+      "national_id": "0474",
+      "name_zh": "多邊獸Ｚ",
+      "habitats": [
+        {
+          "name": "在遊戲城對戰",
+          "habitat_id": "164"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "rare-find"
+      ]
+    },
+    {
+      "pokopia_id": "221",
+      "national_id": "0147",
+      "name_zh": "迷你龍",
+      "habitats": [
+        {
+          "name": "濕潤的茸茸花田",
+          "habitat_id": "144"
+        },
+        {
+          "name": "簡約浴室",
+          "habitat_id": "148"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "222",
+      "national_id": "0148",
+      "name_zh": "哈克龍",
+      "habitats": [
+        {
+          "name": "簡約浴室",
+          "habitat_id": "148"
+        },
+        {
+          "name": "濕潤的茸茸花田",
+          "habitat_id": "144"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "223",
+      "national_id": "0149",
+      "name_zh": "快龍",
+      "habitats": [
+        {
+          "name": "水邊小船",
+          "habitat_id": "145"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "224",
+      "national_id": "0155",
+      "name_zh": "火球鼠",
+      "habitats": [
+        {
+          "name": "水泥管秘密基地",
+          "habitat_id": "141"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "225",
+      "national_id": "0156",
+      "name_zh": "火岩鼠",
+      "habitats": [
+        {
+          "name": "在暖爐旁打瞌睡",
+          "habitat_id": "150"
+        },
+        {
+          "name": "水泥管秘密基地",
+          "habitat_id": "141"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "226",
+      "national_id": "0157",
+      "name_zh": "火爆獸",
+      "habitats": [
+        {
+          "name": "極致新潮",
+          "habitat_id": "183"
+        },
+        {
+          "name": "在暖爐旁打瞌睡",
+          "habitat_id": "150"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "227",
+      "national_id": "0200",
+      "name_zh": "夢妖",
+      "habitats": [
+        {
+          "name": "茸茸花田",
+          "habitat_id": "142"
+        },
+        {
+          "name": "辦公室的儲藏室",
+          "habitat_id": "167"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "228",
+      "national_id": "0429",
+      "name_zh": "夢妖魔",
+      "habitats": [
+        {
+          "name": "家庭影院",
+          "habitat_id": "158"
+        },
+        {
+          "name": "辦公室的儲藏室",
+          "habitat_id": "167"
+        },
+        {
+          "name": "茸茸花田",
+          "habitat_id": "142"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "229",
+      "national_id": "0203",
+      "name_zh": "麒麟奇",
+      "habitats": [
+        {
+          "name": "樹蔭的茸茸花田",
+          "habitat_id": "143"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "230",
+      "national_id": "0981",
+      "name_zh": "奇麒麟",
+      "habitats": [
+        {
+          "name": "樹蔭的茸茸花田",
+          "habitat_id": "143"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "231",
+      "national_id": "0280",
+      "name_zh": "拉魯拉絲",
+      "habitats": [
+        {
+          "name": "學習區",
+          "habitat_id": "159"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "232",
+      "national_id": "0281",
+      "name_zh": "奇魯莉安",
+      "habitats": [
+        {
+          "name": "保濕化妝檯",
+          "habitat_id": "162"
+        },
+        {
+          "name": "學習區",
+          "habitat_id": "159"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "233",
+      "national_id": "0282",
+      "name_zh": "沙奈朵",
+      "habitats": [
+        {
+          "name": "小小圖書館",
+          "habitat_id": "163"
+        },
+        {
+          "name": "保濕化妝檯",
+          "habitat_id": "162"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "234",
+      "national_id": "0475",
+      "name_zh": "艾路雷朵",
+      "habitats": [
+        {
+          "name": "在道場訓練",
+          "habitat_id": "178"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "teleport",
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "235",
+      "national_id": "0311",
+      "name_zh": "正電拍拍",
+      "habitats": [
+        {
+          "name": "絕景露臉立牌",
+          "habitat_id": "174"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "236",
+      "national_id": "0312",
+      "name_zh": "負電拍拍",
+      "habitats": [
+        {
+          "name": "絕景露臉立牌",
+          "habitat_id": "174"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "237",
+      "national_id": "0328",
+      "name_zh": "大顎蟻",
+      "habitats": [
+        {
+          "name": "粉紅色草叢",
+          "habitat_id": "137"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "stomp",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "238",
+      "national_id": "0329",
+      "name_zh": "超音波幼蟲",
+      "habitats": [
+        {
+          "name": "粉紅色草叢",
+          "habitat_id": "137"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "stomp",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "239",
+      "national_id": "0330",
+      "name_zh": "沙漠蜻蜓",
+      "habitats": [
+        {
+          "name": "粉紅色草叢",
+          "habitat_id": "137"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "stomp",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "240",
+      "national_id": "0333",
+      "name_zh": "青綿鳥",
+      "habitats": [
+        {
+          "name": "粉紅色草叢",
+          "habitat_id": "137"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "241",
+      "national_id": "0334",
+      "name_zh": "七夕青鳥",
+      "habitats": [
+        {
+          "name": "鳥語花香",
+          "habitat_id": "147"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "scatter",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "242",
+      "national_id": "0355",
+      "name_zh": "夜巡靈",
+      "habitats": [
+        {
+          "name": "粉紅色草叢",
+          "habitat_id": "137"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "243",
+      "national_id": "0356",
+      "name_zh": "彷徨夜靈",
+      "habitats": [
+        {
+          "name": "垃圾場的電視",
+          "habitat_id": "153"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "244",
+      "national_id": "0477",
+      "name_zh": "黑夜魔靈",
+      "habitats": [
+        {
+          "name": "垃圾場的電視",
+          "habitat_id": "153"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "245",
+      "national_id": "0374",
+      "name_zh": "鐵啞鈴",
+      "habitats": [
+        {
+          "name": "騎行小憩",
+          "habitat_id": "149"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "246",
+      "national_id": "0375",
+      "name_zh": "金屬怪",
+      "habitats": [
+        {
+          "name": "為成為博士進行研究",
+          "habitat_id": "169"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle"
+      ]
+    },
+    {
+      "pokopia_id": "247",
+      "national_id": "0376",
+      "name_zh": "巨金怪",
+      "habitats": [
+        {
+          "name": "絕佳的遊戲環境",
+          "habitat_id": "182"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "recycle",
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "248",
+      "national_id": "0495",
+      "name_zh": "藤藤蛇",
+      "habitats": [
+        {
+          "name": "遊樂場",
+          "habitat_id": "165"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "249",
+      "national_id": "0496",
+      "name_zh": "青藤蛇",
+      "habitats": [
+        {
+          "name": "樹蔭的茸茸花田",
+          "habitat_id": "143"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "250",
+      "national_id": "0497",
+      "name_zh": "君主蛇",
+      "habitats": [
+        {
+          "name": "請自由取閱",
+          "habitat_id": "171"
+        },
+        {
+          "name": "樹蔭的茸茸花田",
+          "habitat_id": "143"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "251",
+      "national_id": "0656",
+      "name_zh": "呱呱泡蛙",
+      "habitats": [
+        {
+          "name": "濕潤的粉紅色草叢",
+          "habitat_id": "139"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "252",
+      "national_id": "0657",
+      "name_zh": "呱頭蛙",
+      "habitats": [
+        {
+          "name": "惡作劇開關",
+          "habitat_id": "173"
+        },
+        {
+          "name": "濕潤的粉紅色草叢",
+          "habitat_id": "139"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "253",
+      "national_id": "0658",
+      "name_zh": "甲賀忍蛙",
+      "habitats": [
+        {
+          "name": "惡作劇開關",
+          "habitat_id": "173"
+        },
+        {
+          "name": "濕潤的粉紅色草叢",
+          "habitat_id": "139"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten",
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "254",
+      "national_id": "0702",
+      "name_zh": "咚咚鼠",
+      "habitats": [
+        {
+          "name": "輪胎公園",
+          "habitat_id": "175"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "255",
+      "national_id": "0714",
+      "name_zh": "嗡蝠",
+      "habitats": [
+        {
+          "name": "節奏感客廳",
+          "habitat_id": "160"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "256",
+      "national_id": "0715",
+      "name_zh": "音波龍",
+      "habitats": [
+        {
+          "name": "節奏感客廳",
+          "habitat_id": "160"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "257",
+      "national_id": "0821",
+      "name_zh": "稚山雀",
+      "habitats": [
+        {
+          "name": "茸茸花田",
+          "habitat_id": "142"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "258",
+      "national_id": "0822",
+      "name_zh": "藍鴉",
+      "habitats": [
+        {
+          "name": "高崗的粉紅色草叢",
+          "habitat_id": "140"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop"
+      ]
+    },
+    {
+      "pokopia_id": "259",
+      "national_id": "0823",
+      "name_zh": "鋼鎧鴉",
+      "habitats": [
+        {
+          "name": "井蓋檢修中",
+          "habitat_id": "156"
+        },
+        {
+          "name": "高崗的粉紅色草叢",
+          "habitat_id": "140"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "chop",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "260",
+      "national_id": "0885",
+      "name_zh": "多龍梅西亞",
+      "habitats": [
+        {
+          "name": "樹蔭的粉紅色草叢",
+          "habitat_id": "138"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "261",
+      "national_id": "0886",
+      "name_zh": "多龍奇",
+      "habitats": [
+        {
+          "name": "辦公室的儲藏室",
+          "habitat_id": "167"
+        },
+        {
+          "name": "樹蔭的粉紅色草叢",
+          "habitat_id": "138"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "262",
+      "national_id": "0887",
+      "name_zh": "多龍巴魯托",
+      "habitats": [
+        {
+          "name": "辦公室的儲藏室",
+          "habitat_id": "167"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort",
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "263",
+      "national_id": "0906",
+      "name_zh": "新葉喵",
+      "habitats": [
+        {
+          "name": "樹蔭的粉紅色草叢",
+          "habitat_id": "138"
+        },
+        {
+          "name": "和搭檔一起調查",
+          "habitat_id": "155"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "264",
+      "national_id": "0907",
+      "name_zh": "蒂蕾喵",
+      "habitats": [
+        {
+          "name": "和搭檔一起調查",
+          "habitat_id": "155"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "265",
+      "national_id": "0908",
+      "name_zh": "魔幻假面喵",
+      "habitats": [
+        {
+          "name": "咚咚鏘驚嚇箱",
+          "habitat_id": "172"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "266",
+      "national_id": "0940",
+      "name_zh": "電海燕",
+      "habitats": [
+        {
+          "name": "高崗的粉紅色草叢",
+          "habitat_id": "140"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "267",
+      "national_id": "0941",
+      "name_zh": "大電海燕",
+      "habitats": [
+        {
+          "name": "高崗的粉紅色草叢",
+          "habitat_id": "140"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate",
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "268",
+      "national_id": "0957",
+      "name_zh": "小鍛匠",
+      "habitats": [
+        {
+          "name": "大型垃圾堆放處",
+          "habitat_id": "154"
+        },
+        {
+          "name": "裝上大貨物",
+          "habitat_id": "028"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "269",
+      "national_id": "0958",
+      "name_zh": "巧鍛匠",
+      "habitats": [
+        {
+          "name": "井蓋檢修中",
+          "habitat_id": "156"
+        },
+        {
+          "name": "裝上大貨物",
+          "habitat_id": "028"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "build"
+      ]
+    },
+    {
+      "pokopia_id": "270",
+      "national_id": "0959",
+      "name_zh": "巨鍛匠頭頭",
+      "habitats": [
+        {
+          "name": "大型垃圾堆放處",
+          "habitat_id": "154"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "craft"
+      ]
+    },
+    {
+      "pokopia_id": "271",
+      "national_id": "0142",
+      "name_zh": "化石翼龍",
+      "habitats": [
+        {
+          "name": "飛翼化石展示台",
+          "habitat_id": "193"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "272",
+      "national_id": "0408",
+      "name_zh": "頭蓋龍",
+      "habitats": [
+        {
+          "name": "頭蓋化石展示台",
+          "habitat_id": "194"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "273",
+      "national_id": "0409",
+      "name_zh": "戰槌龍",
+      "habitats": [
+        {
+          "name": "頭錘化石展示台",
+          "habitat_id": "195"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "274",
+      "national_id": "0410",
+      "name_zh": "盾甲龍",
+      "habitats": [
+        {
+          "name": "盾甲化石展示台",
+          "habitat_id": "196"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "275",
+      "national_id": "0411",
+      "name_zh": "護城龍",
+      "habitats": [
+        {
+          "name": "護盾化石展示台",
+          "habitat_id": "197"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "276",
+      "national_id": "0696",
+      "name_zh": "寶寶暴龍",
+      "habitats": [
+        {
+          "name": "顎之化石展示台",
+          "habitat_id": "198"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "277",
+      "national_id": "0697",
+      "name_zh": "怪顎龍",
+      "habitats": [
+        {
+          "name": "暴君化石展示台",
+          "habitat_id": "199"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "278",
+      "national_id": "0698",
+      "name_zh": "冰雪龍",
+      "habitats": [
+        {
+          "name": "鰭之化石展示台",
+          "habitat_id": "200"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush"
+      ]
+    },
+    {
+      "pokopia_id": "279",
+      "national_id": "0699",
+      "name_zh": "冰雪巨龍",
+      "habitats": [
+        {
+          "name": "凍原化石展示台",
+          "habitat_id": "201"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "crush",
+        "scatter"
+      ]
+    },
+    {
+      "pokopia_id": "280",
+      "national_id": "0133",
+      "name_zh": "伊布",
+      "habitats": [
+        {
+          "name": "美麗的花田",
+          "habitat_id": "008"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "281",
+      "national_id": "0134",
+      "name_zh": "水伊布",
+      "habitats": [
+        {
+          "name": "勁爽清藍",
+          "habitat_id": "202"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "282",
+      "national_id": "0135",
+      "name_zh": "雷伊布",
+      "habitats": [
+        {
+          "name": "麻麻薯餅",
+          "habitat_id": "203"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "283",
+      "national_id": "0136",
+      "name_zh": "火伊布",
+      "habitats": [
+        {
+          "name": "辣到噴火",
+          "habitat_id": "204"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "284",
+      "national_id": "0196",
+      "name_zh": "太陽伊布",
+      "habitats": [
+        {
+          "name": "優雅的午後",
+          "habitat_id": "205"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": false
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "sort"
+      ]
+    },
+    {
+      "pokopia_id": "285",
+      "national_id": "0197",
+      "name_zh": "月亮伊布",
+      "habitats": [
+        {
+          "name": "黑色滋味",
+          "habitat_id": "206"
+        }
+      ],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ]
+    },
+    {
+      "pokopia_id": "286",
+      "national_id": "0470",
+      "name_zh": "葉伊布",
+      "habitats": [
+        {
+          "name": "綠色三明治",
+          "habitat_id": "207"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "287",
+      "national_id": "0471",
+      "name_zh": "冰伊布",
+      "habitats": [
+        {
+          "name": "冰涼刨冰",
+          "habitat_id": "208"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "trade"
+      ]
+    },
+    {
+      "pokopia_id": "288",
+      "national_id": "0700",
+      "name_zh": "仙子伊布",
+      "habitats": [
+        {
+          "name": "可愛的蛋糕",
+          "habitat_id": "209"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "liven-up"
+      ]
+    },
+    {
+      "pokopia_id": "289",
+      "national_id": "0382",
+      "name_zh": "蓋歐卡",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "unknown"
+      ]
+    },
+    {
+      "pokopia_id": "290",
+      "national_id": "0243",
+      "name_zh": "雷公",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "generate"
+      ]
+    },
+    {
+      "pokopia_id": "291",
+      "national_id": "0244",
+      "name_zh": "炎帝",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "292",
+      "national_id": "0245",
+      "name_zh": "水君",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "moisten"
+      ]
+    },
+    {
+      "pokopia_id": "293",
+      "national_id": "0721",
+      "name_zh": "波爾凱尼恩",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "ignite"
+      ]
+    },
+    {
+      "pokopia_id": "294",
+      "national_id": "0144",
+      "name_zh": "急凍鳥",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "295",
+      "national_id": "0145",
+      "name_zh": "閃電鳥",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "296",
+      "national_id": "0146",
+      "name_zh": "火焰鳥",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "fly"
+      ]
+    },
+    {
+      "pokopia_id": "297",
+      "national_id": "0249",
+      "name_zh": "洛奇亞",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "unknown"
+      ]
+    },
+    {
+      "pokopia_id": "298",
+      "national_id": "0250",
+      "name_zh": "鳳王",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "unknown"
+      ]
+    },
+    {
+      "pokopia_id": "299",
+      "national_id": "0150",
+      "name_zh": "超夢",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "300",
+      "national_id": "0151",
+      "name_zh": "夢幻",
+      "habitats": [],
+      "time": {
+        "dawn": false,
+        "day": false,
+        "dusk": false,
+        "night": false
+      },
+      "weather": {
+        "sunny": false,
+        "cloudy": false,
+        "rainy": false
+      },
+      "skills": [
+        "teleport"
+      ]
+    },
+    {
+      "pokopia_id": "001",
+      "national_id": "0187",
+      "name_zh": "毽子草",
+      "habitats": [],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "002",
+      "national_id": "0188",
+      "name_zh": "毽子花",
+      "habitats": [],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate"
+      ]
+    },
+    {
+      "pokopia_id": "003",
+      "national_id": "0189",
+      "name_zh": "毽子棉",
+      "habitats": [],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    }
+  ]
+}
