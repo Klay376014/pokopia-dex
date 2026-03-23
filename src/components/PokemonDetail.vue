@@ -16,8 +16,9 @@ defineEmits<{
   close: []
 }>()
 
-function getArtworkUrl(nationalId: string): string {
-  const id = parseInt(nationalId, 10)
+function getArtworkUrl(pokemon: Pokemon): string {
+  if (pokemon.artwork_url) return pokemon.artwork_url
+  const id = parseInt(pokemon.national_id, 10)
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`
 }
 
@@ -58,7 +59,7 @@ function onImgError(e: Event) {
       <button class="absolute top-3 right-3 bg-transparent border-none text-[1.25rem] cursor-pointer text-text-subtle p-[4px_8px] hover:text-text" @click="$emit('close')">✕</button>
 
       <img
-        :src="getArtworkUrl(pokemon.national_id)"
+        :src="getArtworkUrl(pokemon)"
         :alt="pokemon.name_zh"
         class="block w-[200px] h-[200px] mx-auto mb-3 object-contain"
         @error="onImgError"

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Pokemon } from '../types'
 
-defineProps<{
+const props = defineProps<{
   pokemon: Pokemon
 }>()
 
@@ -9,8 +9,9 @@ defineEmits<{
   select: [pokemon: Pokemon]
 }>()
 
-function getSpriteUrl(nationalId: string): string {
-  const id = parseInt(nationalId, 10)
+function getSpriteUrl(pokemon: Pokemon): string {
+  if (pokemon.sprite_url) return pokemon.sprite_url
+  const id = parseInt(pokemon.national_id, 10)
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
 }
 
@@ -25,7 +26,7 @@ function onImgError(e: Event) {
     <div class="card-accent absolute top-0 left-0 right-0 h-[3px] opacity-0 group-hover:opacity-100" aria-hidden="true"></div>
     <div class="sprite-area w-20 h-20 flex items-center justify-center rounded-full mb-1">
       <img
-        :src="getSpriteUrl(pokemon.national_id)"
+        :src="getSpriteUrl(pokemon)"
         :alt="pokemon.name_zh"
         class="w-[72px] h-[72px] image-pixelated"
         loading="lazy"

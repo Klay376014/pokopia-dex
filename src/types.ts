@@ -20,6 +20,8 @@ export interface Pokemon {
   pokopia_id: string
   national_id: string
   name_zh: string
+  artwork_url?: string
+  sprite_url?: string
   habitats: Habitat[]
   time: TimeAvailability
   weather: WeatherAvailability

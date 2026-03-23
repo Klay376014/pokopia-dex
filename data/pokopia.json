@@ -1568,7 +1568,7 @@
     {
       "pokopia_id": "059",
       "national_id": "0422",
-      "name_zh": "無殼海兔西海",
+      "name_zh": "無殼海兔（西海）",
       "habitats": [
         {
           "name": "指路牌",
@@ -1593,7 +1593,7 @@
     {
       "pokopia_id": "059",
       "national_id": "0422",
-      "name_zh": "無殼海兔東海",
+      "name_zh": "無殼海兔（東海）",
       "habitats": [
         {
           "name": "指路牌",
@@ -1613,12 +1613,13 @@
       },
       "skills": [
         "moisten"
-      ]
+      ],
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png"
     },
     {
       "pokopia_id": "060",
       "national_id": "0423",
-      "name_zh": "海兔獸西海",
+      "name_zh": "海兔獸（西海）",
       "habitats": [
         {
           "name": "海釣場",
@@ -1644,7 +1645,7 @@
     {
       "pokopia_id": "060",
       "national_id": "0423",
-      "name_zh": "海兔獸東海",
+      "name_zh": "海兔獸（東海）",
       "habitats": [
         {
           "name": "海釣場",
@@ -1665,7 +1666,8 @@
       "skills": [
         "moisten",
         "trade"
-      ]
+      ],
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423-east.png"
     },
     {
       "pokopia_id": "061",
@@ -4032,7 +4034,7 @@
     {
       "pokopia_id": "145",
       "national_id": "0978",
-      "name_zh": "米立龍上弓姿勢",
+      "name_zh": "米立龍（上弓姿勢）",
       "habitats": [
         {
           "name": "沙灘套組",
@@ -4057,7 +4059,7 @@
     {
       "pokopia_id": "145",
       "national_id": "0978",
-      "name_zh": "米立龍下垂姿勢",
+      "name_zh": "米立龍（下垂姿勢）",
       "habitats": [
         {
           "name": "沙灘套組",
@@ -4077,12 +4079,14 @@
       },
       "skills": [
         "trade"
-      ]
+      ],
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10258.png",
+      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10258.png"
     },
     {
       "pokopia_id": "145",
       "national_id": "0978",
-      "name_zh": "米立龍平挺姿勢",
+      "name_zh": "米立龍（平挺姿勢）",
       "habitats": [
         {
           "name": "沙灘套組",
@@ -4102,7 +4106,9 @@
       },
       "skills": [
         "trade"
-      ]
+      ],
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10259.png",
+      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10259.png"
     },
     {
       "pokopia_id": "146",
@@ -5499,7 +5505,7 @@
     {
       "pokopia_id": "197",
       "national_id": "0849",
-      "name_zh": "顫弦蠑螈低調的樣子",
+      "name_zh": "顫弦蠑螈（高調）",
       "habitats": [
         {
           "name": "高調的搖滾舞台",
@@ -5525,7 +5531,7 @@
     {
       "pokopia_id": "197",
       "national_id": "0849",
-      "name_zh": "顫弦蠑螈高調的樣子",
+      "name_zh": "顫弦蠑螈（低調）",
       "habitats": [
         {
           "name": "低調的搖滾舞台",
