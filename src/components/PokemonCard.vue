@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Pokemon } from '../types'
 
-const props = defineProps<{
+defineProps<{
   pokemon: Pokemon
 }>()
 
