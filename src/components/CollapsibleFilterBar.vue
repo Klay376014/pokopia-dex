@@ -25,21 +25,33 @@ function toggleExpanded() {
 </script>
 
 <template>
-  <div class="collapsible-filter-group">
-    <div class="filter-header" @click="toggleExpanded">
-      <span class="filter-label">{{ label }}</span>
-      <span v-if="!isExpanded && selected.length > 0" class="filter-badge">({{ selected.length }})</span>
-      <span class="filter-chevron">{{ isExpanded ? '▾' : '▸' }}</span>
+  <div class="flex flex-col gap-1">
+    <div class="filter-header group flex items-center gap-[6px] cursor-pointer select-none flex-wrap" @click="toggleExpanded">
+      <span class="filter-label-base">{{ label }}</span>
+      <span v-if="!isExpanded && selected.length > 0" class="filter-badge text-xs text-primary font-600">({{ selected.length }})</span>
+      <span
+        :class="[
+          'filter-chevron text-primary inline-flex items-center justify-center w-5 h-5 border-[1.5px] border-primary rounded-full transition-all duration-200 group-hover:bg-primary group-hover:text-white',
+          isExpanded ? 'expanded rotate-90' : '',
+        ]"
+      >
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
+          <polyline points="3,1 7,5 3,9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
       <template v-if="!isExpanded && selected.length > 0">
-        <span v-for="s in selected" :key="s" class="filter-chip">{{ displayLabel(s) }}</span>
+        <span v-for="s in selected" :key="s" class="filter-chip text-xs py-[1px] px-2 bg-primary-50 text-primary rounded-[10px]">{{ displayLabel(s) }}</span>
       </template>
     </div>
-    <div class="filter-collapse" :class="{ expanded: isExpanded }">
-      <div class="filter-options">
+    <div :class="['filter-collapse', { expanded: isExpanded }]">
+      <div class="overflow-hidden min-h-0 flex gap-1 flex-wrap">
         <button
           v-for="opt in options"
           :key="opt"
-          :class="['filter-btn', { active: selected.includes(opt) }]"
+          :class="[
+            'filter-btn filter-btn-base hover:border-text-subtle',
+            selected.includes(opt) ? 'bg-primary text-surface-raised border-primary' : '',
+          ]"
           @click.stop="$emit('toggle', opt)"
         >
           {{ displayLabel(opt) }}
@@ -50,47 +62,6 @@ function toggleExpanded() {
 </template>
 
 <style scoped>
-.collapsible-filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.filter-header {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  cursor: pointer;
-  user-select: none;
-  flex-wrap: wrap;
-}
-
-.filter-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #666;
-  min-width: 3em;
-}
-
-.filter-badge {
-  font-size: 0.75rem;
-  color: #4a90d9;
-  font-weight: 600;
-}
-
-.filter-chevron {
-  font-size: 0.75rem;
-  color: #999;
-}
-
-.filter-chip {
-  font-size: 0.75rem;
-  padding: 1px 8px;
-  background: #e8f0fe;
-  color: #4a90d9;
-  border-radius: 10px;
-}
-
 .filter-collapse {
   display: grid;
   grid-template-rows: 0fr;
@@ -99,33 +70,5 @@ function toggleExpanded() {
 
 .filter-collapse.expanded {
   grid-template-rows: 1fr;
-}
-
-.filter-options {
-  overflow: hidden;
-  min-height: 0;
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  padding: 4px 12px;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  background: white;
-  font-size: 0.8125rem;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.filter-btn:hover {
-  border-color: #aaa;
-}
-
-.filter-btn.active {
-  background: #4a90d9;
-  color: white;
-  border-color: #4a90d9;
 }
 </style>

@@ -28,6 +28,19 @@ const timeKeys = ['dawn', 'day', 'dusk', 'night'] as const
 const weatherOptions = ['晴朗', '陰天', '下雨']
 const weatherKeys = ['sunny', 'cloudy', 'rainy'] as const
 
+const timeIcons: Record<string, string> = {
+  '清晨': new URL('../assets/time/dawn.webp', import.meta.url).href,
+  '白天': new URL('../assets/time/day.webp', import.meta.url).href,
+  '黃昏': new URL('../assets/time/dusk.webp', import.meta.url).href,
+  '夜晚': new URL('../assets/time/night.webp', import.meta.url).href,
+}
+
+const weatherIcons: Record<string, string> = {
+  '晴朗': new URL('../assets/weather/sun.webp', import.meta.url).href,
+  '陰天': new URL('../assets/weather/cloud.webp', import.meta.url).href,
+  '下雨': new URL('../assets/weather/rain.webp', import.meta.url).href,
+}
+
 const allSkills = computed(() => {
   const skills = new Set<string>()
   for (const p of data.pokemon) {
@@ -100,54 +113,62 @@ function onCloseDetail() {
 </script>
 
 <template>
-  <div class="app">
-    <header class="app-header">
-      <h1>Pokopia 圖鑑</h1>
+  <div class="max-w-[1200px] mx-auto p-4">
+    <header class="app-header relative overflow-hidden bg-primary py-5 px-4 text-center rounded-xl mb-6">
+      <div class="pokeball-watermark absolute -right-5 -top-5 w-[140px] h-[140px] rounded-full border-[5px] border-white/60 opacity-30" aria-hidden="true"></div>
+      <h1 class="relative z-1 font-[Outfit,'PingFang_TC',sans-serif] font-800 text-white tracking-[-0.02em]">Pokopia 圖鑑</h1>
+      <p class="subtitle relative z-1 font-500 text-white/70 mt-1">寶可夢棲息地探索手冊</p>
     </header>
 
-    <section class="filters">
-      <div class="search-bar">
+    <section class="flex flex-col gap-[6px] p-[10px] bg-surface-raised rounded-lg shadow-[0_1px_3px_oklch(0_0_0/0.08)]">
+      <div class="relative flex items-center">
+        <span class="absolute left-[10px] text-base text-text-subtle pointer-events-none leading-none" aria-hidden="true">⌕</span>
         <input
           v-model="searchQuery"
           type="text"
           placeholder="搜尋名稱或編號..."
-          class="search-input"
+          class="search-input w-full py-2 pr-3 pl-[30px] border-1 border-solid border-surface-muted rounded-lg text-[0.875rem] font-inherit outline-none bg-white text-text transition-[border-color,box-shadow] duration-200"
         />
       </div>
-
-      <FilterBar
-        label="時間"
-        :options="timeOptions"
-        :selected="selectedTimes"
-        @toggle="v => toggleFilter(selectedTimes, v)"
-      />
-
-      <FilterBar
-        label="天氣"
-        :options="weatherOptions"
-        :selected="selectedWeathers"
-        @toggle="v => toggleFilter(selectedWeathers, v)"
-      />
-
-      <CollapsibleFilterBar
-        label="特長"
-        :options="allSkills"
-        :selected="selectedSkills"
-        :labels="skillLabels"
-        :defaultExpanded="false"
-        @toggle="v => toggleFilter(selectedSkills, v)"
-      />
 
       <SearchableDropdown
         label="棲息地"
         :options="allHabitatNames"
         v-model="selectedHabitat"
       />
+      <div class="flex gap-4 flex-wrap">
+        <FilterBar
+          label="時間"
+          :options="timeOptions"
+          :selected="selectedTimes"
+          :icons="timeIcons"
+          @toggle="v => toggleFilter(selectedTimes, v)"
+        />
+
+        <FilterBar
+          label="天氣"
+          :options="weatherOptions"
+          :selected="selectedWeathers"
+          :icons="weatherIcons"
+          @toggle="v => toggleFilter(selectedWeathers, v)"
+        />
+      </div>
+
+      <div class="flex gap-4 flex-wrap">
+        <CollapsibleFilterBar
+          label="特長"
+          :options="allSkills"
+          :selected="selectedSkills"
+          :labels="skillLabels"
+          :defaultExpanded="false"
+          @toggle="v => toggleFilter(selectedSkills, v)"
+        />
+      </div>
     </section>
 
-    <p class="result-count">{{ filteredPokemon.length }} / {{ data.pokemon.length }}</p>
+    <p class="text-center pt-5 text-[0.875rem] text-text-muted font-500">{{ filteredPokemon.length }} / {{ data.pokemon.length }}</p>
 
-    <main class="pokemon-grid">
+    <main class="grid grid-cols-[repeat(auto-fill,minmax(130px,1fr))] gap-[10px] py-2">
       <PokemonCard
         v-for="p in filteredPokemon"
         :key="`${p.pokopia_id}-${p.national_id}-${p.name_zh}`"
@@ -172,64 +193,36 @@ function onCloseDetail() {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: #fafafa;
-  color: #333;
+  font-family: 'DM Sans', 'PingFang TC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: oklch(0.985 0.005 27);
+  background-image:
+    radial-gradient(ellipse at 20% 50%, oklch(0.96 0.015 145 / 0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, oklch(0.96 0.01 27 / 0.2) 0%, transparent 40%);
+  background-attachment: fixed;
+  color: oklch(0.22 0.02 27);
 }
 
-.app {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
-}
-
-.app-header {
-  text-align: center;
-  padding: 16px 0;
+.pokeball-watermark::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  right: -5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: translateY(-50%);
 }
 
 .app-header h1 {
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
 }
 
-.filters {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.search-bar {
-  margin-bottom: 4px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-size: 0.875rem;
-  outline: none;
+.subtitle {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
 }
 
 .search-input:focus {
-  border-color: #4a90d9;
-}
-
-.result-count {
-  text-align: center;
-  padding: 8px 0;
-  font-size: 0.875rem;
-  color: #888;
-}
-
-.pokemon-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 8px;
-  padding: 8px 0;
+  border-color: oklch(0.55 0.22 27);
+  box-shadow: 0 0 0 3px oklch(0.55 0.22 27 / 0.1);
 }
 </style>

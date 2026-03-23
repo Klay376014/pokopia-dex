@@ -33,17 +33,17 @@ function getSkillIcon(skillName: string): string | null {
   }
 }
 
-const timeEntries: { key: keyof Pokemon['time']; label: string }[] = [
-  { key: 'dawn', label: '清晨' },
-  { key: 'day', label: '白天' },
-  { key: 'dusk', label: '黃昏' },
-  { key: 'night', label: '夜晚' },
+const timeEntries: { key: keyof Pokemon['time']; label: string; icon: string }[] = [
+  { key: 'dawn', label: '清晨', icon: new URL('../../assets/time/dawn.webp', import.meta.url).href },
+  { key: 'day', label: '白天', icon: new URL('../../assets/time/day.webp', import.meta.url).href },
+  { key: 'dusk', label: '黃昏', icon: new URL('../../assets/time/dusk.webp', import.meta.url).href },
+  { key: 'night', label: '夜晚', icon: new URL('../../assets/time/night.webp', import.meta.url).href },
 ]
 
-const weatherEntries: { key: keyof Pokemon['weather']; label: string }[] = [
-  { key: 'sunny', label: '晴朗' },
-  { key: 'cloudy', label: '陰天' },
-  { key: 'rainy', label: '下雨' },
+const weatherEntries: { key: keyof Pokemon['weather']; label: string; icon: string }[] = [
+  { key: 'sunny', label: '晴朗', icon: new URL('../../assets/weather/sun.webp', import.meta.url).href },
+  { key: 'cloudy', label: '陰天', icon: new URL('../../assets/weather/cloud.webp', import.meta.url).href },
+  { key: 'rainy', label: '下雨', icon: new URL('../../assets/weather/rain.webp', import.meta.url).href },
 ]
 
 function onImgError(e: Event) {
@@ -53,87 +53,89 @@ function onImgError(e: Event) {
 </script>
 
 <template>
-  <div class="detail-overlay" @click.self="$emit('close')">
-    <div class="detail-card">
-      <button class="close-btn" @click="$emit('close')">✕</button>
+  <div class="fixed inset-0 bg-[oklch(0_0_0/0.5)] flex items-center justify-center z-100 p-4" @click.self="$emit('close')">
+    <div class="bg-surface-raised rounded-xl p-6 max-w-[480px] w-full max-h-[90vh] overflow-y-auto relative">
+      <button class="absolute top-3 right-3 bg-transparent border-none text-[1.25rem] cursor-pointer text-text-subtle p-[4px_8px] hover:text-text" @click="$emit('close')">✕</button>
 
       <img
         :src="getArtworkUrl(pokemon.national_id)"
         :alt="pokemon.name_zh"
-        class="artwork"
+        class="block w-[200px] h-[200px] mx-auto mb-3 object-contain"
         @error="onImgError"
       />
 
-      <h2 class="name">{{ pokemon.name_zh }}</h2>
-      <p class="ids">Pokopia #{{ pokemon.pokopia_id }} / 全國 #{{ pokemon.national_id }}</p>
+      <h2 class="text-center text-[1.25rem] mb-1">{{ pokemon.name_zh }}</h2>
+      <p class="text-center text-text-subtle text-[0.875rem] mb-4">Pokopia #{{ pokemon.pokopia_id }} / 全國 #{{ pokemon.national_id }}</p>
 
-      <div class="section" v-if="pokemon.habitats.length > 0">
-        <h3>棲息地</h3>
-        <div class="habitat-list">
-          <div v-for="h in pokemon.habitats" :key="h.habitat_id" class="habitat-entry">
-            <div class="habitat-item">
+      <div class="mb-4" v-if="pokemon.habitats.length > 0">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">棲息地</h3>
+        <div class="flex flex-col gap-3">
+          <div v-for="h in pokemon.habitats" :key="h.habitat_id" class="bg-surface rounded-lg p-2">
+            <div class="flex items-center gap-2">
               <img
                 :src="getHabitatImage(h.habitat_id)"
                 :alt="h.name"
-                class="habitat-img"
+                class="w-[60px] h-[40px] object-cover rounded"
                 @error="onImgError"
               />
-              <div class="habitat-info">
-                <span class="habitat-name">{{ h.name }}</span>
-                <span v-if="habitatMap.get(h.habitat_id)?.detail" class="habitat-detail">
+              <div class="flex flex-col">
+                <span class="font-500">{{ h.name }}</span>
+                <span v-if="habitatMap.get(h.habitat_id)?.detail" class="text-xs text-text-subtle">
                   {{ habitatMap.get(h.habitat_id)!.detail }}
                 </span>
               </div>
             </div>
             <div
               v-if="habitatMap.get(h.habitat_id)?.pokemon?.length"
-              class="habitat-pokemon"
+              class="flex flex-wrap gap-1 mt-[6px]"
             >
               <span
                 v-for="name in habitatMap.get(h.habitat_id)!.pokemon"
                 :key="name"
-                class="habitat-pokemon-tag"
+                class="text-xs bg-surface-muted text-text-muted py-[2px] px-[6px] rounded"
               >{{ name }}</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section">
-        <h3>出現時間</h3>
-        <div class="tag-list">
+      <div class="mb-4">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">出現時間</h3>
+        <div class="flex gap-[6px] flex-wrap">
           <span
             v-for="t in timeEntries"
             :key="t.key"
-            :class="['tag', { active: pokemon.time[t.key] }]"
+            :class="['tag tag-icon', { active: pokemon.time[t.key] }]"
+            :title="t.label"
           >
-            {{ t.label }}
+            <img :src="t.icon" :alt="t.label" class="tag-img" />
           </span>
         </div>
       </div>
 
-      <div class="section">
-        <h3>出現天氣</h3>
-        <div class="tag-list">
+      <div class="mb-4">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">出現天氣</h3>
+        <div class="flex gap-[6px] flex-wrap">
           <span
             v-for="w in weatherEntries"
             :key="w.key"
-            :class="['tag', { active: pokemon.weather[w.key] }]"
+            :class="['tag tag-icon', { active: pokemon.weather[w.key] }]"
+            :title="w.label"
           >
-            {{ w.label }}
+            <img :src="w.icon" :alt="w.label" class="tag-img" />
           </span>
         </div>
       </div>
 
-      <div class="section" v-if="pokemon.skills.length > 0">
-        <h3>特長</h3>
-        <div class="skill-list">
-          <div v-for="skill in pokemon.skills" :key="skill" class="skill-item">
+      <div class="mb-4" v-if="pokemon.skills.length > 0">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">特長</h3>
+        <div class="flex gap-2 flex-wrap">
+          <div v-for="skill in pokemon.skills" :key="skill" class="flex items-center gap-1">
             <img
               v-if="getSkillIcon(skill)"
               :src="getSkillIcon(skill)!"
               :alt="skill"
-              class="skill-icon"
+              class="w-6 h-6"
               @error="onImgError"
             />
             <span>{{ skillLabels[skill] ?? skill }}</span>
@@ -145,165 +147,36 @@ function onImgError(e: Event) {
 </template>
 
 <style scoped>
-.detail-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  padding: 16px;
-}
-
-.detail-card {
-  background: white;
-  border-radius: 12px;
-  padding: 24px;
-  max-width: 480px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  position: relative;
-}
-
-.close-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: none;
-  border: none;
-  font-size: 1.25rem;
-  cursor: pointer;
-  color: #888;
-  padding: 4px 8px;
-}
-
-.close-btn:hover {
-  color: #333;
-}
-
-.artwork {
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 12px;
-  object-fit: contain;
-}
-
-.name {
-  text-align: center;
-  font-size: 1.25rem;
-  margin-bottom: 4px;
-}
-
-.ids {
-  text-align: center;
-  color: #888;
-  font-size: 0.875rem;
-  margin-bottom: 16px;
-}
-
-.section {
-  margin-bottom: 16px;
-}
-
-.section h3 {
-  font-size: 0.875rem;
-  color: #666;
-  margin-bottom: 8px;
-}
-
-.habitat-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.habitat-entry {
-  background: #f9f9f9;
-  border-radius: 8px;
-  padding: 8px;
-}
-
-.habitat-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.habitat-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.habitat-name {
-  font-weight: 500;
-}
-
-.habitat-detail {
-  font-size: 0.75rem;
-  color: #888;
-}
-
-.habitat-img {
-  width: 60px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.habitat-pokemon {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  margin-top: 6px;
-}
-
-.habitat-pokemon-tag {
-  font-size: 0.75rem;
-  background: #e8e8e8;
-  color: #555;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-.tag-list {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
 .tag {
   padding: 4px 10px;
   border-radius: 12px;
   font-size: 0.8125rem;
-  background: #eee;
-  color: #999;
+  background: oklch(0.93 0.01 27);
+  color: oklch(0.60 0.015 27);
 }
 
 .tag.active {
-  background: #e3f2fd;
-  color: #1976d2;
+  background: oklch(0.97 0.02 27);
+  color: oklch(0.55 0.22 27);
 }
 
-.skill-list {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.skill-item {
-  display: flex;
+.tag-icon {
+  padding: 4px 6px;
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
 }
 
-.skill-icon {
-  width: 24px;
-  height: 24px;
+.tag-icon.active {
+  background: oklch(57.39% 0.22149 30.641);
+}
+
+.tag-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.tag-icon:not(.active) .tag-img {
+  filter: grayscale(1) opacity(0.3);
 }
 </style>

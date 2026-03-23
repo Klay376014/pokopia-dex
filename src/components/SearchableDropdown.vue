@@ -70,10 +70,10 @@ const displayValue = computed(() => {
 </script>
 
 <template>
-  <div class="searchable-dropdown" ref="rootRef">
-    <div class="dropdown-header">
-      <span class="dropdown-label">{{ label }}</span>
-      <div class="dropdown-input-wrapper">
+  <div class="relative" ref="rootRef">
+    <div class="flex items-center gap-2">
+      <span class="filter-label-base">{{ label }}</span>
+      <div class="relative flex-1 max-w-[200px]">
         <input
           type="text"
           :value="displayValue"
@@ -81,110 +81,23 @@ const displayValue = computed(() => {
           @input="searchQuery = ($event.target as HTMLInputElement).value"
           @focus="onFocus"
           @keydown.escape="onEscape"
-          class="dropdown-input"
+          class="w-full py-1 pr-7 pl-3 border-1 border-solid border-surface-muted rounded-2xl text-[0.8125rem] outline-none focus:border-primary"
         />
-        <button v-if="modelValue" class="clear-btn" @click="onClear">&times;</button>
+        <button v-if="modelValue" class="clear-btn absolute right-[6px] top-1/2 -translate-y-1/2 bg-transparent border-none text-base text-text-subtle cursor-pointer px-1 leading-none hover:text-text" @click="onClear">&times;</button>
       </div>
     </div>
-    <div v-if="isOpen" class="dropdown-list">
+    <div v-if="isOpen" class="dropdown-list absolute top-full left-[3em] right-0 mt-1 max-h-[240px] overflow-y-auto bg-surface-raised border-1 border-solid border-surface-muted rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.1)] z-10">
       <div
         v-for="opt in filteredOptions"
         :key="opt"
-        class="dropdown-item"
+        class="dropdown-item py-[6px] px-3 text-[0.8125rem] cursor-pointer hover:bg-primary-50"
         @click="onSelect(opt)"
       >
         {{ opt }}
       </div>
-      <div v-if="filteredOptions.length === 0" class="dropdown-empty">
+      <div v-if="filteredOptions.length === 0" class="dropdown-empty p-3 text-[0.8125rem] text-text-subtle text-center">
         無符合結果
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-.searchable-dropdown {
-  position: relative;
-}
-
-.dropdown-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.dropdown-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #666;
-  min-width: 3em;
-}
-
-.dropdown-input-wrapper {
-  position: relative;
-  flex: 1;
-}
-
-.dropdown-input {
-  width: 100%;
-  padding: 4px 28px 4px 12px;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  font-size: 0.8125rem;
-  outline: none;
-}
-
-.dropdown-input:focus {
-  border-color: #4a90d9;
-}
-
-.clear-btn {
-  position: absolute;
-  right: 6px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 1rem;
-  color: #999;
-  cursor: pointer;
-  padding: 0 4px;
-  line-height: 1;
-}
-
-.clear-btn:hover {
-  color: #333;
-}
-
-.dropdown-list {
-  position: absolute;
-  top: 100%;
-  left: 3em;
-  right: 0;
-  margin-top: 4px;
-  max-height: 240px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-}
-
-.dropdown-item {
-  padding: 6px 12px;
-  font-size: 0.8125rem;
-  cursor: pointer;
-}
-
-.dropdown-item:hover {
-  background: #f0f4ff;
-}
-
-.dropdown-empty {
-  padding: 12px;
-  font-size: 0.8125rem;
-  color: #999;
-  text-align: center;
-}
-</style>

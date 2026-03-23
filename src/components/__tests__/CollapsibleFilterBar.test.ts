@@ -39,14 +39,16 @@ describe('CollapsibleFilterBar', () => {
       const wrapper = mount(CollapsibleFilterBar, {
         props: { ...defaultProps, defaultExpanded: false },
       })
-      expect(wrapper.find('.filter-chevron').text()).toBe('▸')
+      expect(wrapper.find('.filter-chevron').exists()).toBe(true)
+      expect(wrapper.find('.filter-chevron svg').exists()).toBe(true)
     })
 
     it('展開時顯示展開指示符號', () => {
       const wrapper = mount(CollapsibleFilterBar, {
         props: { ...defaultProps, defaultExpanded: true },
       })
-      expect(wrapper.find('.filter-chevron').text()).toBe('▾')
+      expect(wrapper.find('.filter-chevron').classes()).toContain('expanded')
+      expect(wrapper.find('.filter-chevron svg').exists()).toBe(true)
     })
   })
 

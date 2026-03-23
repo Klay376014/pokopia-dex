@@ -4,6 +4,7 @@ const props = defineProps<{
   options: string[]
   selected: string[]
   labels?: Record<string, string>
+  icons?: Record<string, string>
 }>()
 
 function displayLabel(opt: string): string {
@@ -16,59 +17,34 @@ defineEmits<{
 </script>
 
 <template>
-  <div class="filter-group">
-    <span class="filter-label">{{ label }}</span>
-    <div class="filter-options">
+  <div class="flex items-center gap-2 flex-wrap">
+    <span class="filter-label-base">{{ label }}</span>
+    <div class="flex gap-1 flex-wrap">
       <button
         v-for="opt in options"
         :key="opt"
-        :class="['filter-btn', { active: selected.includes(opt) }]"
+        :class="[
+          'filter-btn-base hover:border-text-subtle',
+          selected.includes(opt) ? 'bg-primary text-surface-raised border-primary' : '',
+          icons?.[opt] ? 'py-[5px] px-[9px]' : '',
+        ]"
         @click="$emit('toggle', opt)"
+        :title="displayLabel(opt)"
       >
-        {{ displayLabel(opt) }}
+        <img v-if="icons?.[opt]" :src="icons[opt]" :alt="displayLabel(opt)" class="filter-icon w-5 h-5 object-contain block" />
+        <span v-else>{{ displayLabel(opt) }}</span>
       </button>
     </div>
   </div>
 </template>
 
 <style scoped>
-.filter-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+.filter-icon {
+  filter: brightness(0);
+  transition: filter 0.15s;
 }
 
-.filter-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #666;
-  min-width: 3em;
-}
-
-.filter-options {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  padding: 4px 12px;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  background: white;
-  font-size: 0.8125rem;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.filter-btn:hover {
-  border-color: #aaa;
-}
-
-.filter-btn.active {
-  background: #4a90d9;
-  color: white;
-  border-color: #4a90d9;
+.bg-primary .filter-icon {
+  filter: brightness(0) invert(1);
 }
 </style>
