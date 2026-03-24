@@ -1093,7 +1093,8 @@
       },
       "skills": [
         "transform"
-      ]
+      ],
+      "artwork_url": "https://img.gamewith.jp/img/a26637ab93b049ba30f0f4170f59c1ba.png"
     },
     {
       "pokopia_id": "048",
@@ -1851,7 +1852,7 @@
     {
       "pokopia_id": "079",
       "national_id": "0025",
-      "name_zh": "皮卡丘淺色",
+      "name_zh": "淺淺丘",
       "habitats": [
         "081"
       ],
@@ -1868,7 +1869,8 @@
       },
       "skills": [
         "glow"
-      ]
+      ],
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/251113_02/ill_01.webp"
     },
     {
       "pokopia_id": "079",
@@ -2540,7 +2542,7 @@
     {
       "pokopia_id": "108",
       "national_id": "0143",
-      "name_zh": "卡比獸萌苔",
+      "name_zh": "萌苔卡比獸",
       "habitats": [
         "093"
       ],
@@ -2557,7 +2559,8 @@
       },
       "skills": [
         "glutton"
-      ]
+      ],
+      "artwork_url": "https://img.gamewith.jp/img/898c2263fa904581c1f9d437d116eb1f.png"
     },
     {
       "pokopia_id": "108",
@@ -2772,7 +2775,7 @@
     {
       "pokopia_id": "117",
       "national_id": "0194",
-      "name_zh": "烏波帕底亞的樣子",
+      "name_zh": "烏波",
       "habitats": [
         "054"
       ],
@@ -2789,7 +2792,9 @@
       },
       "skills": [
         "scatter"
-      ]
+      ],
+      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png"
     },
     {
       "pokopia_id": "118",
@@ -2818,7 +2823,7 @@
     {
       "pokopia_id": "119",
       "national_id": "0235",
-      "name_zh": "圖圖犬彩繪匠",
+      "name_zh": "圖圖犬老師",
       "habitats": [
         "092"
       ],
@@ -4314,7 +4319,7 @@
     {
       "pokopia_id": "182",
       "national_id": "0479",
-      "name_zh": "洛托姆立體音響洛托姆",
+      "name_zh": "立體音響洛托姆",
       "habitats": [
         "128"
       ],
@@ -4331,7 +4336,8 @@
       },
       "skills": [
         "dj"
-      ]
+      ],
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_01/ill_01.webp"
     },
     {
       "pokopia_id": "183",
@@ -4544,7 +4550,7 @@
     {
       "pokopia_id": "192",
       "national_id": "0820",
-      "name_zh": "藏飽栗鼠廚師",
+      "name_zh": "藏飽栗廚",
       "habitats": [
         "133"
       ],
@@ -4561,7 +4567,8 @@
       },
       "skills": [
         "party"
-      ]
+      ],
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_02/ill_01.webp"
     },
     {
       "pokopia_id": "193",
@@ -6346,7 +6353,7 @@
     {
       "pokopia_id": "270",
       "national_id": "0959",
-      "name_zh": "巨鍛匠頭頭",
+      "name_zh": "巨鍛頭頭",
       "habitats": [
         "154"
       ],

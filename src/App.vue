@@ -111,6 +111,12 @@ function onSelectPokemon(pokemon: Pokemon) {
 function onCloseDetail() {
   selectedPokemon.value = null
 }
+
+function onNavigatePokemon(name: string) {
+  if (selectedPokemon.value?.name_zh === name) return
+  const target = data.pokemon.find(p => p.name_zh === name)
+  if (target) selectedPokemon.value = target
+}
 </script>
 
 <template>
@@ -182,6 +188,7 @@ function onCloseDetail() {
       v-if="selectedPokemon"
       :pokemon="selectedPokemon"
       @close="onCloseDetail"
+      @navigate="onNavigatePokemon"
     />
   </div>
 </template>

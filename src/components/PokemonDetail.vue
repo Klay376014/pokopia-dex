@@ -14,6 +14,7 @@ defineProps<{
 
 defineEmits<{
   close: []
+  navigate: [name: string]
 }>()
 
 function getArtworkUrl(pokemon: Pokemon): string {
@@ -76,7 +77,7 @@ function onImgError(e: Event) {
               <img
                 :src="getHabitatImage(hId)"
                 :alt="habitatMap.get(hId)?.name"
-                class="w-[60px] h-[40px] object-cover rounded"
+                class="w-[90px] h-[60px] object-cover rounded"
                 @error="onImgError"
               />
               <div class="flex flex-col">
@@ -90,11 +91,12 @@ function onImgError(e: Event) {
               v-if="habitatMap.get(hId)?.pokemon?.length"
               class="flex flex-wrap gap-1 mt-[6px]"
             >
-              <span
+              <button
                 v-for="name in habitatMap.get(hId)!.pokemon"
                 :key="name"
-                class="text-xs bg-surface-muted text-text-muted py-[2px] px-[6px] rounded"
-              >{{ name }}</span>
+                class="text-xs bg-surface-muted text-text-muted py-[2px] px-[6px] rounded border-none cursor-pointer hover:bg-primary/15 hover:text-primary transition-colors duration-150"
+                @click="$emit('navigate', name)"
+              >{{ name }}</button>
             </div>
           </div>
         </div>
