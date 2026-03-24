@@ -71,27 +71,27 @@ function onImgError(e: Event) {
       <div class="mb-4" v-if="pokemon.habitats.length > 0">
         <h3 class="text-[0.875rem] text-text-muted mb-2">棲息地</h3>
         <div class="flex flex-col gap-3">
-          <div v-for="h in pokemon.habitats" :key="h.habitat_id" class="bg-surface rounded-lg p-2">
+          <div v-for="hId in pokemon.habitats" :key="hId" class="bg-surface rounded-lg p-2">
             <div class="flex items-center gap-2">
               <img
-                :src="getHabitatImage(h.habitat_id)"
-                :alt="h.name"
+                :src="getHabitatImage(hId)"
+                :alt="habitatMap.get(hId)?.name"
                 class="w-[60px] h-[40px] object-cover rounded"
                 @error="onImgError"
               />
               <div class="flex flex-col">
-                <span class="font-500">{{ h.name }}</span>
-                <span v-if="habitatMap.get(h.habitat_id)?.detail" class="text-xs text-text-subtle">
-                  {{ habitatMap.get(h.habitat_id)!.detail }}
+                <span class="font-500">{{ habitatMap.get(hId)?.name }}</span>
+                <span v-if="habitatMap.get(hId)?.detail" class="text-xs text-text-subtle">
+                  {{ habitatMap.get(hId)!.detail }}
                 </span>
               </div>
             </div>
             <div
-              v-if="habitatMap.get(h.habitat_id)?.pokemon?.length"
+              v-if="habitatMap.get(hId)?.pokemon?.length"
               class="flex flex-wrap gap-1 mt-[6px]"
             >
               <span
-                v-for="name in habitatMap.get(h.habitat_id)!.pokemon"
+                v-for="name in habitatMap.get(hId)!.pokemon"
                 :key="name"
                 class="text-xs bg-surface-muted text-text-muted py-[2px] px-[6px] rounded"
               >{{ name }}</span>

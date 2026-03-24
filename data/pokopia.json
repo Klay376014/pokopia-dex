@@ -5,14 +5,8 @@
       "national_id": "0001",
       "name_zh": "妙蛙種子",
       "habitats": [
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        },
-        {
-          "name": "綠色的長椅",
-          "habitat_id": "022"
-        }
+        "001",
+        "022"
       ],
       "time": {
         "dawn": true,
@@ -34,14 +28,8 @@
       "national_id": "0002",
       "name_zh": "妙蛙草",
       "habitats": [
-        {
-          "name": "綠色的長椅",
-          "habitat_id": "022"
-        },
-        {
-          "name": "整片的花海",
-          "habitat_id": "011"
-        }
+        "022",
+        "011"
       ],
       "time": {
         "dawn": true,
@@ -63,14 +51,8 @@
       "national_id": "0003",
       "name_zh": "妙蛙花",
       "habitats": [
-        {
-          "name": "庭園露台",
-          "habitat_id": "046"
-        },
-        {
-          "name": "整片的花海",
-          "habitat_id": "011"
-        }
+        "046",
+        "011"
       ],
       "time": {
         "dawn": true,
@@ -93,10 +75,7 @@
       "national_id": "0004",
       "name_zh": "小火龍",
       "habitats": [
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        }
+        "001"
       ],
       "time": {
         "dawn": true,
@@ -118,10 +97,7 @@
       "national_id": "0005",
       "name_zh": "火恐龍",
       "habitats": [
-        {
-          "name": "露營組合",
-          "habitat_id": "017"
-        }
+        "017"
       ],
       "time": {
         "dawn": true,
@@ -143,14 +119,8 @@
       "national_id": "0006",
       "name_zh": "噴火龍",
       "habitats": [
-        {
-          "name": "樹果露營大餐",
-          "habitat_id": "040"
-        },
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        }
+        "040",
+        "001"
       ],
       "time": {
         "dawn": true,
@@ -173,14 +143,8 @@
       "national_id": "0007",
       "name_zh": "傑尼龜",
       "habitats": [
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        },
-        {
-          "name": "濕潤的草叢",
-          "habitat_id": "004"
-        }
+        "001",
+        "004"
       ],
       "time": {
         "dawn": true,
@@ -202,10 +166,7 @@
       "national_id": "0008",
       "name_zh": "卡咪龜",
       "habitats": [
-        {
-          "name": "濕潤的草叢",
-          "habitat_id": "004"
-        }
+        "004"
       ],
       "time": {
         "dawn": true,
@@ -227,14 +188,8 @@
       "national_id": "0009",
       "name_zh": "水箭龜",
       "habitats": [
-        {
-          "name": "在陰涼處漂浮玩水",
-          "habitat_id": "036"
-        },
-        {
-          "name": "濕潤的草叢",
-          "habitat_id": "004"
-        }
+        "036",
+        "004"
       ],
       "time": {
         "dawn": true,
@@ -257,14 +212,8 @@
       "national_id": "0016",
       "name_zh": "波波",
       "habitats": [
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        },
-        {
-          "name": "高崗的草叢",
-          "habitat_id": "006"
-        }
+        "008",
+        "006"
       ],
       "time": {
         "dawn": true,
@@ -287,14 +236,8 @@
       "national_id": "0017",
       "name_zh": "比比鳥",
       "habitats": [
-        {
-          "name": "高崗的草叢",
-          "habitat_id": "006"
-        },
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        }
+        "006",
+        "008"
       ],
       "time": {
         "dawn": true,
@@ -317,10 +260,7 @@
       "national_id": "0018",
       "name_zh": "大比鳥",
       "habitats": [
-        {
-          "name": "嘰嘰咕咕奢華大餐",
-          "habitat_id": "039"
-        }
+        "039"
       ],
       "time": {
         "dawn": true,
@@ -343,10 +283,7 @@
       "national_id": "0043",
       "name_zh": "走路草",
       "habitats": [
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        }
+        "001"
       ],
       "time": {
         "dawn": false,
@@ -368,10 +305,7 @@
       "national_id": "0044",
       "name_zh": "臭臭花",
       "habitats": [
-        {
-          "name": "南國氛圍",
-          "habitat_id": "057"
-        }
+        "057"
       ],
       "time": {
         "dawn": true,
@@ -393,10 +327,7 @@
       "national_id": "0045",
       "name_zh": "霸王花",
       "habitats": [
-        {
-          "name": "吉利蛋休息處",
-          "habitat_id": "034"
-        }
+        "034"
       ],
       "time": {
         "dawn": true,
@@ -419,10 +350,7 @@
       "national_id": "0182",
       "name_zh": "美麗花",
       "habitats": [
-        {
-          "name": "吉利蛋休息處",
-          "habitat_id": "034"
-        }
+        "034"
       ],
       "time": {
         "dawn": true,
@@ -445,14 +373,8 @@
       "national_id": "0046",
       "name_zh": "派拉斯",
       "habitats": [
-        {
-          "name": "高崗的花田",
-          "habitat_id": "012"
-        },
-        {
-          "name": "庭園",
-          "habitat_id": "014"
-        }
+        "012",
+        "014"
       ],
       "time": {
         "dawn": true,
@@ -474,14 +396,8 @@
       "national_id": "0047",
       "name_zh": "派拉斯特",
       "habitats": [
-        {
-          "name": "庭園",
-          "habitat_id": "014"
-        },
-        {
-          "name": "高崗的花田",
-          "habitat_id": "012"
-        }
+        "014",
+        "012"
       ],
       "time": {
         "dawn": true,
@@ -503,14 +419,8 @@
       "national_id": "0048",
       "name_zh": "毛球",
       "habitats": [
-        {
-          "name": "光照的草叢",
-          "habitat_id": "007"
-        },
-        {
-          "name": "光照的長椅",
-          "habitat_id": "023"
-        }
+        "007",
+        "023"
       ],
       "time": {
         "dawn": false,
@@ -532,14 +442,8 @@
       "national_id": "0049",
       "name_zh": "摩魯蛾",
       "habitats": [
-        {
-          "name": "光照的長椅",
-          "habitat_id": "023"
-        },
-        {
-          "name": "光照的草叢",
-          "habitat_id": "007"
-        }
+        "023",
+        "007"
       ],
       "time": {
         "dawn": false,
@@ -561,10 +465,7 @@
       "national_id": "0069",
       "name_zh": "喇叭芽",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -587,14 +488,8 @@
       "national_id": "0070",
       "name_zh": "口呆花",
       "habitats": [
-        {
-          "name": "燈光與香氣的誘惑",
-          "habitat_id": "035"
-        },
-        {
-          "name": "華麗的桌子",
-          "habitat_id": "021"
-        }
+        "035",
+        "021"
       ],
       "time": {
         "dawn": true,
@@ -617,14 +512,8 @@
       "national_id": "0071",
       "name_zh": "大食花",
       "habitats": [
-        {
-          "name": "燈光與香氣的誘惑",
-          "habitat_id": "035"
-        },
-        {
-          "name": "華麗的桌子",
-          "habitat_id": "021"
-        }
+        "035",
+        "021"
       ],
       "time": {
         "dawn": true,
@@ -647,10 +536,7 @@
       "national_id": "0079",
       "name_zh": "呆呆獸",
       "habitats": [
-        {
-          "name": "海浪邊的草叢",
-          "habitat_id": "005"
-        }
+        "005"
       ],
       "time": {
         "dawn": true,
@@ -673,18 +559,9 @@
       "national_id": "0080",
       "name_zh": "呆殼獸",
       "habitats": [
-        {
-          "name": "釣魚場",
-          "habitat_id": "184"
-        },
-        {
-          "name": "布偶伴好眠",
-          "habitat_id": "030"
-        },
-        {
-          "name": "海浪邊的草叢",
-          "habitat_id": "005"
-        }
+        "184",
+        "030",
+        "005"
       ],
       "time": {
         "dawn": true,
@@ -707,18 +584,9 @@
       "national_id": "0199",
       "name_zh": "呆呆王",
       "habitats": [
-        {
-          "name": "釣魚場",
-          "habitat_id": "184"
-        },
-        {
-          "name": "布偶伴好眠",
-          "habitat_id": "030"
-        },
-        {
-          "name": "海浪邊的草叢",
-          "habitat_id": "005"
-        }
+        "184",
+        "030",
+        "005"
       ],
       "time": {
         "dawn": true,
@@ -741,10 +609,7 @@
       "national_id": "0081",
       "name_zh": "小磁怪",
       "habitats": [
-        {
-          "name": "工廠的儲藏室",
-          "habitat_id": "038"
-        }
+        "038"
       ],
       "time": {
         "dawn": true,
@@ -766,14 +631,8 @@
       "national_id": "0082",
       "name_zh": "三合一磁怪",
       "habitats": [
-        {
-          "name": "迷你遊戲城",
-          "habitat_id": "085"
-        },
-        {
-          "name": "好多垃圾桶",
-          "habitat_id": "064"
-        }
+        "085",
+        "064"
       ],
       "time": {
         "dawn": true,
@@ -795,14 +654,8 @@
       "national_id": "0462",
       "name_zh": "自爆磁怪",
       "habitats": [
-        {
-          "name": "迷你遊戲城",
-          "habitat_id": "085"
-        },
-        {
-          "name": "好多垃圾桶",
-          "habitat_id": "064"
-        }
+        "085",
+        "064"
       ],
       "time": {
         "dawn": true,
@@ -825,10 +678,7 @@
       "national_id": "0095",
       "name_zh": "大岩蛇",
       "habitats": [
-        {
-          "name": "乾乾的草叢",
-          "habitat_id": "037"
-        }
+        "037"
       ],
       "time": {
         "dawn": true,
@@ -851,10 +701,7 @@
       "national_id": "0208",
       "name_zh": "大鋼蛇",
       "habitats": [
-        {
-          "name": "咚隆咣啷鋼架工程",
-          "habitat_id": "117"
-        }
+        "117"
       ],
       "time": {
         "dawn": true,
@@ -877,10 +724,7 @@
       "national_id": "0104",
       "name_zh": "卡拉卡拉",
       "habitats": [
-        {
-          "name": "花朵圍繞的墓地",
-          "habitat_id": "013"
-        }
+        "013"
       ],
       "time": {
         "dawn": true,
@@ -902,10 +746,7 @@
       "national_id": "0105",
       "name_zh": "嘎啦嘎啦",
       "habitats": [
-        {
-          "name": "花朵圍繞的墓地",
-          "habitat_id": "013"
-        }
+        "013"
       ],
       "time": {
         "dawn": true,
@@ -927,10 +768,7 @@
       "national_id": "0236",
       "name_zh": "無畏小子",
       "habitats": [
-        {
-          "name": "修行瀑布",
-          "habitat_id": "018"
-        }
+        "018"
       ],
       "time": {
         "dawn": true,
@@ -952,10 +790,7 @@
       "national_id": "0106",
       "name_zh": "飛腿郎",
       "habitats": [
-        {
-          "name": "緊急救護站",
-          "habitat_id": "025"
-        }
+        "025"
       ],
       "time": {
         "dawn": true,
@@ -977,10 +812,7 @@
       "national_id": "0107",
       "name_zh": "快拳郎",
       "habitats": [
-        {
-          "name": "健身區休息處",
-          "habitat_id": "024"
-        }
+        "024"
       ],
       "time": {
         "dawn": true,
@@ -1002,10 +834,7 @@
       "national_id": "0237",
       "name_zh": "戰舞郎",
       "habitats": [
-        {
-          "name": "健身區救護處",
-          "habitat_id": "026"
-        }
+        "026"
       ],
       "time": {
         "dawn": true,
@@ -1027,10 +856,7 @@
       "national_id": "0109",
       "name_zh": "瓦斯彈",
       "habitats": [
-        {
-          "name": "垃圾集中站",
-          "habitat_id": "063"
-        }
+        "063"
       ],
       "time": {
         "dawn": true,
@@ -1052,14 +878,8 @@
       "national_id": "0110",
       "name_zh": "雙彈瓦斯",
       "habitats": [
-        {
-          "name": "古色古香",
-          "habitat_id": "048"
-        },
-        {
-          "name": "垃圾集中站",
-          "habitat_id": "063"
-        }
+        "048",
+        "063"
       ],
       "time": {
         "dawn": true,
@@ -1081,10 +901,7 @@
       "national_id": "0114",
       "name_zh": "蔓藤怪",
       "habitats": [
-        {
-          "name": "滿是精靈球",
-          "habitat_id": "049"
-        }
+        "049"
       ],
       "time": {
         "dawn": true,
@@ -1107,10 +924,7 @@
       "national_id": "0465",
       "name_zh": "巨蔓藤",
       "habitats": [
-        {
-          "name": "綠色的長椅",
-          "habitat_id": "022"
-        }
+        "022"
       ],
       "time": {
         "dawn": true,
@@ -1133,10 +947,7 @@
       "national_id": "0465",
       "name_zh": "巨蔓藤博士",
       "habitats": [
-        {
-          "name": "博士的寶物",
-          "habitat_id": "043"
-        }
+        "043"
       ],
       "time": {
         "dawn": true,
@@ -1158,10 +969,7 @@
       "national_id": "0123",
       "name_zh": "飛天螳螂",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -1183,10 +991,7 @@
       "national_id": "0212",
       "name_zh": "巨鉗螳螂",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -1208,10 +1013,7 @@
       "national_id": "0127",
       "name_zh": "凱羅斯",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -1234,10 +1036,7 @@
       "national_id": "0129",
       "name_zh": "鯉魚王",
       "habitats": [
-        {
-          "name": "海釣場",
-          "habitat_id": "185"
-        }
+        "185"
       ],
       "time": {
         "dawn": true,
@@ -1259,10 +1058,7 @@
       "national_id": "0130",
       "name_zh": "暴鯉龍",
       "habitats": [
-        {
-          "name": "光照的瀑布",
-          "habitat_id": "146"
-        }
+        "146"
       ],
       "time": {
         "dawn": true,
@@ -1304,18 +1100,9 @@
       "national_id": "0163",
       "name_zh": "咕咕",
       "habitats": [
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        },
-        {
-          "name": "高崗的草叢",
-          "habitat_id": "006"
-        },
-        {
-          "name": "柔光伴好眠",
-          "habitat_id": "031"
-        }
+        "008",
+        "006",
+        "031"
       ],
       "time": {
         "dawn": false,
@@ -1338,14 +1125,8 @@
       "national_id": "0164",
       "name_zh": "貓頭夜鷹",
       "habitats": [
-        {
-          "name": "柔光伴好眠",
-          "habitat_id": "031"
-        },
-        {
-          "name": "高崗的草叢",
-          "habitat_id": "006"
-        }
+        "031",
+        "006"
       ],
       "time": {
         "dawn": false,
@@ -1368,10 +1149,7 @@
       "national_id": "0214",
       "name_zh": "赫拉克羅斯",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -1394,10 +1172,7 @@
       "national_id": "0313",
       "name_zh": "電螢蟲",
       "habitats": [
-        {
-          "name": "濕潤的花田",
-          "habitat_id": "010"
-        }
+        "010"
       ],
       "time": {
         "dawn": true,
@@ -1419,10 +1194,7 @@
       "national_id": "0314",
       "name_zh": "甜甜螢",
       "habitats": [
-        {
-          "name": "濕潤的花田",
-          "habitat_id": "010"
-        }
+        "010"
       ],
       "time": {
         "dawn": true,
@@ -1444,10 +1216,7 @@
       "national_id": "0316",
       "name_zh": "溶食獸",
       "habitats": [
-        {
-          "name": "餓肚肚用餐處",
-          "habitat_id": "019"
-        }
+        "019"
       ],
       "time": {
         "dawn": true,
@@ -1469,10 +1238,7 @@
       "national_id": "0317",
       "name_zh": "吞食獸",
       "habitats": [
-        {
-          "name": "充滿期待的餐桌",
-          "habitat_id": "120"
-        }
+        "120"
       ],
       "time": {
         "dawn": true,
@@ -1494,10 +1260,7 @@
       "national_id": "0331",
       "name_zh": "刺球仙人掌",
       "habitats": [
-        {
-          "name": "大晴天地點",
-          "habitat_id": "042"
-        }
+        "042"
       ],
       "time": {
         "dawn": true,
@@ -1519,10 +1282,7 @@
       "national_id": "0332",
       "name_zh": "夢歌仙人掌",
       "habitats": [
-        {
-          "name": "樹蔭的花田",
-          "habitat_id": "009"
-        }
+        "009"
       ],
       "time": {
         "dawn": false,
@@ -1545,10 +1305,7 @@
       "national_id": "0415",
       "name_zh": "三蜜蜂",
       "habitats": [
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        }
+        "008"
       ],
       "time": {
         "dawn": true,
@@ -1570,10 +1327,7 @@
       "national_id": "0416",
       "name_zh": "蜂女王",
       "habitats": [
-        {
-          "name": "整片的花海",
-          "habitat_id": "011"
-        }
+        "011"
       ],
       "time": {
         "dawn": true,
@@ -1596,10 +1350,7 @@
       "national_id": "0422",
       "name_zh": "無殼海兔（西海）",
       "habitats": [
-        {
-          "name": "指路牌",
-          "habitat_id": "027"
-        }
+        "027"
       ],
       "time": {
         "dawn": true,
@@ -1621,10 +1372,7 @@
       "national_id": "0422",
       "name_zh": "無殼海兔（東海）",
       "habitats": [
-        {
-          "name": "指路牌",
-          "habitat_id": "027"
-        }
+        "027"
       ],
       "time": {
         "dawn": true,
@@ -1647,10 +1395,7 @@
       "national_id": "0423",
       "name_zh": "海兔獸（西海）",
       "habitats": [
-        {
-          "name": "海釣場",
-          "habitat_id": "185"
-        }
+        "185"
       ],
       "time": {
         "dawn": true,
@@ -1673,10 +1418,7 @@
       "national_id": "0423",
       "name_zh": "海兔獸（東海）",
       "habitats": [
-        {
-          "name": "海釣場",
-          "habitat_id": "185"
-        }
+        "185"
       ],
       "time": {
         "dawn": true,
@@ -1700,18 +1442,9 @@
       "national_id": "0425",
       "name_zh": "飄飄球",
       "habitats": [
-        {
-          "name": "乘著暖風",
-          "habitat_id": "016"
-        },
-        {
-          "name": "布偶堆",
-          "habitat_id": "181"
-        },
-        {
-          "name": "布偶伴好眠",
-          "habitat_id": "030"
-        }
+        "016",
+        "181",
+        "030"
       ],
       "time": {
         "dawn": true,
@@ -1733,10 +1466,7 @@
       "national_id": "0426",
       "name_zh": "隨風球",
       "habitats": [
-        {
-          "name": "布偶堆",
-          "habitat_id": "181"
-        }
+        "181"
       ],
       "time": {
         "dawn": true,
@@ -1759,10 +1489,7 @@
       "national_id": "0529",
       "name_zh": "螺釘地鼠",
       "habitats": [
-        {
-          "name": "新鮮蔬菜田",
-          "habitat_id": "015"
-        }
+        "015"
       ],
       "time": {
         "dawn": true,
@@ -1784,10 +1511,7 @@
       "national_id": "0530",
       "name_zh": "龍頭地鼠",
       "habitats": [
-        {
-          "name": "新鮮蔬菜田",
-          "habitat_id": "015"
-        }
+        "015"
       ],
       "time": {
         "dawn": true,
@@ -1810,10 +1534,7 @@
       "national_id": "0532",
       "name_zh": "搬運小匠",
       "habitats": [
-        {
-          "name": "岩影的草叢",
-          "habitat_id": "003"
-        }
+        "003"
       ],
       "time": {
         "dawn": true,
@@ -1835,14 +1556,8 @@
       "national_id": "0533",
       "name_zh": "鐵骨土人",
       "habitats": [
-        {
-          "name": "裝上大貨物",
-          "habitat_id": "028"
-        },
-        {
-          "name": "岩影的草叢",
-          "habitat_id": "003"
-        }
+        "028",
+        "003"
       ],
       "time": {
         "dawn": true,
@@ -1864,10 +1579,7 @@
       "national_id": "0534",
       "name_zh": "修建老匠",
       "habitats": [
-        {
-          "name": "工地的發電廠",
-          "habitat_id": "177"
-        }
+        "177"
       ],
       "time": {
         "dawn": true,
@@ -1890,14 +1602,8 @@
       "national_id": "0607",
       "name_zh": "燭光靈",
       "habitats": [
-        {
-          "name": "詭異的墓前的供品",
-          "habitat_id": "033"
-        },
-        {
-          "name": "墓前的供品",
-          "habitat_id": "032"
-        }
+        "033",
+        "032"
       ],
       "time": {
         "dawn": true,
@@ -1919,14 +1625,8 @@
       "national_id": "0608",
       "name_zh": "燈火幽靈",
       "habitats": [
-        {
-          "name": "詭異的墓前的供品",
-          "habitat_id": "033"
-        },
-        {
-          "name": "墓前的供品",
-          "habitat_id": "032"
-        }
+        "033",
+        "032"
       ],
       "time": {
         "dawn": true,
@@ -1948,10 +1648,7 @@
       "national_id": "0609",
       "name_zh": "水晶燈火靈",
       "habitats": [
-        {
-          "name": "詭異的墓前的供品",
-          "habitat_id": "033"
-        }
+        "033"
       ],
       "time": {
         "dawn": true,
@@ -1973,14 +1670,8 @@
       "national_id": "0610",
       "name_zh": "牙牙",
       "habitats": [
-        {
-          "name": "樵夫工作區",
-          "habitat_id": "029"
-        },
-        {
-          "name": "有溫度感的圓木",
-          "habitat_id": "044"
-        }
+        "029",
+        "044"
       ],
       "time": {
         "dawn": true,
@@ -2002,14 +1693,8 @@
       "national_id": "0611",
       "name_zh": "斧牙龍",
       "habitats": [
-        {
-          "name": "樵夫工作區",
-          "habitat_id": "029"
-        },
-        {
-          "name": "有溫度感的圓木",
-          "habitat_id": "044"
-        }
+        "029",
+        "044"
       ],
       "time": {
         "dawn": true,
@@ -2031,14 +1716,8 @@
       "national_id": "0612",
       "name_zh": "雙斧戰龍",
       "habitats": [
-        {
-          "name": "樵夫工作區",
-          "habitat_id": "029"
-        },
-        {
-          "name": "有溫度感的圓木",
-          "habitat_id": "044"
-        }
+        "029",
+        "044"
       ],
       "time": {
         "dawn": true,
@@ -2061,14 +1740,8 @@
       "national_id": "0704",
       "name_zh": "黏黏寶",
       "habitats": [
-        {
-          "name": "求雨地點",
-          "habitat_id": "041"
-        },
-        {
-          "name": "樹蔭的花田",
-          "habitat_id": "009"
-        }
+        "041",
+        "009"
       ],
       "time": {
         "dawn": true,
@@ -2090,10 +1763,7 @@
       "national_id": "0705",
       "name_zh": "黏美兒",
       "habitats": [
-        {
-          "name": "濕潤的草叢",
-          "habitat_id": "004"
-        }
+        "004"
       ],
       "time": {
         "dawn": true,
@@ -2115,10 +1785,7 @@
       "national_id": "0706",
       "name_zh": "黏美龍",
       "habitats": [
-        {
-          "name": "樹果大集合",
-          "habitat_id": "045"
-        }
+        "045"
       ],
       "time": {
         "dawn": true,
@@ -2141,10 +1808,7 @@
       "national_id": "0845",
       "name_zh": "古月鳥",
       "habitats": [
-        {
-          "name": "濕潤的草叢",
-          "habitat_id": "004"
-        }
+        "004"
       ],
       "time": {
         "dawn": true,
@@ -2167,10 +1831,7 @@
       "national_id": "0172",
       "name_zh": "皮丘",
       "habitats": [
-        {
-          "name": "野餐氛圍桌",
-          "habitat_id": "020"
-        }
+        "020"
       ],
       "time": {
         "dawn": true,
@@ -2192,10 +1853,7 @@
       "national_id": "0025",
       "name_zh": "皮卡丘淺色",
       "habitats": [
-        {
-          "name": "睡一覺來康復",
-          "habitat_id": "081"
-        }
+        "081"
       ],
       "time": {
         "dawn": true,
@@ -2217,10 +1875,7 @@
       "national_id": "0025",
       "name_zh": "皮卡丘",
       "habitats": [
-        {
-          "name": "野餐氛圍桌",
-          "habitat_id": "020"
-        }
+        "020"
       ],
       "time": {
         "dawn": true,
@@ -2242,10 +1897,7 @@
       "national_id": "0026",
       "name_zh": "雷丘",
       "habitats": [
-        {
-          "name": "大自然中的集市",
-          "habitat_id": "176"
-        }
+        "176"
       ],
       "time": {
         "dawn": true,
@@ -2268,14 +1920,8 @@
       "national_id": "0041",
       "name_zh": "超音蝠",
       "habitats": [
-        {
-          "name": "樹蔭的黃色草叢",
-          "habitat_id": "051"
-        },
-        {
-          "name": "公園的長椅",
-          "habitat_id": "066"
-        }
+        "051",
+        "066"
       ],
       "time": {
         "dawn": false,
@@ -2297,10 +1943,7 @@
       "national_id": "0042",
       "name_zh": "大嘴蝠",
       "habitats": [
-        {
-          "name": "樹蔭的黃色草叢",
-          "habitat_id": "051"
-        }
+        "051"
       ],
       "time": {
         "dawn": false,
@@ -2322,14 +1965,8 @@
       "national_id": "0169",
       "name_zh": "叉字蝠",
       "habitats": [
-        {
-          "name": "垃圾場",
-          "habitat_id": "065"
-        },
-        {
-          "name": "高崗的黃色草叢",
-          "habitat_id": "052"
-        }
+        "065",
+        "052"
       ],
       "time": {
         "dawn": false,
@@ -2352,14 +1989,8 @@
       "national_id": "0052",
       "name_zh": "喵喵",
       "habitats": [
-        {
-          "name": "在櫃檯結帳",
-          "habitat_id": "091"
-        },
-        {
-          "name": "休息處",
-          "habitat_id": "061"
-        }
+        "091",
+        "061"
       ],
       "time": {
         "dawn": true,
@@ -2381,10 +2012,7 @@
       "national_id": "0053",
       "name_zh": "貓老大",
       "habitats": [
-        {
-          "name": "邪惡組織的基地",
-          "habitat_id": "179"
-        }
+        "179"
       ],
       "time": {
         "dawn": true,
@@ -2407,10 +2035,7 @@
       "national_id": "0054",
       "name_zh": "可達鴨",
       "habitats": [
-        {
-          "name": "溫泉沖洗區",
-          "habitat_id": "078"
-        }
+        "078"
       ],
       "time": {
         "dawn": true,
@@ -2432,10 +2057,7 @@
       "national_id": "0055",
       "name_zh": "哥達鴨",
       "habitats": [
-        {
-          "name": "溫泉沖洗區",
-          "habitat_id": "078"
-        }
+        "078"
       ],
       "time": {
         "dawn": true,
@@ -2457,14 +2079,8 @@
       "national_id": "0058",
       "name_zh": "卡蒂狗",
       "habitats": [
-        {
-          "name": "在度假區準備做飯",
-          "habitat_id": "079"
-        },
-        {
-          "name": "來收拾吧",
-          "habitat_id": "062"
-        }
+        "079",
+        "062"
       ],
       "time": {
         "dawn": true,
@@ -2487,14 +2103,8 @@
       "national_id": "0059",
       "name_zh": "風速狗",
       "habitats": [
-        {
-          "name": "熔岩釣場",
-          "habitat_id": "188"
-        },
-        {
-          "name": "小小博物館",
-          "habitat_id": "129"
-        }
+        "188",
+        "129"
       ],
       "time": {
         "dawn": true,
@@ -2517,10 +2127,7 @@
       "national_id": "0083",
       "name_zh": "大蔥鴨",
       "habitats": [
-        {
-          "name": "打包好了",
-          "habitat_id": "080"
-        }
+        "080"
       ],
       "time": {
         "dawn": true,
@@ -2543,10 +2150,7 @@
       "national_id": "0088",
       "name_zh": "臭泥",
       "habitats": [
-        {
-          "name": "沼釣場",
-          "habitat_id": "186"
-        }
+        "186"
       ],
       "time": {
         "dawn": true,
@@ -2568,10 +2172,7 @@
       "national_id": "0089",
       "name_zh": "臭臭泥",
       "habitats": [
-        {
-          "name": "沼釣場",
-          "habitat_id": "186"
-        }
+        "186"
       ],
       "time": {
         "dawn": true,
@@ -2593,10 +2194,7 @@
       "national_id": "0092",
       "name_zh": "鬼斯",
       "habitats": [
-        {
-          "name": "詭異的書房",
-          "habitat_id": "089"
-        }
+        "089"
       ],
       "time": {
         "dawn": false,
@@ -2619,14 +2217,8 @@
       "national_id": "0093",
       "name_zh": "鬼斯通",
       "habitats": [
-        {
-          "name": "小心機關",
-          "habitat_id": "073"
-        },
-        {
-          "name": "詭異的書房",
-          "habitat_id": "089"
-        }
+        "073",
+        "089"
       ],
       "time": {
         "dawn": false,
@@ -2649,10 +2241,7 @@
       "national_id": "0094",
       "name_zh": "耿鬼",
       "habitats": [
-        {
-          "name": "小心機關",
-          "habitat_id": "073"
-        }
+        "073"
       ],
       "time": {
         "dawn": false,
@@ -2675,14 +2264,8 @@
       "national_id": "0100",
       "name_zh": "霹靂電球",
       "habitats": [
-        {
-          "name": "水手過家家",
-          "habitat_id": "090"
-        },
-        {
-          "name": "公園的長椅",
-          "habitat_id": "066"
-        }
+        "090",
+        "066"
       ],
       "time": {
         "dawn": true,
@@ -2705,14 +2288,8 @@
       "national_id": "0101",
       "name_zh": "頑皮雷彈",
       "habitats": [
-        {
-          "name": "水手過家家",
-          "habitat_id": "090"
-        },
-        {
-          "name": "公園的長椅",
-          "habitat_id": "066"
-        }
+        "090",
+        "066"
       ],
       "time": {
         "dawn": true,
@@ -2735,14 +2312,8 @@
       "national_id": "0102",
       "name_zh": "蛋蛋",
       "habitats": [
-        {
-          "name": "沙灘的樹蔭",
-          "habitat_id": "059"
-        },
-        {
-          "name": "南國氛圍",
-          "habitat_id": "057"
-        }
+        "059",
+        "057"
       ],
       "time": {
         "dawn": true,
@@ -2765,14 +2336,8 @@
       "national_id": "0103",
       "name_zh": "椰蛋樹",
       "habitats": [
-        {
-          "name": "沙灘的樹蔭",
-          "habitat_id": "059"
-        },
-        {
-          "name": "南國氛圍",
-          "habitat_id": "057"
-        }
+        "059",
+        "057"
       ],
       "time": {
         "dawn": true,
@@ -2795,14 +2360,8 @@
       "national_id": "0440",
       "name_zh": "小福蛋",
       "habitats": [
-        {
-          "name": "在櫃檯結帳",
-          "habitat_id": "091"
-        },
-        {
-          "name": "鬧鐘床位",
-          "habitat_id": "082"
-        }
+        "091",
+        "082"
       ],
       "time": {
         "dawn": true,
@@ -2824,10 +2383,7 @@
       "national_id": "0113",
       "name_zh": "吉利蛋",
       "habitats": [
-        {
-          "name": "睡一覺來康復",
-          "habitat_id": "081"
-        }
+        "081"
       ],
       "time": {
         "dawn": true,
@@ -2849,10 +2405,7 @@
       "national_id": "0242",
       "name_zh": "幸福蛋",
       "habitats": [
-        {
-          "name": "超可愛空間",
-          "habitat_id": "095"
-        }
+        "095"
       ],
       "time": {
         "dawn": true,
@@ -2875,10 +2428,7 @@
       "national_id": "0239",
       "name_zh": "電擊怪",
       "habitats": [
-        {
-          "name": "自動售貨機套組",
-          "habitat_id": "084"
-        }
+        "084"
       ],
       "time": {
         "dawn": true,
@@ -2900,14 +2450,8 @@
       "national_id": "0125",
       "name_zh": "電擊獸",
       "habitats": [
-        {
-          "name": "聚光舞台",
-          "habitat_id": "072"
-        },
-        {
-          "name": "好多垃圾桶",
-          "habitat_id": "064"
-        }
+        "072",
+        "064"
       ],
       "time": {
         "dawn": true,
@@ -2929,14 +2473,8 @@
       "national_id": "0466",
       "name_zh": "電擊魔獸",
       "habitats": [
-        {
-          "name": "聚光舞台",
-          "habitat_id": "072"
-        },
-        {
-          "name": "自動售貨機套組",
-          "habitat_id": "084"
-        }
+        "072",
+        "084"
       ],
       "time": {
         "dawn": true,
@@ -2959,10 +2497,7 @@
       "national_id": "0131",
       "name_zh": "拉普拉斯",
       "habitats": [
-        {
-          "name": "熱帶海濱",
-          "habitat_id": "060"
-        }
+        "060"
       ],
       "time": {
         "dawn": true,
@@ -2984,14 +2519,8 @@
       "national_id": "0446",
       "name_zh": "小卡比獸",
       "habitats": [
-        {
-          "name": "樹蔭下熟睡的卡比獸",
-          "habitat_id": "047"
-        },
-        {
-          "name": "布偶伴好眠",
-          "habitat_id": "030"
-        }
+        "047",
+        "030"
       ],
       "time": {
         "dawn": true,
@@ -3013,10 +2542,7 @@
       "national_id": "0143",
       "name_zh": "卡比獸萌苔",
       "habitats": [
-        {
-          "name": "美味的供品",
-          "habitat_id": "093"
-        }
+        "093"
       ],
       "time": {
         "dawn": true,
@@ -3038,14 +2564,8 @@
       "national_id": "0143",
       "name_zh": "卡比獸",
       "habitats": [
-        {
-          "name": "樹蔭下熟睡的卡比獸",
-          "habitat_id": "047"
-        },
-        {
-          "name": "古色古香",
-          "habitat_id": "048"
-        }
+        "047",
+        "048"
       ],
       "time": {
         "dawn": true,
@@ -3068,10 +2588,7 @@
       "national_id": "0167",
       "name_zh": "圓絲蛛",
       "habitats": [
-        {
-          "name": "黃色的草叢",
-          "habitat_id": "050"
-        }
+        "050"
       ],
       "time": {
         "dawn": true,
@@ -3093,10 +2610,7 @@
       "national_id": "0168",
       "name_zh": "阿利多斯",
       "habitats": [
-        {
-          "name": "黃色的草叢",
-          "habitat_id": "050"
-        }
+        "050"
       ],
       "time": {
         "dawn": true,
@@ -3118,14 +2632,8 @@
       "national_id": "0179",
       "name_zh": "咩利羊",
       "habitats": [
-        {
-          "name": "織毛線",
-          "habitat_id": "077"
-        },
-        {
-          "name": "草叢的自動售貨機",
-          "habitat_id": "055"
-        }
+        "077",
+        "055"
       ],
       "time": {
         "dawn": true,
@@ -3148,14 +2656,8 @@
       "national_id": "0180",
       "name_zh": "茸茸羊",
       "habitats": [
-        {
-          "name": "夜晚的慶典會場",
-          "habitat_id": "074"
-        },
-        {
-          "name": "織毛線",
-          "habitat_id": "077"
-        }
+        "074",
+        "077"
       ],
       "time": {
         "dawn": true,
@@ -3178,10 +2680,7 @@
       "national_id": "0181",
       "name_zh": "電龍",
       "habitats": [
-        {
-          "name": "自然風生活",
-          "habitat_id": "097"
-        }
+        "097"
       ],
       "time": {
         "dawn": true,
@@ -3204,14 +2703,8 @@
       "national_id": "0298",
       "name_zh": "露力麗",
       "habitats": [
-        {
-          "name": "濕潤的黃色草叢",
-          "habitat_id": "053"
-        },
-        {
-          "name": "來收拾吧",
-          "habitat_id": "062"
-        }
+        "053",
+        "062"
       ],
       "time": {
         "dawn": true,
@@ -3234,14 +2727,8 @@
       "national_id": "0183",
       "name_zh": "瑪力露",
       "habitats": [
-        {
-          "name": "碼頭",
-          "habitat_id": "088"
-        },
-        {
-          "name": "濕潤的黃色草叢",
-          "habitat_id": "053"
-        }
+        "088",
+        "053"
       ],
       "time": {
         "dawn": true,
@@ -3264,10 +2751,7 @@
       "national_id": "0184",
       "name_zh": "瑪力露麗",
       "habitats": [
-        {
-          "name": "碼頭",
-          "habitat_id": "088"
-        }
+        "088"
       ],
       "time": {
         "dawn": true,
@@ -3290,10 +2774,7 @@
       "national_id": "0194",
       "name_zh": "烏波帕底亞的樣子",
       "habitats": [
-        {
-          "name": "沼澤的草叢",
-          "habitat_id": "054"
-        }
+        "054"
       ],
       "time": {
         "dawn": true,
@@ -3315,14 +2796,8 @@
       "national_id": "0980",
       "name_zh": "土王",
       "habitats": [
-        {
-          "name": "沼釣場",
-          "habitat_id": "186"
-        },
-        {
-          "name": "沼澤的草叢",
-          "habitat_id": "054"
-        }
+        "186",
+        "054"
       ],
       "time": {
         "dawn": true,
@@ -3345,10 +2820,7 @@
       "national_id": "0235",
       "name_zh": "圖圖犬彩繪匠",
       "habitats": [
-        {
-          "name": "小小畫室",
-          "habitat_id": "092"
-        }
+        "092"
       ],
       "time": {
         "dawn": true,
@@ -3370,10 +2842,7 @@
       "national_id": "0255",
       "name_zh": "火稚雞",
       "habitats": [
-        {
-          "name": "嘰嘰咕咕大餐",
-          "habitat_id": "069"
-        }
+        "069"
       ],
       "time": {
         "dawn": true,
@@ -3395,14 +2864,8 @@
       "national_id": "0256",
       "name_zh": "力壯雞",
       "habitats": [
-        {
-          "name": "火力發電廠",
-          "habitat_id": "087"
-        },
-        {
-          "name": "在度假區準備做飯",
-          "habitat_id": "079"
-        }
+        "087",
+        "079"
       ],
       "time": {
         "dawn": true,
@@ -3425,14 +2888,8 @@
       "national_id": "0257",
       "name_zh": "火焰雞",
       "habitats": [
-        {
-          "name": "火力發電廠",
-          "habitat_id": "087"
-        },
-        {
-          "name": "嘰嘰咕咕大餐",
-          "habitat_id": "069"
-        }
+        "087",
+        "069"
       ],
       "time": {
         "dawn": true,
@@ -3455,14 +2912,8 @@
       "national_id": "0278",
       "name_zh": "長翅鷗",
       "habitats": [
-        {
-          "name": "高崗的黃色草叢",
-          "habitat_id": "052"
-        },
-        {
-          "name": "風之花田",
-          "habitat_id": "058"
-        }
+        "052",
+        "058"
       ],
       "time": {
         "dawn": true,
@@ -3485,14 +2936,8 @@
       "national_id": "0279",
       "name_zh": "大嘴鷗",
       "habitats": [
-        {
-          "name": "風之花田",
-          "habitat_id": "058"
-        },
-        {
-          "name": "高崗的黃色草叢",
-          "habitat_id": "052"
-        }
+        "058",
+        "052"
       ],
       "time": {
         "dawn": true,
@@ -3515,14 +2960,8 @@
       "national_id": "0296",
       "name_zh": "幕下力士",
       "habitats": [
-        {
-          "name": "樹蔭的黃色草叢",
-          "habitat_id": "051"
-        },
-        {
-          "name": "打包好了",
-          "habitat_id": "080"
-        }
+        "051",
+        "080"
       ],
       "time": {
         "dawn": true,
@@ -3545,14 +2984,8 @@
       "national_id": "0297",
       "name_zh": "鐵掌力士",
       "habitats": [
-        {
-          "name": "樹蔭的黃色草叢",
-          "habitat_id": "051"
-        },
-        {
-          "name": "打包好了",
-          "habitat_id": "080"
-        }
+        "051",
+        "080"
       ],
       "time": {
         "dawn": true,
@@ -3575,10 +3008,7 @@
       "national_id": "0359",
       "name_zh": "阿勃梭魯",
       "habitats": [
-        {
-          "name": "歡迎來到度假區",
-          "habitat_id": "096"
-        }
+        "096"
       ],
       "time": {
         "dawn": true,
@@ -3600,10 +3030,7 @@
       "national_id": "0393",
       "name_zh": "波加曼",
       "habitats": [
-        {
-          "name": "濕潤的黃色草叢",
-          "habitat_id": "053"
-        }
+        "053"
       ],
       "time": {
         "dawn": true,
@@ -3625,14 +3052,8 @@
       "national_id": "0394",
       "name_zh": "波皇子",
       "habitats": [
-        {
-          "name": "水力發電廠",
-          "habitat_id": "086"
-        },
-        {
-          "name": "濕潤的黃色草叢",
-          "habitat_id": "053"
-        }
+        "086",
+        "053"
       ],
       "time": {
         "dawn": true,
@@ -3655,14 +3076,8 @@
       "national_id": "0395",
       "name_zh": "帝王拿波",
       "habitats": [
-        {
-          "name": "料理送來了",
-          "habitat_id": "068"
-        },
-        {
-          "name": "水力發電廠",
-          "habitat_id": "086"
-        }
+        "068",
+        "086"
       ],
       "time": {
         "dawn": true,
@@ -3685,10 +3100,7 @@
       "national_id": "0531",
       "name_zh": "差不多娃娃",
       "habitats": [
-        {
-          "name": "在櫃檯結帳",
-          "habitat_id": "091"
-        }
+        "091"
       ],
       "time": {
         "dawn": true,
@@ -3710,10 +3122,7 @@
       "national_id": "0568",
       "name_zh": "破破袋",
       "habitats": [
-        {
-          "name": "垃圾集中站",
-          "habitat_id": "063"
-        }
+        "063"
       ],
       "time": {
         "dawn": true,
@@ -3735,10 +3144,7 @@
       "national_id": "0569",
       "name_zh": "灰塵山",
       "habitats": [
-        {
-          "name": "垃圾集中站",
-          "habitat_id": "063"
-        }
+        "063"
       ],
       "time": {
         "dawn": true,
@@ -3761,10 +3167,7 @@
       "national_id": "0570",
       "name_zh": "索羅亞",
       "habitats": [
-        {
-          "name": "涼爽的花田",
-          "habitat_id": "056"
-        }
+        "056"
       ],
       "time": {
         "dawn": true,
@@ -3786,14 +3189,8 @@
       "national_id": "0571",
       "name_zh": "索羅亞克",
       "habitats": [
-        {
-          "name": "小心機關",
-          "habitat_id": "073"
-        },
-        {
-          "name": "涼爽的花田",
-          "habitat_id": "056"
-        }
+        "073",
+        "056"
       ],
       "time": {
         "dawn": true,
@@ -3816,14 +3213,8 @@
       "national_id": "0572",
       "name_zh": "泡沫栗鼠",
       "habitats": [
-        {
-          "name": "更衣區",
-          "habitat_id": "075"
-        },
-        {
-          "name": "打扮時不許偷看",
-          "habitat_id": "076"
-        }
+        "075",
+        "076"
       ],
       "time": {
         "dawn": true,
@@ -3845,10 +3236,7 @@
       "national_id": "0573",
       "name_zh": "奇諾栗鼠",
       "habitats": [
-        {
-          "name": "打扮時不許偷看",
-          "habitat_id": "076"
-        }
+        "076"
       ],
       "time": {
         "dawn": true,
@@ -3871,14 +3259,8 @@
       "national_id": "0736",
       "name_zh": "強顎雞母蟲",
       "habitats": [
-        {
-          "name": "黃色的草叢",
-          "habitat_id": "050"
-        },
-        {
-          "name": "在自動售貨機旁小憩",
-          "habitat_id": "083"
-        }
+        "050",
+        "083"
       ],
       "time": {
         "dawn": true,
@@ -3900,10 +3282,7 @@
       "national_id": "0737",
       "name_zh": "蟲電寶",
       "habitats": [
-        {
-          "name": "在自動售貨機旁小憩",
-          "habitat_id": "083"
-        }
+        "083"
       ],
       "time": {
         "dawn": true,
@@ -3926,10 +3305,7 @@
       "national_id": "0738",
       "name_zh": "鍬農炮蟲",
       "habitats": [
-        {
-          "name": "樹蔭的花田",
-          "habitat_id": "009"
-        }
+        "009"
       ],
       "time": {
         "dawn": true,
@@ -3952,10 +3328,7 @@
       "national_id": "0778",
       "name_zh": "謎擬Ｑ",
       "habitats": [
-        {
-          "name": "皮卡丘空間",
-          "habitat_id": "094"
-        }
+        "094"
       ],
       "time": {
         "dawn": true,
@@ -3977,14 +3350,8 @@
       "national_id": "0921",
       "name_zh": "布撥",
       "habitats": [
-        {
-          "name": "涼爽的花田",
-          "habitat_id": "056"
-        },
-        {
-          "name": "餓肚肚餐廳",
-          "habitat_id": "067"
-        }
+        "056",
+        "067"
       ],
       "time": {
         "dawn": true,
@@ -4006,14 +3373,8 @@
       "national_id": "0922",
       "name_zh": "布土撥",
       "habitats": [
-        {
-          "name": "餓肚肚餐廳",
-          "habitat_id": "067"
-        },
-        {
-          "name": "茶水休息區",
-          "habitat_id": "070"
-        }
+        "067",
+        "070"
       ],
       "time": {
         "dawn": true,
@@ -4036,10 +3397,7 @@
       "national_id": "0923",
       "name_zh": "巴布土撥",
       "habitats": [
-        {
-          "name": "茶水休息區",
-          "habitat_id": "070"
-        }
+        "070"
       ],
       "time": {
         "dawn": true,
@@ -4062,10 +3420,7 @@
       "national_id": "0978",
       "name_zh": "米立龍（上弓姿勢）",
       "habitats": [
-        {
-          "name": "沙灘套組",
-          "habitat_id": "071"
-        }
+        "071"
       ],
       "time": {
         "dawn": true,
@@ -4087,10 +3442,7 @@
       "national_id": "0978",
       "name_zh": "米立龍（下垂姿勢）",
       "habitats": [
-        {
-          "name": "沙灘套組",
-          "habitat_id": "071"
-        }
+        "071"
       ],
       "time": {
         "dawn": true,
@@ -4114,10 +3466,7 @@
       "national_id": "0978",
       "name_zh": "米立龍（平挺姿勢）",
       "habitats": [
-        {
-          "name": "沙灘套組",
-          "habitat_id": "071"
-        }
+        "071"
       ],
       "time": {
         "dawn": true,
@@ -4141,10 +3490,7 @@
       "national_id": "0023",
       "name_zh": "阿柏蛇",
       "habitats": [
-        {
-          "name": "濕潤的優雅花田",
-          "habitat_id": "106"
-        }
+        "106"
       ],
       "time": {
         "dawn": true,
@@ -4166,10 +3512,7 @@
       "national_id": "0024",
       "name_zh": "阿柏怪",
       "habitats": [
-        {
-          "name": "濕潤的優雅花田",
-          "habitat_id": "106"
-        }
+        "106"
       ],
       "time": {
         "dawn": true,
@@ -4191,10 +3534,7 @@
       "national_id": "0173",
       "name_zh": "皮寶寶",
       "habitats": [
-        {
-          "name": "優雅的花田",
-          "habitat_id": "104"
-        }
+        "104"
       ],
       "time": {
         "dawn": false,
@@ -4216,14 +3556,8 @@
       "national_id": "0035",
       "name_zh": "皮皮",
       "habitats": [
-        {
-          "name": "銅像觀光景點",
-          "habitat_id": "131"
-        },
-        {
-          "name": "優雅的花田",
-          "habitat_id": "104"
-        }
+        "131",
+        "104"
       ],
       "time": {
         "dawn": false,
@@ -4245,14 +3579,8 @@
       "national_id": "0036",
       "name_zh": "皮可西",
       "habitats": [
-        {
-          "name": "銅像觀光景點",
-          "habitat_id": "131"
-        },
-        {
-          "name": "優雅的花田",
-          "habitat_id": "104"
-        }
+        "131",
+        "104"
       ],
       "time": {
         "dawn": false,
@@ -4275,10 +3603,7 @@
       "national_id": "0174",
       "name_zh": "寶寶丁",
       "habitats": [
-        {
-          "name": "花田裡的樹樁舞台",
-          "habitat_id": "107"
-        }
+        "107"
       ],
       "time": {
         "dawn": true,
@@ -4300,14 +3625,8 @@
       "national_id": "0039",
       "name_zh": "胖丁",
       "habitats": [
-        {
-          "name": "獨唱舞台",
-          "habitat_id": "126"
-        },
-        {
-          "name": "花田裡的樹樁舞台",
-          "habitat_id": "107"
-        }
+        "126",
+        "107"
       ],
       "time": {
         "dawn": true,
@@ -4329,10 +3648,7 @@
       "national_id": "0040",
       "name_zh": "胖可丁",
       "habitats": [
-        {
-          "name": "獨唱舞台",
-          "habitat_id": "126"
-        }
+        "126"
       ],
       "time": {
         "dawn": true,
@@ -4355,14 +3671,8 @@
       "national_id": "0050",
       "name_zh": "地鼠",
       "habitats": [
-        {
-          "name": "在貨物擺放處偷吃",
-          "habitat_id": "119"
-        },
-        {
-          "name": "樹蔭的紅色草叢",
-          "habitat_id": "099"
-        }
+        "119",
+        "099"
       ],
       "time": {
         "dawn": true,
@@ -4384,14 +3694,8 @@
       "national_id": "0051",
       "name_zh": "三地鼠",
       "habitats": [
-        {
-          "name": "大家一起開派對",
-          "habitat_id": "123"
-        },
-        {
-          "name": "樹蔭的紅色草叢",
-          "habitat_id": "099"
-        }
+        "123",
+        "099"
       ],
       "time": {
         "dawn": true,
@@ -4414,10 +3718,7 @@
       "national_id": "0066",
       "name_zh": "腕力",
       "habitats": [
-        {
-          "name": "岩影的草叢",
-          "habitat_id": "003"
-        }
+        "003"
       ],
       "time": {
         "dawn": true,
@@ -4440,14 +3741,8 @@
       "national_id": "0067",
       "name_zh": "豪力",
       "habitats": [
-        {
-          "name": "草叢訓練場",
-          "habitat_id": "103"
-        },
-        {
-          "name": "跟著節奏一二三",
-          "habitat_id": "127"
-        }
+        "103",
+        "127"
       ],
       "time": {
         "dawn": true,
@@ -4470,14 +3765,8 @@
       "national_id": "0068",
       "name_zh": "怪力",
       "habitats": [
-        {
-          "name": "咚隆咣啷鋼架工程",
-          "habitat_id": "117"
-        },
-        {
-          "name": "草叢訓練場",
-          "habitat_id": "103"
-        }
+        "117",
+        "103"
       ],
       "time": {
         "dawn": true,
@@ -4500,10 +3789,7 @@
       "national_id": "0074",
       "name_zh": "小拳石",
       "habitats": [
-        {
-          "name": "綠色的草叢",
-          "habitat_id": "001"
-        }
+        "001"
       ],
       "time": {
         "dawn": true,
@@ -4525,10 +3811,7 @@
       "national_id": "0075",
       "name_zh": "隆隆石",
       "habitats": [
-        {
-          "name": "長滿苔蘚的岩石",
-          "habitat_id": "111"
-        }
+        "111"
       ],
       "time": {
         "dawn": true,
@@ -4550,10 +3833,7 @@
       "national_id": "0076",
       "name_zh": "隆隆岩",
       "habitats": [
-        {
-          "name": "長滿苔蘚的岩石",
-          "habitat_id": "111"
-        }
+        "111"
       ],
       "time": {
         "dawn": true,
@@ -4576,10 +3856,7 @@
       "national_id": "0240",
       "name_zh": "鴨嘴寶寶",
       "habitats": [
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        }
+        "008"
       ],
       "time": {
         "dawn": true,
@@ -4601,10 +3878,7 @@
       "national_id": "0126",
       "name_zh": "鴨嘴火獸",
       "habitats": [
-        {
-          "name": "挖掘和煅燒",
-          "habitat_id": "116"
-        }
+        "116"
       ],
       "time": {
         "dawn": true,
@@ -4626,10 +3900,7 @@
       "national_id": "0467",
       "name_zh": "鴨嘴炎獸",
       "habitats": [
-        {
-          "name": "迷你廚房",
-          "habitat_id": "122"
-        }
+        "122"
       ],
       "time": {
         "dawn": true,
@@ -4652,10 +3923,7 @@
       "national_id": "0438",
       "name_zh": "盆才怪",
       "habitats": [
-        {
-          "name": "樹蔭的紅色草叢",
-          "habitat_id": "099"
-        }
+        "099"
       ],
       "time": {
         "dawn": true,
@@ -4677,14 +3945,8 @@
       "national_id": "0185",
       "name_zh": "樹才怪",
       "habitats": [
-        {
-          "name": "大家一起開派對",
-          "habitat_id": "123"
-        },
-        {
-          "name": "樹蔭的紅色草叢",
-          "habitat_id": "099"
-        }
+        "123",
+        "099"
       ],
       "time": {
         "dawn": true,
@@ -4706,14 +3968,8 @@
       "national_id": "0198",
       "name_zh": "黑暗鴉",
       "habitats": [
-        {
-          "name": "樹蔭的優雅花田",
-          "habitat_id": "105"
-        },
-        {
-          "name": "高崗的紅色草叢",
-          "habitat_id": "102"
-        }
+        "105",
+        "102"
       ],
       "time": {
         "dawn": false,
@@ -4736,14 +3992,8 @@
       "national_id": "0430",
       "name_zh": "烏鴉頭頭",
       "habitats": [
-        {
-          "name": "高崗的紅色草叢",
-          "habitat_id": "102"
-        },
-        {
-          "name": "鳴唱會",
-          "habitat_id": "125"
-        }
+        "102",
+        "125"
       ],
       "time": {
         "dawn": false,
@@ -4766,10 +4016,7 @@
       "national_id": "0246",
       "name_zh": "幼基拉斯",
       "habitats": [
-        {
-          "name": "滿是苔蘚",
-          "habitat_id": "110"
-        }
+        "110"
       ],
       "time": {
         "dawn": true,
@@ -4792,10 +4039,7 @@
       "national_id": "0247",
       "name_zh": "沙基拉斯",
       "habitats": [
-        {
-          "name": "樹蔭的粉紅色草叢",
-          "habitat_id": "138"
-        }
+        "138"
       ],
       "time": {
         "dawn": true,
@@ -4818,14 +4062,8 @@
       "national_id": "0248",
       "name_zh": "班基拉斯",
       "habitats": [
-        {
-          "name": "種田不容易",
-          "habitat_id": "108"
-        },
-        {
-          "name": "滿是苔蘚",
-          "habitat_id": "110"
-        }
+        "108",
+        "110"
       ],
       "time": {
         "dawn": true,
@@ -4848,18 +4086,9 @@
       "national_id": "0270",
       "name_zh": "蓮葉童子",
       "habitats": [
-        {
-          "name": "溫泉釣場",
-          "habitat_id": "187"
-        },
-        {
-          "name": "浮浮水窪",
-          "habitat_id": "109"
-        },
-        {
-          "name": "濕潤的紅色草叢",
-          "habitat_id": "101"
-        }
+        "187",
+        "109",
+        "101"
       ],
       "time": {
         "dawn": true,
@@ -4881,14 +4110,8 @@
       "national_id": "0271",
       "name_zh": "蓮帽小童",
       "habitats": [
-        {
-          "name": "溫泉釣場",
-          "habitat_id": "187"
-        },
-        {
-          "name": "濕潤的紅色草叢",
-          "habitat_id": "101"
-        }
+        "187",
+        "101"
       ],
       "time": {
         "dawn": true,
@@ -4910,10 +4133,7 @@
       "national_id": "0272",
       "name_zh": "樂天河童",
       "habitats": [
-        {
-          "name": "浮浮水窪",
-          "habitat_id": "109"
-        }
+        "109"
       ],
       "time": {
         "dawn": true,
@@ -4936,10 +4156,7 @@
       "national_id": "0303",
       "name_zh": "大嘴娃",
       "habitats": [
-        {
-          "name": "在櫃檯結帳",
-          "habitat_id": "091"
-        }
+        "091"
       ],
       "time": {
         "dawn": true,
@@ -4962,10 +4179,7 @@
       "national_id": "0324",
       "name_zh": "煤炭龜",
       "habitats": [
-        {
-          "name": "綠苔溫泉",
-          "habitat_id": "112"
-        }
+        "112"
       ],
       "time": {
         "dawn": true,
@@ -4987,14 +4201,8 @@
       "national_id": "0401",
       "name_zh": "圓法師",
       "habitats": [
-        {
-          "name": "音樂與閱讀",
-          "habitat_id": "128"
-        },
-        {
-          "name": "紅色的草叢",
-          "habitat_id": "098"
-        }
+        "128",
+        "098"
       ],
       "time": {
         "dawn": true,
@@ -5016,14 +4224,8 @@
       "national_id": "0402",
       "name_zh": "音箱蟀",
       "habitats": [
-        {
-          "name": "音樂與閱讀",
-          "habitat_id": "128"
-        },
-        {
-          "name": "紅色的草叢",
-          "habitat_id": "098"
-        }
+        "128",
+        "098"
       ],
       "time": {
         "dawn": true,
@@ -5045,14 +4247,8 @@
       "national_id": "0441",
       "name_zh": "聒噪鳥",
       "habitats": [
-        {
-          "name": "高崗的紅色草叢",
-          "habitat_id": "102"
-        },
-        {
-          "name": "鳴唱會",
-          "habitat_id": "125"
-        }
+        "102",
+        "125"
       ],
       "time": {
         "dawn": true,
@@ -5075,14 +4271,8 @@
       "national_id": "0447",
       "name_zh": "利歐路",
       "habitats": [
-        {
-          "name": "跟著節奏一二三",
-          "habitat_id": "127"
-        },
-        {
-          "name": "紅色的草叢",
-          "habitat_id": "098"
-        }
+        "127",
+        "098"
       ],
       "time": {
         "dawn": true,
@@ -5104,10 +4294,7 @@
       "national_id": "0448",
       "name_zh": "路卡利歐",
       "habitats": [
-        {
-          "name": "跟著節奏一二三",
-          "habitat_id": "127"
-        }
+        "127"
       ],
       "time": {
         "dawn": true,
@@ -5129,10 +4316,7 @@
       "national_id": "0479",
       "name_zh": "洛托姆立體音響洛托姆",
       "habitats": [
-        {
-          "name": "音樂與閱讀",
-          "habitat_id": "128"
-        }
+        "128"
       ],
       "time": {
         "dawn": true,
@@ -5154,10 +4338,7 @@
       "national_id": "0636",
       "name_zh": "燃燒蟲",
       "habitats": [
-        {
-          "name": "樹蔭的優雅花田",
-          "habitat_id": "105"
-        }
+        "105"
       ],
       "time": {
         "dawn": true,
@@ -5180,14 +4361,8 @@
       "national_id": "0637",
       "name_zh": "火神蛾",
       "habitats": [
-        {
-          "name": "熔岩熔岩熱乎乎",
-          "habitat_id": "115"
-        },
-        {
-          "name": "樹蔭的優雅花田",
-          "habitat_id": "105"
-        }
+        "115",
+        "105"
       ],
       "time": {
         "dawn": true,
@@ -5210,10 +4385,7 @@
       "national_id": "0722",
       "name_zh": "木木梟",
       "habitats": [
-        {
-          "name": "新鮮蔬菜田",
-          "habitat_id": "015"
-        }
+        "015"
       ],
       "time": {
         "dawn": true,
@@ -5235,10 +4407,7 @@
       "national_id": "0723",
       "name_zh": "投羽梟",
       "habitats": [
-        {
-          "name": "三角形樹蔭的岩石和草叢",
-          "habitat_id": "100"
-        }
+        "100"
       ],
       "time": {
         "dawn": true,
@@ -5261,14 +4430,8 @@
       "national_id": "0724",
       "name_zh": "狙射樹梟",
       "habitats": [
-        {
-          "name": "摩登生活",
-          "habitat_id": "136"
-        },
-        {
-          "name": "三角形樹蔭的岩石和草叢",
-          "habitat_id": "100"
-        }
+        "136",
+        "100"
       ],
       "time": {
         "dawn": true,
@@ -5291,10 +4454,7 @@
       "national_id": "0813",
       "name_zh": "炎兔兒",
       "habitats": [
-        {
-          "name": "紅色的草叢",
-          "habitat_id": "098"
-        }
+        "098"
       ],
       "time": {
         "dawn": true,
@@ -5316,14 +4476,8 @@
       "national_id": "0814",
       "name_zh": "騰蹴小將",
       "habitats": [
-        {
-          "name": "清爽的儲物間",
-          "habitat_id": "130"
-        },
-        {
-          "name": "露天溫泉",
-          "habitat_id": "113"
-        }
+        "130",
+        "113"
       ],
       "time": {
         "dawn": true,
@@ -5345,14 +4499,8 @@
       "national_id": "0815",
       "name_zh": "閃焰王牌",
       "habitats": [
-        {
-          "name": "清爽的儲物間",
-          "habitat_id": "130"
-        },
-        {
-          "name": "紅色的草叢",
-          "habitat_id": "098"
-        }
+        "130",
+        "098"
       ],
       "time": {
         "dawn": true,
@@ -5375,10 +4523,7 @@
       "national_id": "0819",
       "name_zh": "貪心栗鼠",
       "habitats": [
-        {
-          "name": "樹蔭的草叢",
-          "habitat_id": "002"
-        }
+        "002"
       ],
       "time": {
         "dawn": true,
@@ -5401,10 +4546,7 @@
       "national_id": "0820",
       "name_zh": "藏飽栗鼠廚師",
       "habitats": [
-        {
-          "name": "廚師的廚房",
-          "habitat_id": "133"
-        }
+        "133"
       ],
       "time": {
         "dawn": true,
@@ -5426,10 +4568,7 @@
       "national_id": "0837",
       "name_zh": "小炭仔",
       "habitats": [
-        {
-          "name": "平交道",
-          "habitat_id": "132"
-        }
+        "132"
       ],
       "time": {
         "dawn": true,
@@ -5452,10 +4591,7 @@
       "national_id": "0838",
       "name_zh": "大炭車",
       "habitats": [
-        {
-          "name": "平交道",
-          "habitat_id": "132"
-        }
+        "132"
       ],
       "time": {
         "dawn": true,
@@ -5478,14 +4614,8 @@
       "national_id": "0839",
       "name_zh": "巨炭山",
       "habitats": [
-        {
-          "name": "沉沉鐵色",
-          "habitat_id": "135"
-        },
-        {
-          "name": "平交道",
-          "habitat_id": "132"
-        }
+        "135",
+        "132"
       ],
       "time": {
         "dawn": true,
@@ -5508,10 +4638,7 @@
       "national_id": "0848",
       "name_zh": "毒電嬰",
       "habitats": [
-        {
-          "name": "悠閒地重溫照片",
-          "habitat_id": "124"
-        }
+        "124"
       ],
       "time": {
         "dawn": true,
@@ -5533,10 +4660,7 @@
       "national_id": "0849",
       "name_zh": "顫弦蠑螈（高調）",
       "habitats": [
-        {
-          "name": "高調的搖滾舞台",
-          "habitat_id": "189"
-        }
+        "189"
       ],
       "time": {
         "dawn": true,
@@ -5559,10 +4683,7 @@
       "national_id": "0849",
       "name_zh": "顫弦蠑螈（低調）",
       "habitats": [
-        {
-          "name": "低調的搖滾舞台",
-          "habitat_id": "190"
-        }
+        "190"
       ],
       "time": {
         "dawn": true,
@@ -5585,14 +4706,8 @@
       "national_id": "0926",
       "name_zh": "狗仔包",
       "habitats": [
-        {
-          "name": "大口麵包工坊",
-          "habitat_id": "121"
-        },
-        {
-          "name": "優雅的花田",
-          "habitat_id": "104"
-        }
+        "121",
+        "104"
       ],
       "time": {
         "dawn": true,
@@ -5614,14 +4729,8 @@
       "national_id": "0927",
       "name_zh": "麻花犬",
       "habitats": [
-        {
-          "name": "大口麵包工坊",
-          "habitat_id": "121"
-        },
-        {
-          "name": "優雅的花田",
-          "habitat_id": "104"
-        }
+        "121",
+        "104"
       ],
       "time": {
         "dawn": true,
@@ -5644,10 +4753,7 @@
       "national_id": "0935",
       "name_zh": "炭小侍",
       "habitats": [
-        {
-          "name": "熔岩熔岩熱乎乎",
-          "habitat_id": "115"
-        }
+        "115"
       ],
       "time": {
         "dawn": true,
@@ -5669,10 +4775,7 @@
       "national_id": "0936",
       "name_zh": "紅蓮鎧騎",
       "habitats": [
-        {
-          "name": "忠誠騎士的祭壇",
-          "habitat_id": "192"
-        }
+        "192"
       ],
       "time": {
         "dawn": true,
@@ -5695,10 +4798,7 @@
       "national_id": "0937",
       "name_zh": "蒼炎刃鬼",
       "habitats": [
-        {
-          "name": "怨念騎士的祭壇",
-          "habitat_id": "191"
-        }
+        "191"
       ],
       "time": {
         "dawn": true,
@@ -5721,14 +4821,8 @@
       "national_id": "0969",
       "name_zh": "晶光芽",
       "habitats": [
-        {
-          "name": "詭異的白色岩石",
-          "habitat_id": "118"
-        },
-        {
-          "name": "在貨物擺放處偷吃",
-          "habitat_id": "119"
-        }
+        "118",
+        "119"
       ],
       "time": {
         "dawn": true,
@@ -5750,14 +4844,8 @@
       "national_id": "0970",
       "name_zh": "晶光花",
       "habitats": [
-        {
-          "name": "在貨物擺放處偷吃",
-          "habitat_id": "119"
-        },
-        {
-          "name": "詭異的白色岩石",
-          "habitat_id": "118"
-        }
+        "119",
+        "118"
       ],
       "time": {
         "dawn": true,
@@ -5779,10 +4867,7 @@
       "national_id": "0999",
       "name_zh": "索財靈",
       "habitats": [
-        {
-          "name": "小小博物館",
-          "habitat_id": "129"
-        }
+        "129"
       ],
       "time": {
         "dawn": true,
@@ -5804,10 +4889,7 @@
       "national_id": "1000",
       "name_zh": "賽富豪",
       "habitats": [
-        {
-          "name": "極致豪華",
-          "habitat_id": "134"
-        }
+        "134"
       ],
       "time": {
         "dawn": true,
@@ -5829,10 +4911,7 @@
       "national_id": "0037",
       "name_zh": "六尾",
       "habitats": [
-        {
-          "name": "茸茸花田",
-          "habitat_id": "142"
-        }
+        "142"
       ],
       "time": {
         "dawn": true,
@@ -5854,14 +4933,8 @@
       "national_id": "0038",
       "name_zh": "九尾",
       "habitats": [
-        {
-          "name": "九團火焰",
-          "habitat_id": "180"
-        },
-        {
-          "name": "茸茸花田",
-          "habitat_id": "142"
-        }
+        "180",
+        "142"
       ],
       "time": {
         "dawn": true,
@@ -5883,10 +4956,7 @@
       "national_id": "0060",
       "name_zh": "蚊香蝌蚪",
       "habitats": [
-        {
-          "name": "擦得鋥亮",
-          "habitat_id": "161"
-        }
+        "161"
       ],
       "time": {
         "dawn": true,
@@ -5908,10 +4978,7 @@
       "national_id": "0061",
       "name_zh": "蚊香君",
       "habitats": [
-        {
-          "name": "濕潤的茸茸花田",
-          "habitat_id": "144"
-        }
+        "144"
       ],
       "time": {
         "dawn": true,
@@ -5933,14 +5000,8 @@
       "national_id": "0062",
       "name_zh": "蚊香泳士",
       "habitats": [
-        {
-          "name": "在道場訓練",
-          "habitat_id": "178"
-        },
-        {
-          "name": "井蓋檢修中",
-          "habitat_id": "156"
-        }
+        "178",
+        "156"
       ],
       "time": {
         "dawn": true,
@@ -5963,18 +5024,9 @@
       "national_id": "0186",
       "name_zh": "蚊香蛙皇",
       "habitats": [
-        {
-          "name": "養生溫泉",
-          "habitat_id": "114"
-        },
-        {
-          "name": "花田裡的樹樁舞台",
-          "habitat_id": "107"
-        },
-        {
-          "name": "濕潤的優雅花田",
-          "habitat_id": "106"
-        }
+        "114",
+        "107",
+        "106"
       ],
       "time": {
         "dawn": true,
@@ -5997,14 +5049,8 @@
       "national_id": "0063",
       "name_zh": "凱西",
       "habitats": [
-        {
-          "name": "水晶占卜",
-          "habitat_id": "152"
-        },
-        {
-          "name": "精神力量滿溢",
-          "habitat_id": "151"
-        }
+        "152",
+        "151"
       ],
       "time": {
         "dawn": true,
@@ -6026,10 +5072,7 @@
       "national_id": "0064",
       "name_zh": "勇基拉",
       "habitats": [
-        {
-          "name": "水晶占卜",
-          "habitat_id": "152"
-        }
+        "152"
       ],
       "time": {
         "dawn": true,
@@ -6051,14 +5094,8 @@
       "national_id": "0065",
       "name_zh": "胡地",
       "habitats": [
-        {
-          "name": "實驗空間",
-          "habitat_id": "168"
-        },
-        {
-          "name": "精神力量滿溢",
-          "habitat_id": "151"
-        }
+        "168",
+        "151"
       ],
       "time": {
         "dawn": true,
@@ -6081,14 +5118,8 @@
       "national_id": "0439",
       "name_zh": "魔尼尼",
       "habitats": [
-        {
-          "name": "亮晶晶洗手台",
-          "habitat_id": "157"
-        },
-        {
-          "name": "請自由取閱",
-          "habitat_id": "171"
-        }
+        "157",
+        "171"
       ],
       "time": {
         "dawn": true,
@@ -6110,10 +5141,7 @@
       "national_id": "0122",
       "name_zh": "魔牆人偶",
       "habitats": [
-        {
-          "name": "亮晶晶洗手台",
-          "habitat_id": "157"
-        }
+        "157"
       ],
       "time": {
         "dawn": true,
@@ -6136,10 +5164,7 @@
       "national_id": "0137",
       "name_zh": "多邊獸",
       "habitats": [
-        {
-          "name": "研究員的桌子",
-          "habitat_id": "170"
-        }
+        "170"
       ],
       "time": {
         "dawn": true,
@@ -6161,10 +5186,7 @@
       "national_id": "0233",
       "name_zh": "多邊獸Ⅱ",
       "habitats": [
-        {
-          "name": "辦公區",
-          "habitat_id": "166"
-        }
+        "166"
       ],
       "time": {
         "dawn": true,
@@ -6186,10 +5208,7 @@
       "national_id": "0474",
       "name_zh": "多邊獸Ｚ",
       "habitats": [
-        {
-          "name": "在遊戲城對戰",
-          "habitat_id": "164"
-        }
+        "164"
       ],
       "time": {
         "dawn": true,
@@ -6211,14 +5230,8 @@
       "national_id": "0147",
       "name_zh": "迷你龍",
       "habitats": [
-        {
-          "name": "濕潤的茸茸花田",
-          "habitat_id": "144"
-        },
-        {
-          "name": "簡約浴室",
-          "habitat_id": "148"
-        }
+        "144",
+        "148"
       ],
       "time": {
         "dawn": true,
@@ -6240,14 +5253,8 @@
       "national_id": "0148",
       "name_zh": "哈克龍",
       "habitats": [
-        {
-          "name": "簡約浴室",
-          "habitat_id": "148"
-        },
-        {
-          "name": "濕潤的茸茸花田",
-          "habitat_id": "144"
-        }
+        "148",
+        "144"
       ],
       "time": {
         "dawn": true,
@@ -6269,10 +5276,7 @@
       "national_id": "0149",
       "name_zh": "快龍",
       "habitats": [
-        {
-          "name": "水邊小船",
-          "habitat_id": "145"
-        }
+        "145"
       ],
       "time": {
         "dawn": true,
@@ -6295,10 +5299,7 @@
       "national_id": "0155",
       "name_zh": "火球鼠",
       "habitats": [
-        {
-          "name": "水泥管秘密基地",
-          "habitat_id": "141"
-        }
+        "141"
       ],
       "time": {
         "dawn": true,
@@ -6320,14 +5321,8 @@
       "national_id": "0156",
       "name_zh": "火岩鼠",
       "habitats": [
-        {
-          "name": "在暖爐旁打瞌睡",
-          "habitat_id": "150"
-        },
-        {
-          "name": "水泥管秘密基地",
-          "habitat_id": "141"
-        }
+        "150",
+        "141"
       ],
       "time": {
         "dawn": true,
@@ -6349,14 +5344,8 @@
       "national_id": "0157",
       "name_zh": "火爆獸",
       "habitats": [
-        {
-          "name": "極致新潮",
-          "habitat_id": "183"
-        },
-        {
-          "name": "在暖爐旁打瞌睡",
-          "habitat_id": "150"
-        }
+        "183",
+        "150"
       ],
       "time": {
         "dawn": true,
@@ -6379,14 +5368,8 @@
       "national_id": "0200",
       "name_zh": "夢妖",
       "habitats": [
-        {
-          "name": "茸茸花田",
-          "habitat_id": "142"
-        },
-        {
-          "name": "辦公室的儲藏室",
-          "habitat_id": "167"
-        }
+        "142",
+        "167"
       ],
       "time": {
         "dawn": false,
@@ -6408,18 +5391,9 @@
       "national_id": "0429",
       "name_zh": "夢妖魔",
       "habitats": [
-        {
-          "name": "家庭影院",
-          "habitat_id": "158"
-        },
-        {
-          "name": "辦公室的儲藏室",
-          "habitat_id": "167"
-        },
-        {
-          "name": "茸茸花田",
-          "habitat_id": "142"
-        }
+        "158",
+        "167",
+        "142"
       ],
       "time": {
         "dawn": false,
@@ -6442,10 +5416,7 @@
       "national_id": "0203",
       "name_zh": "麒麟奇",
       "habitats": [
-        {
-          "name": "樹蔭的茸茸花田",
-          "habitat_id": "143"
-        }
+        "143"
       ],
       "time": {
         "dawn": true,
@@ -6467,10 +5438,7 @@
       "national_id": "0981",
       "name_zh": "奇麒麟",
       "habitats": [
-        {
-          "name": "樹蔭的茸茸花田",
-          "habitat_id": "143"
-        }
+        "143"
       ],
       "time": {
         "dawn": true,
@@ -6493,10 +5461,7 @@
       "national_id": "0280",
       "name_zh": "拉魯拉絲",
       "habitats": [
-        {
-          "name": "學習區",
-          "habitat_id": "159"
-        }
+        "159"
       ],
       "time": {
         "dawn": true,
@@ -6518,14 +5483,8 @@
       "national_id": "0281",
       "name_zh": "奇魯莉安",
       "habitats": [
-        {
-          "name": "保濕化妝檯",
-          "habitat_id": "162"
-        },
-        {
-          "name": "學習區",
-          "habitat_id": "159"
-        }
+        "162",
+        "159"
       ],
       "time": {
         "dawn": true,
@@ -6547,14 +5506,8 @@
       "national_id": "0282",
       "name_zh": "沙奈朵",
       "habitats": [
-        {
-          "name": "小小圖書館",
-          "habitat_id": "163"
-        },
-        {
-          "name": "保濕化妝檯",
-          "habitat_id": "162"
-        }
+        "163",
+        "162"
       ],
       "time": {
         "dawn": true,
@@ -6577,10 +5530,7 @@
       "national_id": "0475",
       "name_zh": "艾路雷朵",
       "habitats": [
-        {
-          "name": "在道場訓練",
-          "habitat_id": "178"
-        }
+        "178"
       ],
       "time": {
         "dawn": true,
@@ -6603,10 +5553,7 @@
       "national_id": "0311",
       "name_zh": "正電拍拍",
       "habitats": [
-        {
-          "name": "絕景露臉立牌",
-          "habitat_id": "174"
-        }
+        "174"
       ],
       "time": {
         "dawn": true,
@@ -6628,10 +5575,7 @@
       "national_id": "0312",
       "name_zh": "負電拍拍",
       "habitats": [
-        {
-          "name": "絕景露臉立牌",
-          "habitat_id": "174"
-        }
+        "174"
       ],
       "time": {
         "dawn": true,
@@ -6653,10 +5597,7 @@
       "national_id": "0328",
       "name_zh": "大顎蟻",
       "habitats": [
-        {
-          "name": "粉紅色草叢",
-          "habitat_id": "137"
-        }
+        "137"
       ],
       "time": {
         "dawn": true,
@@ -6679,10 +5620,7 @@
       "national_id": "0329",
       "name_zh": "超音波幼蟲",
       "habitats": [
-        {
-          "name": "粉紅色草叢",
-          "habitat_id": "137"
-        }
+        "137"
       ],
       "time": {
         "dawn": true,
@@ -6705,10 +5643,7 @@
       "national_id": "0330",
       "name_zh": "沙漠蜻蜓",
       "habitats": [
-        {
-          "name": "粉紅色草叢",
-          "habitat_id": "137"
-        }
+        "137"
       ],
       "time": {
         "dawn": true,
@@ -6731,10 +5666,7 @@
       "national_id": "0333",
       "name_zh": "青綿鳥",
       "habitats": [
-        {
-          "name": "粉紅色草叢",
-          "habitat_id": "137"
-        }
+        "137"
       ],
       "time": {
         "dawn": true,
@@ -6756,10 +5688,7 @@
       "national_id": "0334",
       "name_zh": "七夕青鳥",
       "habitats": [
-        {
-          "name": "鳥語花香",
-          "habitat_id": "147"
-        }
+        "147"
       ],
       "time": {
         "dawn": true,
@@ -6782,10 +5711,7 @@
       "national_id": "0355",
       "name_zh": "夜巡靈",
       "habitats": [
-        {
-          "name": "粉紅色草叢",
-          "habitat_id": "137"
-        }
+        "137"
       ],
       "time": {
         "dawn": false,
@@ -6807,10 +5733,7 @@
       "national_id": "0356",
       "name_zh": "彷徨夜靈",
       "habitats": [
-        {
-          "name": "垃圾場的電視",
-          "habitat_id": "153"
-        }
+        "153"
       ],
       "time": {
         "dawn": false,
@@ -6832,10 +5755,7 @@
       "national_id": "0477",
       "name_zh": "黑夜魔靈",
       "habitats": [
-        {
-          "name": "垃圾場的電視",
-          "habitat_id": "153"
-        }
+        "153"
       ],
       "time": {
         "dawn": false,
@@ -6858,10 +5778,7 @@
       "national_id": "0374",
       "name_zh": "鐵啞鈴",
       "habitats": [
-        {
-          "name": "騎行小憩",
-          "habitat_id": "149"
-        }
+        "149"
       ],
       "time": {
         "dawn": true,
@@ -6883,10 +5800,7 @@
       "national_id": "0375",
       "name_zh": "金屬怪",
       "habitats": [
-        {
-          "name": "為成為博士進行研究",
-          "habitat_id": "169"
-        }
+        "169"
       ],
       "time": {
         "dawn": true,
@@ -6908,10 +5822,7 @@
       "national_id": "0376",
       "name_zh": "巨金怪",
       "habitats": [
-        {
-          "name": "絕佳的遊戲環境",
-          "habitat_id": "182"
-        }
+        "182"
       ],
       "time": {
         "dawn": true,
@@ -6934,10 +5845,7 @@
       "national_id": "0495",
       "name_zh": "藤藤蛇",
       "habitats": [
-        {
-          "name": "遊樂場",
-          "habitat_id": "165"
-        }
+        "165"
       ],
       "time": {
         "dawn": true,
@@ -6960,10 +5868,7 @@
       "national_id": "0496",
       "name_zh": "青藤蛇",
       "habitats": [
-        {
-          "name": "樹蔭的茸茸花田",
-          "habitat_id": "143"
-        }
+        "143"
       ],
       "time": {
         "dawn": true,
@@ -6986,14 +5891,8 @@
       "national_id": "0497",
       "name_zh": "君主蛇",
       "habitats": [
-        {
-          "name": "請自由取閱",
-          "habitat_id": "171"
-        },
-        {
-          "name": "樹蔭的茸茸花田",
-          "habitat_id": "143"
-        }
+        "171",
+        "143"
       ],
       "time": {
         "dawn": true,
@@ -7016,10 +5915,7 @@
       "national_id": "0656",
       "name_zh": "呱呱泡蛙",
       "habitats": [
-        {
-          "name": "濕潤的粉紅色草叢",
-          "habitat_id": "139"
-        }
+        "139"
       ],
       "time": {
         "dawn": true,
@@ -7041,14 +5937,8 @@
       "national_id": "0657",
       "name_zh": "呱頭蛙",
       "habitats": [
-        {
-          "name": "惡作劇開關",
-          "habitat_id": "173"
-        },
-        {
-          "name": "濕潤的粉紅色草叢",
-          "habitat_id": "139"
-        }
+        "173",
+        "139"
       ],
       "time": {
         "dawn": true,
@@ -7070,14 +5960,8 @@
       "national_id": "0658",
       "name_zh": "甲賀忍蛙",
       "habitats": [
-        {
-          "name": "惡作劇開關",
-          "habitat_id": "173"
-        },
-        {
-          "name": "濕潤的粉紅色草叢",
-          "habitat_id": "139"
-        }
+        "173",
+        "139"
       ],
       "time": {
         "dawn": true,
@@ -7100,10 +5984,7 @@
       "national_id": "0702",
       "name_zh": "咚咚鼠",
       "habitats": [
-        {
-          "name": "輪胎公園",
-          "habitat_id": "175"
-        }
+        "175"
       ],
       "time": {
         "dawn": true,
@@ -7125,10 +6006,7 @@
       "national_id": "0714",
       "name_zh": "嗡蝠",
       "habitats": [
-        {
-          "name": "節奏感客廳",
-          "habitat_id": "160"
-        }
+        "160"
       ],
       "time": {
         "dawn": true,
@@ -7150,10 +6028,7 @@
       "national_id": "0715",
       "name_zh": "音波龍",
       "habitats": [
-        {
-          "name": "節奏感客廳",
-          "habitat_id": "160"
-        }
+        "160"
       ],
       "time": {
         "dawn": true,
@@ -7176,10 +6051,7 @@
       "national_id": "0821",
       "name_zh": "稚山雀",
       "habitats": [
-        {
-          "name": "茸茸花田",
-          "habitat_id": "142"
-        }
+        "142"
       ],
       "time": {
         "dawn": true,
@@ -7201,10 +6073,7 @@
       "national_id": "0822",
       "name_zh": "藍鴉",
       "habitats": [
-        {
-          "name": "高崗的粉紅色草叢",
-          "habitat_id": "140"
-        }
+        "140"
       ],
       "time": {
         "dawn": true,
@@ -7226,14 +6095,8 @@
       "national_id": "0823",
       "name_zh": "鋼鎧鴉",
       "habitats": [
-        {
-          "name": "井蓋檢修中",
-          "habitat_id": "156"
-        },
-        {
-          "name": "高崗的粉紅色草叢",
-          "habitat_id": "140"
-        }
+        "156",
+        "140"
       ],
       "time": {
         "dawn": true,
@@ -7256,10 +6119,7 @@
       "national_id": "0885",
       "name_zh": "多龍梅西亞",
       "habitats": [
-        {
-          "name": "樹蔭的粉紅色草叢",
-          "habitat_id": "138"
-        }
+        "138"
       ],
       "time": {
         "dawn": true,
@@ -7282,14 +6142,8 @@
       "national_id": "0886",
       "name_zh": "多龍奇",
       "habitats": [
-        {
-          "name": "辦公室的儲藏室",
-          "habitat_id": "167"
-        },
-        {
-          "name": "樹蔭的粉紅色草叢",
-          "habitat_id": "138"
-        }
+        "167",
+        "138"
       ],
       "time": {
         "dawn": true,
@@ -7312,10 +6166,7 @@
       "national_id": "0887",
       "name_zh": "多龍巴魯托",
       "habitats": [
-        {
-          "name": "辦公室的儲藏室",
-          "habitat_id": "167"
-        }
+        "167"
       ],
       "time": {
         "dawn": true,
@@ -7338,14 +6189,8 @@
       "national_id": "0906",
       "name_zh": "新葉喵",
       "habitats": [
-        {
-          "name": "樹蔭的粉紅色草叢",
-          "habitat_id": "138"
-        },
-        {
-          "name": "和搭檔一起調查",
-          "habitat_id": "155"
-        }
+        "138",
+        "155"
       ],
       "time": {
         "dawn": true,
@@ -7367,10 +6212,7 @@
       "national_id": "0907",
       "name_zh": "蒂蕾喵",
       "habitats": [
-        {
-          "name": "和搭檔一起調查",
-          "habitat_id": "155"
-        }
+        "155"
       ],
       "time": {
         "dawn": true,
@@ -7392,10 +6234,7 @@
       "national_id": "0908",
       "name_zh": "魔幻假面喵",
       "habitats": [
-        {
-          "name": "咚咚鏘驚嚇箱",
-          "habitat_id": "172"
-        }
+        "172"
       ],
       "time": {
         "dawn": true,
@@ -7418,10 +6257,7 @@
       "national_id": "0940",
       "name_zh": "電海燕",
       "habitats": [
-        {
-          "name": "高崗的粉紅色草叢",
-          "habitat_id": "140"
-        }
+        "140"
       ],
       "time": {
         "dawn": true,
@@ -7443,10 +6279,7 @@
       "national_id": "0941",
       "name_zh": "大電海燕",
       "habitats": [
-        {
-          "name": "高崗的粉紅色草叢",
-          "habitat_id": "140"
-        }
+        "140"
       ],
       "time": {
         "dawn": true,
@@ -7469,14 +6302,8 @@
       "national_id": "0957",
       "name_zh": "小鍛匠",
       "habitats": [
-        {
-          "name": "大型垃圾堆放處",
-          "habitat_id": "154"
-        },
-        {
-          "name": "裝上大貨物",
-          "habitat_id": "028"
-        }
+        "154",
+        "028"
       ],
       "time": {
         "dawn": true,
@@ -7498,14 +6325,8 @@
       "national_id": "0958",
       "name_zh": "巧鍛匠",
       "habitats": [
-        {
-          "name": "井蓋檢修中",
-          "habitat_id": "156"
-        },
-        {
-          "name": "裝上大貨物",
-          "habitat_id": "028"
-        }
+        "156",
+        "028"
       ],
       "time": {
         "dawn": true,
@@ -7527,10 +6348,7 @@
       "national_id": "0959",
       "name_zh": "巨鍛匠頭頭",
       "habitats": [
-        {
-          "name": "大型垃圾堆放處",
-          "habitat_id": "154"
-        }
+        "154"
       ],
       "time": {
         "dawn": true,
@@ -7552,10 +6370,7 @@
       "national_id": "0142",
       "name_zh": "化石翼龍",
       "habitats": [
-        {
-          "name": "飛翼化石展示台",
-          "habitat_id": "193"
-        }
+        "193"
       ],
       "time": {
         "dawn": true,
@@ -7577,10 +6392,7 @@
       "national_id": "0408",
       "name_zh": "頭蓋龍",
       "habitats": [
-        {
-          "name": "頭蓋化石展示台",
-          "habitat_id": "194"
-        }
+        "194"
       ],
       "time": {
         "dawn": true,
@@ -7602,10 +6414,7 @@
       "national_id": "0409",
       "name_zh": "戰槌龍",
       "habitats": [
-        {
-          "name": "頭錘化石展示台",
-          "habitat_id": "195"
-        }
+        "195"
       ],
       "time": {
         "dawn": true,
@@ -7628,10 +6437,7 @@
       "national_id": "0410",
       "name_zh": "盾甲龍",
       "habitats": [
-        {
-          "name": "盾甲化石展示台",
-          "habitat_id": "196"
-        }
+        "196"
       ],
       "time": {
         "dawn": true,
@@ -7653,10 +6459,7 @@
       "national_id": "0411",
       "name_zh": "護城龍",
       "habitats": [
-        {
-          "name": "護盾化石展示台",
-          "habitat_id": "197"
-        }
+        "197"
       ],
       "time": {
         "dawn": true,
@@ -7679,10 +6482,7 @@
       "national_id": "0696",
       "name_zh": "寶寶暴龍",
       "habitats": [
-        {
-          "name": "顎之化石展示台",
-          "habitat_id": "198"
-        }
+        "198"
       ],
       "time": {
         "dawn": true,
@@ -7704,10 +6504,7 @@
       "national_id": "0697",
       "name_zh": "怪顎龍",
       "habitats": [
-        {
-          "name": "暴君化石展示台",
-          "habitat_id": "199"
-        }
+        "199"
       ],
       "time": {
         "dawn": true,
@@ -7730,10 +6527,7 @@
       "national_id": "0698",
       "name_zh": "冰雪龍",
       "habitats": [
-        {
-          "name": "鰭之化石展示台",
-          "habitat_id": "200"
-        }
+        "200"
       ],
       "time": {
         "dawn": true,
@@ -7755,10 +6549,7 @@
       "national_id": "0699",
       "name_zh": "冰雪巨龍",
       "habitats": [
-        {
-          "name": "凍原化石展示台",
-          "habitat_id": "201"
-        }
+        "201"
       ],
       "time": {
         "dawn": true,
@@ -7781,10 +6572,7 @@
       "national_id": "0133",
       "name_zh": "伊布",
       "habitats": [
-        {
-          "name": "美麗的花田",
-          "habitat_id": "008"
-        }
+        "008"
       ],
       "time": {
         "dawn": true,
@@ -7806,10 +6594,7 @@
       "national_id": "0134",
       "name_zh": "水伊布",
       "habitats": [
-        {
-          "name": "勁爽清藍",
-          "habitat_id": "202"
-        }
+        "202"
       ],
       "time": {
         "dawn": true,
@@ -7831,10 +6616,7 @@
       "national_id": "0135",
       "name_zh": "雷伊布",
       "habitats": [
-        {
-          "name": "麻麻薯餅",
-          "habitat_id": "203"
-        }
+        "203"
       ],
       "time": {
         "dawn": true,
@@ -7856,10 +6638,7 @@
       "national_id": "0136",
       "name_zh": "火伊布",
       "habitats": [
-        {
-          "name": "辣到噴火",
-          "habitat_id": "204"
-        }
+        "204"
       ],
       "time": {
         "dawn": true,
@@ -7881,10 +6660,7 @@
       "national_id": "0196",
       "name_zh": "太陽伊布",
       "habitats": [
-        {
-          "name": "優雅的午後",
-          "habitat_id": "205"
-        }
+        "205"
       ],
       "time": {
         "dawn": true,
@@ -7906,10 +6682,7 @@
       "national_id": "0197",
       "name_zh": "月亮伊布",
       "habitats": [
-        {
-          "name": "黑色滋味",
-          "habitat_id": "206"
-        }
+        "206"
       ],
       "time": {
         "dawn": false,
@@ -7931,10 +6704,7 @@
       "national_id": "0470",
       "name_zh": "葉伊布",
       "habitats": [
-        {
-          "name": "綠色三明治",
-          "habitat_id": "207"
-        }
+        "207"
       ],
       "time": {
         "dawn": true,
@@ -7956,10 +6726,7 @@
       "national_id": "0471",
       "name_zh": "冰伊布",
       "habitats": [
-        {
-          "name": "冰涼刨冰",
-          "habitat_id": "208"
-        }
+        "208"
       ],
       "time": {
         "dawn": true,
@@ -7981,10 +6748,7 @@
       "national_id": "0700",
       "name_zh": "仙子伊布",
       "habitats": [
-        {
-          "name": "可愛的蛋糕",
-          "habitat_id": "209"
-        }
+        "209"
       ],
       "time": {
         "dawn": true,
@@ -8245,7 +7009,9 @@
       "pokopia_id": "001",
       "national_id": "0187",
       "name_zh": "毽子草",
-      "habitats": [],
+      "habitats": [
+        "9001"
+      ],
       "time": {
         "dawn": true,
         "day": true,
@@ -8265,7 +7031,10 @@
       "pokopia_id": "002",
       "national_id": "0188",
       "name_zh": "毽子花",
-      "habitats": [],
+      "habitats": [
+        "9001",
+        "9002"
+      ],
       "time": {
         "dawn": true,
         "day": true,
@@ -8285,7 +7054,10 @@
       "pokopia_id": "003",
       "national_id": "0189",
       "name_zh": "毽子棉",
-      "habitats": [],
+      "habitats": [
+        "9001",
+        "9003"
+      ],
       "time": {
         "dawn": true,
         "day": true,

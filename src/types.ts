@@ -1,7 +1,4 @@
-export interface Habitat {
-  name: string
-  habitat_id: string
-}
+export type HabitatId = string
 
 export interface TimeAvailability {
   dawn: boolean
@@ -22,7 +19,7 @@ export interface Pokemon {
   name_zh: string
   artwork_url?: string
   sprite_url?: string
-  habitats: Habitat[]
+  habitats: HabitatId[]
   time: TimeAvailability
   weather: WeatherAvailability
   skills: string[]

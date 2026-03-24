@@ -95,7 +95,8 @@ const filteredPokemon = computed(() => {
 
     // Habitat filter (single select)
     if (selectedHabitat.value) {
-      const hasMatch = p.habitats.some(ph => ph.name === selectedHabitat.value)
+      const selectedId = habitats.find(h => h.name === selectedHabitat.value)?.id
+      const hasMatch = selectedId && p.habitats.includes(selectedId)
       if (!hasMatch) return false
     }
 
