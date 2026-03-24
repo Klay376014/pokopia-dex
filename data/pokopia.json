@@ -1105,6 +1105,32 @@
     {
       "pokopia_id": "041",
       "national_id": "0465",
+      "name_zh": "巨蔓藤",
+      "habitats": [
+        {
+          "name": "綠色的長椅",
+          "habitat_id": "022"
+        }
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "cultivate",
+        "scatter"
+      ]
+    }
+    {
+      "pokopia_id": "041",
+      "national_id": "0465",
       "name_zh": "巨蔓藤博士",
       "habitats": [
         {
