@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Pokemon, HabitatInfo } from '../types'
 import { skillLabels } from '../skillLabels'
+import { flavorLabels, environmentLabels, thingLabels } from '../favoriteLabels'
 import habitatsRaw from '../../data/habitats.json'
 
 const habitatsData = habitatsRaw as HabitatInfo[]
@@ -143,6 +144,27 @@ function onImgError(e: Event) {
             />
             <span>{{ skillLabels[skill] ?? skill }}</span>
           </div>
+        </div>
+      </div>
+
+      <div class="mb-4" v-if="pokemon.flavor">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">口味</h3>
+        <div class="flex gap-2 flex-wrap">
+          <span class="tag active">{{ flavorLabels[pokemon.flavor] ?? pokemon.flavor }}</span>
+        </div>
+      </div>
+
+      <div class="mb-4" v-if="pokemon.environment">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">環境偏好</h3>
+        <div class="flex gap-2 flex-wrap">
+          <span class="tag active">{{ environmentLabels[pokemon.environment] ?? pokemon.environment }}</span>
+        </div>
+      </div>
+
+      <div class="mb-4" v-if="pokemon.things && pokemon.things.length > 0">
+        <h3 class="text-[0.875rem] text-text-muted mb-2">喜歡的東西</h3>
+        <div class="flex gap-2 flex-wrap">
+          <span v-for="thing in pokemon.things" :key="thing" class="tag active">{{ thingLabels[thing] ?? thing }}</span>
         </div>
       </div>
     </div>

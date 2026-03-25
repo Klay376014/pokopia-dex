@@ -21,6 +21,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "soft",
+        "cute",
+        "water",
+        "communal"
       ]
     },
     {
@@ -44,6 +53,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "soft",
+        "cute",
+        "floral",
+        "colorful"
       ]
     },
     {
@@ -68,6 +86,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "soft",
+        "cute",
+        "floral",
+        "luxurious"
       ]
     },
     {
@@ -90,6 +117,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wooden",
+        "hard",
+        "training",
+        "communal"
       ]
     },
     {
@@ -112,6 +148,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wooden",
+        "hard",
+        "training",
+        "vehicle"
       ]
     },
     {
@@ -136,6 +181,15 @@
       "skills": [
         "ignite",
         "fly"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wind",
+        "wooden",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -159,6 +213,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "healing",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -181,6 +244,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "healing",
+        "training",
+        "hard"
       ]
     },
     {
@@ -205,6 +277,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "healing",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -229,6 +310,15 @@
       "skills": [
         "fly",
         "find"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "wind",
+        "ornamental",
+        "nature",
+        "playground"
       ]
     },
     {
@@ -253,6 +343,15 @@
       "skills": [
         "fly",
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "wind",
+        "ornamental",
+        "nature",
+        "foodlike"
       ]
     },
     {
@@ -276,6 +375,15 @@
       "skills": [
         "fly",
         "chop"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "wind",
+        "wooden",
+        "nature",
+        "luxurious"
       ]
     },
     {
@@ -298,6 +406,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "earth",
+        "soft",
+        "floral",
+        "water"
       ]
     },
     {
@@ -320,6 +437,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "earth",
+        "soft",
+        "floral",
+        "trash"
       ]
     },
     {
@@ -343,6 +469,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "earth",
+        "soft",
+        "floral",
+        "colorful"
       ]
     },
     {
@@ -366,6 +501,15 @@
       "skills": [
         "cultivate",
         "liven-up"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "floral",
+        "playground",
+        "cute",
+        "noisy"
       ]
     },
     {
@@ -389,6 +533,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "ornamental",
+        "earth",
+        "foodlike"
       ]
     },
     {
@@ -412,6 +565,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "ornamental",
+        "earth",
+        "mysterious"
       ]
     },
     {
@@ -435,6 +597,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wooden",
+        "ornamental",
+        "arcane",
+        "text"
       ]
     },
     {
@@ -458,6 +629,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wooden",
+        "ornamental",
+        "wind",
+        "floral"
       ]
     },
     {
@@ -481,6 +661,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "earth",
+        "water",
+        "floral"
       ]
     },
     {
@@ -505,6 +694,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "earth",
+        "colorful",
+        "floral"
       ]
     },
     {
@@ -529,6 +727,15 @@
       "skills": [
         "cultivate",
         "chop"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "earth",
+        "colorful",
+        "floral"
       ]
     },
     {
@@ -552,6 +759,15 @@
       "skills": [
         "moisten",
         "yawn"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "mysterious",
+        "soft",
+        "healing"
       ]
     },
     {
@@ -577,6 +793,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "mysterious",
+        "communal",
+        "healing"
       ]
     },
     {
@@ -602,6 +827,15 @@
       "skills": [
         "moisten",
         "teleport"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "mysterious",
+        "communal",
+        "healing"
       ]
     },
     {
@@ -624,6 +858,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "metallic",
+        "shiny",
+        "hard",
+        "communal"
       ]
     },
     {
@@ -647,6 +890,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "metallic",
+        "shiny",
+        "hard",
+        "communal"
       ]
     },
     {
@@ -671,6 +923,15 @@
       "skills": [
         "generate",
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "metallic",
+        "luxurious",
+        "gathered",
+        "hard"
       ]
     },
     {
@@ -694,6 +955,15 @@
       "skills": [
         "crush",
         "stomp"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "earth",
+        "square",
+        "slender",
+        "training"
       ]
     },
     {
@@ -717,6 +987,15 @@
       "skills": [
         "crush",
         "stomp"
+      ],
+      "flavor": "sour",
+      "environment": "dry",
+      "things": [
+        "metallic",
+        "earth",
+        "stone",
+        "slender",
+        "hard"
       ]
     },
     {
@@ -739,6 +1018,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "bitter",
+      "environment": "dry",
+      "things": [
+        "earth",
+        "construction",
+        "training",
+        "slender",
+        "communal"
       ]
     },
     {
@@ -761,6 +1049,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "earth",
+        "construction",
+        "training",
+        "slender",
+        "luxurious"
       ]
     },
     {
@@ -783,6 +1080,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "communal",
+        "fabric",
+        "stone",
+        "round"
       ]
     },
     {
@@ -805,6 +1111,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "communal",
+        "fabric",
+        "stone",
+        "round"
       ]
     },
     {
@@ -827,6 +1142,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "training",
+        "communal",
+        "fabric",
+        "stone",
+        "round"
       ]
     },
     {
@@ -849,6 +1173,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "training",
+        "communal",
+        "fabric",
+        "stone",
+        "round"
       ]
     },
     {
@@ -871,6 +1204,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "gathered",
+        "arcane",
+        "soft",
+        "wobbly"
       ]
     },
     {
@@ -894,6 +1236,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "gathered",
+        "arcane",
+        "soft",
+        "wobbly"
       ]
     },
     {
@@ -917,6 +1268,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "water",
+        "gathered",
+        "floral",
+        "slender"
       ]
     },
     {
@@ -940,6 +1300,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "water",
+        "gathered",
+        "floral",
+        "ornamental"
       ]
     },
     {
@@ -962,6 +1331,15 @@
       },
       "skills": [
         "appraise"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "arcane",
+        "text",
+        "mysterious",
+        "communal"
       ]
     },
     {
@@ -984,6 +1362,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wooden",
+        "training",
+        "wind",
+        "pointy"
       ]
     },
     {
@@ -1006,6 +1393,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "metallic",
+        "wooden",
+        "hard",
+        "training"
       ]
     },
     {
@@ -1029,6 +1425,15 @@
       "skills": [
         "chop",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wooden",
+        "floral",
+        "pointy",
+        "training"
       ]
     },
     {
@@ -1051,6 +1456,15 @@
       },
       "skills": [
         "unknown"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "communal",
+        "vehicle",
+        "wobbly"
       ]
     },
     {
@@ -1073,6 +1487,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "wind",
+        "tidy",
+        "slender"
       ]
     },
     {
@@ -1094,7 +1517,10 @@
       "skills": [
         "transform"
       ],
-      "artwork_url": "https://img.gamewith.jp/img/a26637ab93b049ba30f0f4170f59c1ba.png"
+      "artwork_url": "https://img.gamewith.jp/img/a26637ab93b049ba30f0f4170f59c1ba.png",
+      "flavor": null,
+      "environment": null,
+      "things": null
     },
     {
       "pokopia_id": "048",
@@ -1119,6 +1545,15 @@
       "skills": [
         "trade",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "soft",
+        "wind",
+        "fabric",
+        "wobbly",
+        "ornamental"
       ]
     },
     {
@@ -1143,6 +1578,15 @@
       "skills": [
         "trade",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "soft",
+        "wind",
+        "text",
+        "container",
+        "ornamental"
       ]
     },
     {
@@ -1166,6 +1610,15 @@
       "skills": [
         "chop",
         "build"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wooden",
+        "floral",
+        "foodlike",
+        "training"
       ]
     },
     {
@@ -1188,6 +1641,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "shiny",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -1210,6 +1672,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "shiny",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -1232,6 +1703,15 @@
       },
       "skills": [
         "storage"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "cute",
+        "foodlike",
+        "round",
+        "container",
+        "colorful"
       ]
     },
     {
@@ -1254,6 +1734,15 @@
       },
       "skills": [
         "storage"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "trash",
+        "foodlike",
+        "round",
+        "container",
+        "colorful"
       ]
     },
     {
@@ -1276,6 +1765,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "spicy",
+      "environment": "dry",
+      "things": [
+        "nature",
+        "floral",
+        "cute",
+        "round",
+        "pointy"
       ]
     },
     {
@@ -1299,6 +1797,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "nature",
+        "wind",
+        "luxurious",
+        "shiny",
+        "pointy"
       ]
     },
     {
@@ -1321,6 +1828,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wind",
+        "wooden",
+        "gathered",
+        "communal"
       ]
     },
     {
@@ -1344,6 +1860,15 @@
       "skills": [
         "gather-honey",
         "find"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "wind",
+        "wooden",
+        "gathered",
+        "arcane"
       ]
     },
     {
@@ -1366,6 +1891,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "colorful",
+        "container"
       ]
     },
     {
@@ -1389,7 +1923,16 @@
       "skills": [
         "moisten"
       ],
-      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png",
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "colorful",
+        "container"
+      ]
     },
     {
       "pokopia_id": "060",
@@ -1412,6 +1955,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "earth",
+        "ocean",
+        "tidy",
+        "container"
       ]
     },
     {
@@ -1436,7 +1988,16 @@
         "moisten",
         "trade"
       ],
-      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423-east.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423-east.png",
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "earth",
+        "ocean",
+        "tidy",
+        "container"
+      ]
     },
     {
       "pokopia_id": "061",
@@ -1460,6 +2021,15 @@
       },
       "skills": [
         "dream-island"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "eerie",
+        "mysterious",
+        "wind",
+        "cute",
+        "round"
       ]
     },
     {
@@ -1483,6 +2053,15 @@
       "skills": [
         "fly",
         "sort"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "eerie",
+        "mysterious",
+        "wind",
+        "wobbly",
+        "spinning"
       ]
     },
     {
@@ -1505,6 +2084,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "earth",
+        "stone",
+        "nature",
+        "ornamental",
+        "pointy"
       ]
     },
     {
@@ -1528,6 +2116,15 @@
       "skills": [
         "find",
         "chop"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "earth",
+        "metallic",
+        "training",
+        "ornamental",
+        "pointy"
       ]
     },
     {
@@ -1550,6 +2147,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "wooden",
+        "slender",
+        "square"
       ]
     },
     {
@@ -1573,6 +2179,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "metallic",
+        "slender",
+        "communal"
       ]
     },
     {
@@ -1596,6 +2211,15 @@
       "skills": [
         "build",
         "crush"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "stone",
+        "slender",
+        "communal"
       ]
     },
     {
@@ -1619,6 +2243,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "eerie",
+        "mysterious",
+        "fire",
+        "wobbly",
+        "square"
       ]
     },
     {
@@ -1642,6 +2275,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "eerie",
+        "mysterious",
+        "fire",
+        "wobbly",
+        "container"
       ]
     },
     {
@@ -1664,6 +2306,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "eerie",
+        "mysterious",
+        "fire",
+        "wobbly",
+        "ornamental"
       ]
     },
     {
@@ -1687,6 +2338,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "fire",
+        "luxurious",
+        "earth",
+        "hard",
+        "pointy"
       ]
     },
     {
@@ -1710,6 +2370,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "fire",
+        "luxurious",
+        "earth",
+        "training",
+        "pointy"
       ]
     },
     {
@@ -1734,6 +2403,15 @@
       "skills": [
         "chop",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "fire",
+        "luxurious",
+        "earth",
+        "training",
+        "pointy"
       ]
     },
     {
@@ -1757,6 +2435,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "luxurious",
+        "nature",
+        "tidy",
+        "healing"
       ]
     },
     {
@@ -1779,6 +2466,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "luxurious",
+        "soft",
+        "tidy",
+        "healing"
       ]
     },
     {
@@ -1802,6 +2498,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "luxurious",
+        "training",
+        "tidy",
+        "healing"
       ]
     },
     {
@@ -1825,6 +2530,15 @@
       "skills": [
         "fly",
         "moisten"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "wind",
+        "water",
+        "ocean",
+        "slender",
+        "foodlike"
       ]
     },
     {
@@ -1847,6 +2561,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "cute",
+        "floral",
+        "fabric"
       ]
     },
     {
@@ -1870,7 +2593,16 @@
       "skills": [
         "glow"
       ],
-      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/251113_02/ill_01.webp"
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/251113_02/ill_01.webp",
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "cute",
+        "healing",
+        "text"
+      ]
     },
     {
       "pokopia_id": "079",
@@ -1892,6 +2624,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "communal",
+        "round",
+        "vehicle"
       ]
     },
     {
@@ -1915,6 +2656,15 @@
       "skills": [
         "generate",
         "liven-up"
+      ],
+      "flavor": null,
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "communal",
+        "round",
+        "playground"
       ]
     },
     {
@@ -1938,6 +2688,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "wind",
+        "wooden",
+        "noisy",
+        "arcane"
       ]
     },
     {
@@ -1960,6 +2719,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "wind",
+        "wooden",
+        "noisy",
+        "arcane"
       ]
     },
     {
@@ -1984,6 +2752,15 @@
       "skills": [
         "find",
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "wind",
+        "wooden",
+        "trash",
+        "ornamental"
       ]
     },
     {
@@ -2007,6 +2784,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "cool",
+      "things": [
+        "container",
+        "communal",
+        "shiny",
+        "glass",
+        "luxurious"
       ]
     },
     {
@@ -2030,6 +2816,15 @@
       "skills": [
         "trade",
         "find"
+      ],
+      "flavor": "sour",
+      "environment": "cool",
+      "things": [
+        "container",
+        "communal",
+        "shiny",
+        "ornamental",
+        "luxurious"
       ]
     },
     {
@@ -2052,6 +2847,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "mysterious",
+        "arcane",
+        "healing"
       ]
     },
     {
@@ -2074,6 +2878,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "mysterious",
+        "arcane",
+        "pointy"
       ]
     },
     {
@@ -2098,6 +2911,15 @@
       "skills": [
         "ignite",
         "find"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "wind",
+        "text",
+        "floral"
       ]
     },
     {
@@ -2122,6 +2944,15 @@
       "skills": [
         "ignite",
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "wind",
+        "ornamental",
+        "symbolic"
       ]
     },
     {
@@ -2145,6 +2976,15 @@
       "skills": [
         "chop",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "wind",
+        "wooden",
+        "slender",
+        "training"
       ]
     },
     {
@@ -2167,6 +3007,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "eerie",
+        "gathered",
+        "shiny",
+        "container"
       ]
     },
     {
@@ -2189,6 +3038,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "eerie",
+        "gathered",
+        "shiny",
+        "container"
       ]
     },
     {
@@ -2212,6 +3070,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "trash",
+        "container",
+        "communal"
       ]
     },
     {
@@ -2236,6 +3103,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "trash",
+        "wobbly",
+        "communal"
       ]
     },
     {
@@ -2259,6 +3135,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "trash",
+        "vehicle",
+        "communal"
       ]
     },
     {
@@ -2283,6 +3168,15 @@
       "skills": [
         "generate",
         "explode"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "round",
+        "colorful",
+        "spinning"
       ]
     },
     {
@@ -2307,6 +3201,15 @@
       "skills": [
         "generate",
         "explode"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "round",
+        "playground",
+        "spinning"
       ]
     },
     {
@@ -2331,6 +3234,15 @@
       "skills": [
         "cultivate",
         "teleport"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "mysterious",
+        "gathered",
+        "ornamental",
+        "communal"
       ]
     },
     {
@@ -2355,6 +3267,15 @@
       "skills": [
         "cultivate",
         "teleport"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "mysterious",
+        "gathered",
+        "ornamental",
+        "wooden"
       ]
     },
     {
@@ -2378,6 +3299,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "healing",
+        "round",
+        "container"
       ]
     },
     {
@@ -2400,6 +3330,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "healing",
+        "round",
+        "communal"
       ]
     },
     {
@@ -2423,6 +3362,15 @@
       "skills": [
         "trade",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "healing",
+        "round",
+        "communal"
       ]
     },
     {
@@ -2445,6 +3393,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "cute",
+        "round",
+        "spinning"
       ]
     },
     {
@@ -2468,6 +3425,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "fire",
+        "pointy",
+        "training"
       ]
     },
     {
@@ -2492,6 +3458,15 @@
       "skills": [
         "generate",
         "crush"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "fire",
+        "hard",
+        "training"
       ]
     },
     {
@@ -2514,6 +3489,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "ornamental",
+        "healing"
       ]
     },
     {
@@ -2537,6 +3521,15 @@
       },
       "skills": [
         "stomp"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "nature",
+        "foodlike",
+        "wobbly",
+        "communal"
       ]
     },
     {
@@ -2560,7 +3553,16 @@
       "skills": [
         "glutton"
       ],
-      "artwork_url": "https://img.gamewith.jp/img/898c2263fa904581c1f9d437d116eb1f.png"
+      "artwork_url": "https://img.gamewith.jp/img/898c2263fa904581c1f9d437d116eb1f.png",
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "foodlike",
+        "ornamental",
+        "mysterious"
+      ]
     },
     {
       "pokopia_id": "108",
@@ -2584,6 +3586,15 @@
       "skills": [
         "trade",
         "stomp"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "fabric",
+        "foodlike",
+        "wobbly",
+        "vehicle"
       ]
     },
     {
@@ -2606,6 +3617,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "trash",
+        "vehicle",
+        "colorful"
       ]
     },
     {
@@ -2628,6 +3648,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "trash",
+        "vehicle",
+        "colorful"
       ]
     },
     {
@@ -2652,6 +3681,15 @@
       "skills": [
         "generate",
         "scatter"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "glass",
+        "cute",
+        "fabric"
       ]
     },
     {
@@ -2676,6 +3714,15 @@
       "skills": [
         "generate",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "glass",
+        "cute",
+        "vehicle"
       ]
     },
     {
@@ -2699,6 +3746,15 @@
       "skills": [
         "generate",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "glass",
+        "cute",
+        "floral"
       ]
     },
     {
@@ -2723,6 +3779,14 @@
       "skills": [
         "moisten",
         "liven-up"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "cute",
+        "tidy",
+        "healing",
+        "vehicle"
       ]
     },
     {
@@ -2747,6 +3811,14 @@
       "skills": [
         "moisten",
         "liven-up"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "cute",
+        "tidy",
+        "round",
+        "symbolic"
       ]
     },
     {
@@ -2770,6 +3842,14 @@
       "skills": [
         "moisten",
         "build"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "cute",
+        "construction",
+        "wobbly",
+        "symbolic"
       ]
     },
     {
@@ -2794,7 +3874,16 @@
         "scatter"
       ],
       "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
-      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "trash",
+        "earth",
+        "stone",
+        "tidy",
+        "communal"
+      ]
     },
     {
       "pokopia_id": "118",
@@ -2818,6 +3907,15 @@
       "skills": [
         "scatter",
         "stomp"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "trash",
+        "earth",
+        "water",
+        "tidy",
+        "round"
       ]
     },
     {
@@ -2840,6 +3938,15 @@
       },
       "skills": [
         "paint"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "mysterious",
+        "colorful",
+        "shiny"
       ]
     },
     {
@@ -2862,6 +3969,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "cute",
+        "container",
+        "floral"
       ]
     },
     {
@@ -2886,6 +4002,15 @@
       "skills": [
         "ignite",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "training",
+        "container",
+        "construction"
       ]
     },
     {
@@ -2910,6 +4035,15 @@
       "skills": [
         "ignite",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "luxurious",
+        "training",
+        "container",
+        "construction"
       ]
     },
     {
@@ -2934,6 +4068,15 @@
       "skills": [
         "moisten",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "wind",
+        "tidy",
+        "ocean",
+        "ornamental"
       ]
     },
     {
@@ -2958,6 +4101,15 @@
       "skills": [
         "moisten",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "wind",
+        "tidy",
+        "ocean",
+        "ornamental"
       ]
     },
     {
@@ -2982,6 +4134,15 @@
       "skills": [
         "build",
         "stomp"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "fabric",
+        "round",
+        "wooden"
       ]
     },
     {
@@ -3006,6 +4167,15 @@
       "skills": [
         "build",
         "stomp"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "fabric",
+        "round",
+        "vehicle"
       ]
     },
     {
@@ -3028,6 +4198,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "soft",
+        "wind",
+        "text",
+        "arcane",
+        "training"
       ]
     },
     {
@@ -3050,6 +4229,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "wind",
+        "tidy",
+        "container"
       ]
     },
     {
@@ -3074,6 +4262,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "wind",
+        "tidy",
+        "container"
       ]
     },
     {
@@ -3098,6 +4295,15 @@
       "skills": [
         "moisten",
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "metallic",
+        "tidy",
+        "text"
       ]
     },
     {
@@ -3120,6 +4326,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "healing",
+        "cute",
+        "round"
       ]
     },
     {
@@ -3142,6 +4357,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "trash",
+        "container",
+        "arcane",
+        "shiny",
+        "gathered"
       ]
     },
     {
@@ -3165,6 +4389,15 @@
       "skills": [
         "recycle",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "trash",
+        "container",
+        "arcane",
+        "shiny",
+        "gathered"
       ]
     },
     {
@@ -3187,6 +4420,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "shiny",
+        "luxurious",
+        "glass",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -3211,6 +4453,15 @@
       "skills": [
         "trade",
         "chop"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "shiny",
+        "luxurious",
+        "glass",
+        "mysterious",
+        "communal"
       ]
     },
     {
@@ -3234,6 +4485,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "vehicle",
+        "cute",
+        "tidy"
       ]
     },
     {
@@ -3257,6 +4517,15 @@
       "skills": [
         "sort",
         "recycle"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "fabric",
+        "vehicle",
+        "cute",
+        "tidy"
       ]
     },
     {
@@ -3280,6 +4549,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "electric",
+        "ornamental",
+        "earth",
+        "container"
       ]
     },
     {
@@ -3303,6 +4581,15 @@
       "skills": [
         "generate",
         "chop"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "electric",
+        "ornamental",
+        "glass",
+        "square"
       ]
     },
     {
@@ -3326,6 +4613,15 @@
       "skills": [
         "generate",
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "electric",
+        "training",
+        "glass",
+        "wind"
       ]
     },
     {
@@ -3348,6 +4644,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "cute",
+        "electric",
+        "fabric",
+        "communal"
       ]
     },
     {
@@ -3371,6 +4676,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "cute",
+        "glass",
+        "communal"
       ]
     },
     {
@@ -3395,6 +4709,15 @@
       "skills": [
         "generate",
         "crush"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "training",
+        "glass",
+        "communal"
       ]
     },
     {
@@ -3418,6 +4741,15 @@
       "skills": [
         "generate",
         "crush"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "container",
+        "shiny",
+        "training",
+        "healing",
+        "communal"
       ]
     },
     {
@@ -3440,6 +4772,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "communal",
+        "text",
+        "container"
       ]
     },
     {
@@ -3464,7 +4805,16 @@
         "trade"
       ],
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10258.png",
-      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10258.png"
+      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10258.png",
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "communal",
+        "text",
+        "square"
+      ]
     },
     {
       "pokopia_id": "145",
@@ -3488,7 +4838,16 @@
         "trade"
       ],
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10259.png",
-      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10259.png"
+      "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10259.png",
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "communal",
+        "text",
+        "slender"
+      ]
     },
     {
       "pokopia_id": "146",
@@ -3510,6 +4869,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "ornamental",
+        "nature",
+        "slender",
+        "spinning"
       ]
     },
     {
@@ -3532,6 +4900,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "trash",
+        "ornamental",
+        "nature",
+        "slender",
+        "spinning"
       ]
     },
     {
@@ -3554,6 +4931,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "cute",
+        "round",
+        "colorful",
+        "healing",
+        "vehicle"
       ]
     },
     {
@@ -3577,6 +4963,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "cute",
+        "playground",
+        "floral",
+        "healing",
+        "communal"
       ]
     },
     {
@@ -3601,6 +4996,15 @@
       "skills": [
         "liven-up",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "cute",
+        "playground",
+        "floral",
+        "healing",
+        "communal"
       ]
     },
     {
@@ -3623,6 +5027,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "cute",
+        "playground",
+        "healing",
+        "noisy"
       ]
     },
     {
@@ -3646,6 +5059,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "cute",
+        "playground",
+        "healing",
+        "wobbly"
       ]
     },
     {
@@ -3669,6 +5091,15 @@
       "skills": [
         "liven-up",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "cute",
+        "playground",
+        "healing",
+        "communal"
       ]
     },
     {
@@ -3692,6 +5123,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "earth",
+        "playground",
+        "cute",
+        "communal",
+        "slender"
       ]
     },
     {
@@ -3716,6 +5156,15 @@
       "skills": [
         "liven-up",
         "crush"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "earth",
+        "playground",
+        "gathered",
+        "communal",
+        "slender"
       ]
     },
     {
@@ -3739,6 +5188,15 @@
       "skills": [
         "build",
         "sort"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "tidy",
+        "stone",
+        "hard",
+        "communal"
       ]
     },
     {
@@ -3763,6 +5221,15 @@
       "skills": [
         "build",
         "sort"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "stone",
+        "hard",
+        "communal"
       ]
     },
     {
@@ -3787,6 +5254,15 @@
       "skills": [
         "build",
         "sort"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "training",
+        "construction",
+        "stone",
+        "hard",
+        "communal"
       ]
     },
     {
@@ -3809,6 +5285,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "spinning",
+        "round",
+        "training"
       ]
     },
     {
@@ -3831,6 +5316,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "spinning",
+        "round",
+        "training"
       ]
     },
     {
@@ -3854,6 +5348,15 @@
       "skills": [
         "crush",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "spinning",
+        "round",
+        "training"
       ]
     },
     {
@@ -3876,6 +5379,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "ornamental",
+        "cute",
+        "wobbly"
       ]
     },
     {
@@ -3898,6 +5410,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "electric",
+        "hard",
+        "training"
       ]
     },
     {
@@ -3921,6 +5442,15 @@
       "skills": [
         "ignite",
         "crush"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "electric",
+        "hard",
+        "training"
       ]
     },
     {
@@ -3943,6 +5473,15 @@
       },
       "skills": [
         "stomp"
+      ],
+      "flavor": "sour",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "nature",
+        "wooden",
+        "round"
       ]
     },
     {
@@ -3966,6 +5505,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "nature",
+        "wooden",
+        "ornamental"
       ]
     },
     {
@@ -3990,6 +5538,15 @@
       "skills": [
         "trade",
         "fly"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "shiny",
+        "wind",
+        "communal",
+        "luxurious",
+        "fabric"
       ]
     },
     {
@@ -4014,6 +5571,15 @@
       "skills": [
         "trade",
         "fly"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "shiny",
+        "wind",
+        "eerie",
+        "text",
+        "glass"
       ]
     },
     {
@@ -4037,6 +5603,15 @@
       "skills": [
         "crush",
         "stomp"
+      ],
+      "flavor": "sweet",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "earth",
+        "luxurious",
+        "shiny",
+        "foodlike"
       ]
     },
     {
@@ -4060,6 +5635,15 @@
       "skills": [
         "crush",
         "stomp"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "luxurious",
+        "shiny",
+        "ornamental"
       ]
     },
     {
@@ -4084,6 +5668,15 @@
       "skills": [
         "crush",
         "stomp"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "luxurious",
+        "shiny",
+        "training"
       ]
     },
     {
@@ -4108,6 +5701,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "nature",
+        "tidy",
+        "container",
+        "noisy"
       ]
     },
     {
@@ -4131,6 +5733,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "water",
+        "nature",
+        "tidy",
+        "container",
+        "noisy"
       ]
     },
     {
@@ -4154,6 +5765,15 @@
       "skills": [
         "moisten",
         "liven-up"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "nature",
+        "playground",
+        "container",
+        "noisy"
       ]
     },
     {
@@ -4177,6 +5797,15 @@
       "skills": [
         "trade",
         "build"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "metallic",
+        "cute",
+        "colorful",
+        "foodlike",
+        "communal"
       ]
     },
     {
@@ -4199,6 +5828,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "metallic",
+        "hard",
+        "ornamental"
       ]
     },
     {
@@ -4222,6 +5860,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "noisy",
+        "colorful",
+        "ornamental"
       ]
     },
     {
@@ -4245,6 +5892,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "noisy",
+        "colorful",
+        "ornamental"
       ]
     },
     {
@@ -4269,6 +5925,15 @@
       "skills": [
         "liven-up",
         "fly"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "wind",
+        "fabric",
+        "slender",
+        "playground",
+        "noisy"
       ]
     },
     {
@@ -4292,6 +5957,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "training",
+        "fabric",
+        "construction",
+        "gathered",
+        "ornamental"
       ]
     },
     {
@@ -4314,6 +5988,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "training",
+        "metallic",
+        "construction",
+        "arcane",
+        "healing"
       ]
     },
     {
@@ -4337,7 +6020,16 @@
       "skills": [
         "dj"
       ],
-      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_01/ill_01.webp"
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_01/ill_01.webp",
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "shiny",
+        "glass",
+        "noisy",
+        "communal",
+        "square"
+      ]
     },
     {
       "pokopia_id": "183",
@@ -4360,6 +6052,15 @@
       "skills": [
         "ignite",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dry",
+      "things": [
+        "nature",
+        "fire",
+        "pointy",
+        "wooden",
+        "symbolic"
       ]
     },
     {
@@ -4384,6 +6085,15 @@
       "skills": [
         "ignite",
         "scatter"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "nature",
+        "fire",
+        "text",
+        "wooden",
+        "symbolic"
       ]
     },
     {
@@ -4406,6 +6116,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "wind",
+        "container",
+        "spinning"
       ]
     },
     {
@@ -4429,6 +6148,15 @@
       "skills": [
         "cultivate",
         "chop"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "wooden",
+        "wind",
+        "slender",
+        "tidy"
       ]
     },
     {
@@ -4453,6 +6181,15 @@
       "skills": [
         "cultivate",
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "nature",
+        "eerie",
+        "wooden",
+        "wind",
+        "text"
       ]
     },
     {
@@ -4475,6 +6212,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "soft",
+        "communal",
+        "pointy"
       ]
     },
     {
@@ -4498,6 +6244,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "playground",
+        "communal",
+        "container"
       ]
     },
     {
@@ -4522,6 +6277,15 @@
       "skills": [
         "ignite",
         "liven-up"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "playground",
+        "communal",
+        "round"
       ]
     },
     {
@@ -4545,6 +6309,15 @@
       "skills": [
         "find",
         "liven-up"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "wooden",
+        "ornamental",
+        "foodlike",
+        "round"
       ]
     },
     {
@@ -4568,7 +6341,16 @@
       "skills": [
         "party"
       ],
-      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_02/ill_01.webp"
+      "artwork_url": "https://www.pocoapokemon.jp/assets/img/pokemon/260227_02/ill_01.webp",
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "metallic",
+        "communal",
+        "foodlike",
+        "luxurious"
+      ]
     },
     {
       "pokopia_id": "193",
@@ -4591,6 +6373,15 @@
       "skills": [
         "ignite",
         "sort"
+      ],
+      "flavor": "sour",
+      "environment": "warm",
+      "things": [
+        "stone",
+        "fire",
+        "hard",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -4614,6 +6405,15 @@
       "skills": [
         "ignite",
         "sort"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "stone",
+        "fire",
+        "hard",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -4638,6 +6438,15 @@
       "skills": [
         "ignite",
         "sort"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "stone",
+        "fire",
+        "hard",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -4660,6 +6469,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "electric",
+        "shiny",
+        "noisy",
+        "glass",
+        "trash"
       ]
     },
     {
@@ -4683,6 +6501,15 @@
       "skills": [
         "generate",
         "liven-up"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "electric",
+        "playground",
+        "noisy",
+        "slender",
+        "pointy"
       ]
     },
     {
@@ -4706,6 +6533,15 @@
       "skills": [
         "generate",
         "liven-up"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "electric",
+        "playground",
+        "noisy",
+        "slender",
+        "pointy"
       ]
     },
     {
@@ -4729,6 +6565,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "cute",
+        "ornamental",
+        "soft",
+        "fire",
+        "text"
       ]
     },
     {
@@ -4753,6 +6598,15 @@
       "skills": [
         "find",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "warm",
+      "things": [
+        "cute",
+        "ornamental",
+        "communal",
+        "fire",
+        "foodlike"
       ]
     },
     {
@@ -4775,6 +6629,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "mysterious",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -4798,6 +6661,15 @@
       "skills": [
         "ignite",
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "mysterious",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -4821,6 +6693,15 @@
       "skills": [
         "ignite",
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "eerie",
+        "mysterious",
+        "luxurious"
       ]
     },
     {
@@ -4844,6 +6725,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "trash",
+        "shiny",
+        "arcane"
       ]
     },
     {
@@ -4867,6 +6757,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "stone",
+        "hard",
+        "trash",
+        "shiny",
+        "arcane"
       ]
     },
     {
@@ -4889,6 +6788,15 @@
       },
       "skills": [
         "collector"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "metallic",
+        "mysterious",
+        "shiny",
+        "arcane"
       ]
     },
     {
@@ -4911,6 +6819,15 @@
       },
       "skills": [
         "collector"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "eerie",
+        "metallic",
+        "mysterious",
+        "shiny",
+        "arcane"
       ]
     },
     {
@@ -4933,6 +6850,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "soft",
+        "cute",
+        "round",
+        "floral"
       ]
     },
     {
@@ -4956,6 +6882,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "soft",
+        "ornamental",
+        "luxurious",
+        "floral"
       ]
     },
     {
@@ -4978,6 +6913,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "round",
+        "vehicle",
+        "spinning"
       ]
     },
     {
@@ -5000,6 +6944,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "nature",
+        "training",
+        "spinning"
       ]
     },
     {
@@ -5024,6 +6977,15 @@
       "skills": [
         "moisten",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "construction",
+        "training",
+        "communal"
       ]
     },
     {
@@ -5049,6 +7011,15 @@
       "skills": [
         "moisten",
         "liven-up"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "playground",
+        "noisy",
+        "gathered",
+        "communal"
       ]
     },
     {
@@ -5072,6 +7043,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "mysterious",
+        "wobbly",
+        "metallic",
+        "soft",
+        "ornamental"
       ]
     },
     {
@@ -5094,6 +7074,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "mysterious",
+        "wobbly",
+        "metallic",
+        "container",
+        "ornamental"
       ]
     },
     {
@@ -5118,6 +7107,15 @@
       "skills": [
         "teleport",
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "mysterious",
+        "wobbly",
+        "metallic",
+        "text",
+        "ornamental"
       ]
     },
     {
@@ -5141,6 +7139,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "cute",
+        "vehicle",
+        "playground",
+        "colorful"
       ]
     },
     {
@@ -5164,6 +7171,15 @@
       "skills": [
         "sort",
         "build"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "cute",
+        "vehicle",
+        "wobbly",
+        "ornamental"
       ]
     },
     {
@@ -5186,6 +7202,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "mysterious",
+        "square",
+        "construction",
+        "colorful"
       ]
     },
     {
@@ -5208,6 +7233,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "mysterious",
+        "round",
+        "construction",
+        "colorful"
       ]
     },
     {
@@ -5230,6 +7264,15 @@
       },
       "skills": [
         "rare-find"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "mysterious",
+        "fabric",
+        "ornamental",
+        "colorful"
       ]
     },
     {
@@ -5253,6 +7296,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "fire",
+        "tidy",
+        "cute",
+        "slender"
       ]
     },
     {
@@ -5276,6 +7328,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "fire",
+        "tidy",
+        "cute",
+        "slender"
       ]
     },
     {
@@ -5299,6 +7360,15 @@
       "skills": [
         "moisten",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "fire",
+        "wind",
+        "tidy",
+        "symbolic",
+        "floral"
       ]
     },
     {
@@ -5321,6 +7391,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "fabric",
+        "slender",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -5344,6 +7423,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "fabric",
+        "slender",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -5368,6 +7456,15 @@
       "skills": [
         "ignite",
         "trade"
+      ],
+      "flavor": "astringent",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "fabric",
+        "slender",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -5391,6 +7488,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "shiny",
+        "colorful",
+        "ornamental"
       ]
     },
     {
@@ -5416,6 +7522,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "noisy",
+        "wobbly",
+        "communal"
       ]
     },
     {
@@ -5438,6 +7553,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "sour",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "mysterious",
+        "vehicle",
+        "ornamental",
+        "slender"
       ]
     },
     {
@@ -5461,6 +7585,15 @@
       "skills": [
         "sort",
         "find"
+      ],
+      "flavor": "sour",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "mysterious",
+        "vehicle",
+        "ornamental",
+        "slender"
       ]
     },
     {
@@ -5483,6 +7616,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "cute",
+        "healing",
+        "ornamental",
+        "symbolic"
       ]
     },
     {
@@ -5506,6 +7648,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "cute",
+        "healing",
+        "ornamental",
+        "symbolic"
       ]
     },
     {
@@ -5530,6 +7681,15 @@
       "skills": [
         "teleport",
         "trade"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "luxurious",
+        "healing",
+        "ornamental",
+        "symbolic"
       ]
     },
     {
@@ -5553,6 +7713,15 @@
       "skills": [
         "teleport",
         "build"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "training",
+        "healing",
+        "construction",
+        "fabric"
       ]
     },
     {
@@ -5575,6 +7744,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "soft",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -5597,6 +7775,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "glass",
+        "soft",
+        "cute",
+        "communal"
       ]
     },
     {
@@ -5620,6 +7807,15 @@
       "skills": [
         "stomp",
         "scatter"
+      ],
+      "flavor": "spicy",
+      "environment": "dry",
+      "things": [
+        "earth",
+        "hard",
+        "mysterious",
+        "ornamental",
+        "training"
       ]
     },
     {
@@ -5643,6 +7839,15 @@
       "skills": [
         "stomp",
         "fly"
+      ],
+      "flavor": "bitter",
+      "environment": "dry",
+      "things": [
+        "earth",
+        "fire",
+        "nature",
+        "luxurious",
+        "noisy"
       ]
     },
     {
@@ -5666,6 +7871,15 @@
       "skills": [
         "stomp",
         "fly"
+      ],
+      "flavor": "sour",
+      "environment": "dry",
+      "things": [
+        "earth",
+        "fire",
+        "nature",
+        "stone",
+        "wooden"
       ]
     },
     {
@@ -5688,6 +7902,15 @@
       },
       "skills": [
         "scatter"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "wind",
+        "cute",
+        "ornamental",
+        "tidy"
       ]
     },
     {
@@ -5711,6 +7934,15 @@
       "skills": [
         "scatter",
         "fly"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "wind",
+        "cute",
+        "ornamental",
+        "noisy"
       ]
     },
     {
@@ -5733,6 +7965,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "vehicle",
+        "glass",
+        "fabric"
       ]
     },
     {
@@ -5755,6 +7996,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "vehicle",
+        "soft",
+        "container"
       ]
     },
     {
@@ -5778,6 +8028,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "mysterious",
+        "vehicle",
+        "communal",
+        "container"
       ]
     },
     {
@@ -5800,6 +8059,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "sour",
+      "environment": "cool",
+      "things": [
+        "metallic",
+        "mysterious",
+        "hard",
+        "arcane",
+        "stone"
       ]
     },
     {
@@ -5822,6 +8090,15 @@
       },
       "skills": [
         "recycle"
+      ],
+      "flavor": "bitter",
+      "environment": "cool",
+      "things": [
+        "metallic",
+        "mysterious",
+        "hard",
+        "arcane",
+        "stone"
       ]
     },
     {
@@ -5845,6 +8122,15 @@
       "skills": [
         "recycle",
         "crush"
+      ],
+      "flavor": "astringent",
+      "environment": "cool",
+      "things": [
+        "metallic",
+        "mysterious",
+        "hard",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -5868,6 +8154,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "water",
+        "wobbly",
+        "shiny"
       ]
     },
     {
@@ -5891,6 +8186,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "water",
+        "tidy",
+        "shiny"
       ]
     },
     {
@@ -5915,6 +8219,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "nature",
+        "wooden",
+        "water",
+        "container",
+        "slender"
       ]
     },
     {
@@ -5937,6 +8250,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "ornamental",
+        "container"
       ]
     },
     {
@@ -5960,6 +8282,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "ornamental",
+        "container"
       ]
     },
     {
@@ -5984,6 +8315,15 @@
       "skills": [
         "moisten",
         "chop"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "shiny",
+        "training"
       ]
     },
     {
@@ -6006,6 +8346,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "cute",
+        "ornamental",
+        "communal",
+        "foodlike"
       ]
     },
     {
@@ -6028,6 +8377,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "dim",
+      "things": [
+        "wind",
+        "fire",
+        "ornamental",
+        "luxurious",
+        "foodlike"
       ]
     },
     {
@@ -6051,6 +8409,15 @@
       "skills": [
         "find",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "wind",
+        "fire",
+        "ornamental",
+        "playground",
+        "foodlike"
       ]
     },
     {
@@ -6073,6 +8440,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "wind",
+        "shiny",
+        "container",
+        "slender",
+        "wooden"
       ]
     },
     {
@@ -6095,6 +8471,15 @@
       },
       "skills": [
         "chop"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "wind",
+        "shiny",
+        "container",
+        "slender",
+        "wooden"
       ]
     },
     {
@@ -6119,6 +8504,15 @@
       "skills": [
         "chop",
         "fly"
+      ],
+      "flavor": "bitter",
+      "environment": "bright",
+      "things": [
+        "wind",
+        "metallic",
+        "shiny",
+        "container",
+        "wooden"
       ]
     },
     {
@@ -6142,6 +8536,15 @@
       "skills": [
         "sort",
         "find"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "fire",
+        "eerie",
+        "vehicle",
+        "mysterious",
+        "communal"
       ]
     },
     {
@@ -6166,6 +8569,15 @@
       "skills": [
         "sort",
         "find"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "fire",
+        "eerie",
+        "vehicle",
+        "mysterious",
+        "communal"
       ]
     },
     {
@@ -6189,6 +8601,15 @@
       "skills": [
         "sort",
         "trade"
+      ],
+      "flavor": "spicy",
+      "environment": "moist",
+      "things": [
+        "fire",
+        "eerie",
+        "vehicle",
+        "mysterious",
+        "communal"
       ]
     },
     {
@@ -6212,6 +8633,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "floral",
+        "container",
+        "colorful",
+        "cute"
       ]
     },
     {
@@ -6234,6 +8664,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "floral",
+        "pointy",
+        "colorful",
+        "cute"
       ]
     },
     {
@@ -6257,6 +8696,15 @@
       "skills": [
         "cultivate",
         "liven-up"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "floral",
+        "shiny",
+        "luxurious",
+        "cute"
       ]
     },
     {
@@ -6279,6 +8727,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "wind",
+        "ocean",
+        "gathered",
+        "arcane"
       ]
     },
     {
@@ -6302,6 +8759,15 @@
       "skills": [
         "generate",
         "fly"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "wind",
+        "ocean",
+        "gathered",
+        "slender"
       ]
     },
     {
@@ -6325,6 +8791,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "cute",
+        "metallic",
+        "construction",
+        "foodlike",
+        "training"
       ]
     },
     {
@@ -6348,6 +8823,15 @@
       },
       "skills": [
         "build"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "cute",
+        "metallic",
+        "construction",
+        "communal",
+        "training"
       ]
     },
     {
@@ -6370,6 +8854,15 @@
       },
       "skills": [
         "craft"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "cute",
+        "metallic",
+        "construction",
+        "square",
+        "training"
       ]
     },
     {
@@ -6392,6 +8885,15 @@
       },
       "skills": [
         "fly"
+      ],
+      "flavor": "sour",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "wind",
+        "hard",
+        "shiny",
+        "spinning"
       ]
     },
     {
@@ -6414,6 +8916,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "spicy",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "wobbly",
+        "communal",
+        "training"
       ]
     },
     {
@@ -6437,6 +8948,15 @@
       "skills": [
         "crush",
         "scatter"
+      ],
+      "flavor": "astringent",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "metallic",
+        "luxurious",
+        "training"
       ]
     },
     {
@@ -6459,6 +8979,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "sweet",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "metallic",
+        "luxurious",
+        "round"
       ]
     },
     {
@@ -6482,6 +9011,15 @@
       "skills": [
         "crush",
         "scatter"
+      ],
+      "flavor": "bitter",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "metallic",
+        "luxurious",
+        "training"
       ]
     },
     {
@@ -6504,6 +9042,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "sweet",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "fire",
+        "luxurious",
+        "training"
       ]
     },
     {
@@ -6527,6 +9074,15 @@
       "skills": [
         "crush",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "dry",
+      "things": [
+        "stone",
+        "hard",
+        "fire",
+        "luxurious",
+        "training"
       ]
     },
     {
@@ -6549,6 +9105,15 @@
       },
       "skills": [
         "crush"
+      ],
+      "flavor": "astringent",
+      "environment": "cool",
+      "things": [
+        "stone",
+        "hard",
+        "shiny",
+        "communal",
+        "container"
       ]
     },
     {
@@ -6572,6 +9137,15 @@
       "skills": [
         "crush",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "cool",
+      "things": [
+        "stone",
+        "hard",
+        "shiny",
+        "noisy",
+        "symbolic"
       ]
     },
     {
@@ -6594,6 +9168,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "soft",
+        "stone",
+        "cute",
+        "text",
+        "communal"
       ]
     },
     {
@@ -6616,6 +9199,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sweet",
+      "environment": "moist",
+      "things": [
+        "water",
+        "tidy",
+        "cute",
+        "floral",
+        "ornamental"
       ]
     },
     {
@@ -6638,6 +9230,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "shiny",
+        "cute",
+        "glass",
+        "pointy"
       ]
     },
     {
@@ -6660,6 +9261,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wooden",
+        "cute",
+        "metallic",
+        "vehicle"
       ]
     },
     {
@@ -6682,6 +9292,15 @@
       },
       "skills": [
         "sort"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "mysterious",
+        "wind",
+        "cute",
+        "arcane",
+        "ornamental"
       ]
     },
     {
@@ -6704,6 +9323,15 @@
       },
       "skills": [
         "find"
+      ],
+      "flavor": "bitter",
+      "environment": "dim",
+      "things": [
+        "shiny",
+        "luxurious",
+        "cute",
+        "text",
+        "ornamental"
       ]
     },
     {
@@ -6726,6 +9354,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "nature",
+        "floral",
+        "cute",
+        "fabric",
+        "healing"
       ]
     },
     {
@@ -6748,6 +9385,15 @@
       },
       "skills": [
         "trade"
+      ],
+      "flavor": "sweet",
+      "environment": "cool",
+      "things": [
+        "water",
+        "shiny",
+        "cute",
+        "glass",
+        "communal"
       ]
     },
     {
@@ -6770,6 +9416,15 @@
       },
       "skills": [
         "liven-up"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "cute",
+        "nature",
+        "fabric",
+        "noisy",
+        "round"
       ]
     },
     {
@@ -6790,6 +9445,15 @@
       },
       "skills": [
         "unknown"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "luxurious",
+        "shiny",
+        "glass"
       ]
     },
     {
@@ -6810,6 +9474,15 @@
       },
       "skills": [
         "generate"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "wind",
+        "shiny",
+        "glass",
+        "luxurious"
       ]
     },
     {
@@ -6830,6 +9503,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "bitter",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "stone",
+        "symbolic",
+        "training",
+        "luxurious"
       ]
     },
     {
@@ -6850,6 +9532,15 @@
       },
       "skills": [
         "moisten"
+      ],
+      "flavor": "sour",
+      "environment": "moist",
+      "things": [
+        "water",
+        "ocean",
+        "tidy",
+        "ornamental",
+        "healing"
       ]
     },
     {
@@ -6870,6 +9561,15 @@
       },
       "skills": [
         "ignite"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "water",
+        "stone",
+        "container",
+        "symbolic"
       ]
     },
     {
@@ -6890,6 +9590,15 @@
       },
       "skills": [
         "fly"
+      ],
+      "flavor": "sour",
+      "environment": "cool",
+      "things": [
+        "water",
+        "wind",
+        "shiny",
+        "symbolic",
+        "luxurious"
       ]
     },
     {
@@ -6910,6 +9619,15 @@
       },
       "skills": [
         "fly"
+      ],
+      "flavor": "spicy",
+      "environment": "bright",
+      "things": [
+        "electric",
+        "wind",
+        "glass",
+        "symbolic",
+        "luxurious"
       ]
     },
     {
@@ -6930,6 +9648,15 @@
       },
       "skills": [
         "fly"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wind",
+        "stone",
+        "symbolic",
+        "luxurious"
       ]
     },
     {
@@ -6950,6 +9677,15 @@
       },
       "skills": [
         "unknown"
+      ],
+      "flavor": "astringent",
+      "environment": "moist",
+      "things": [
+        "mysterious",
+        "wind",
+        "water",
+        "ocean",
+        "symbolic"
       ]
     },
     {
@@ -6970,6 +9706,15 @@
       },
       "skills": [
         "unknown"
+      ],
+      "flavor": "spicy",
+      "environment": "warm",
+      "things": [
+        "fire",
+        "wooden",
+        "wind",
+        "nature",
+        "symbolic"
       ]
     },
     {
@@ -6990,6 +9735,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "astringent",
+      "environment": "dim",
+      "things": [
+        "mysterious",
+        "ornamental",
+        "text",
+        "arcane",
+        "stone"
       ]
     },
     {
@@ -7010,6 +9764,15 @@
       },
       "skills": [
         "teleport"
+      ],
+      "flavor": "sweet",
+      "environment": "warm",
+      "things": [
+        "mysterious",
+        "ornamental",
+        "luxurious",
+        "arcane",
+        "playground"
       ]
     },
     {
@@ -7032,6 +9795,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "sweet",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "nature",
+        "wind",
+        "floral",
+        "wobbly"
       ]
     },
     {
@@ -7055,6 +9827,15 @@
       },
       "skills": [
         "cultivate"
+      ],
+      "flavor": "astringent",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "nature",
+        "wind",
+        "floral",
+        "spinning"
       ]
     },
     {
@@ -7079,6 +9860,15 @@
       "skills": [
         "cultivate",
         "scatter"
+      ],
+      "flavor": "sour",
+      "environment": "bright",
+      "things": [
+        "soft",
+        "nature",
+        "wind",
+        "floral",
+        "round"
       ]
     }
   ]

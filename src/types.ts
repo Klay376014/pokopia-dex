@@ -23,6 +23,9 @@ export interface Pokemon {
   time: TimeAvailability
   weather: WeatherAvailability
   skills: string[]
+  flavor: string | null
+  environment: string | null
+  things: string[] | null
 }
 
 export interface PokopiaData {
