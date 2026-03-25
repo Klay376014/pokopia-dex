@@ -16,8 +16,8 @@ describe('merge-favorites reverse mapping', () => {
   it('all flavor labels can be reversed', () => {
     const reverse = buildReverse(flavorLabels)
     expect(Object.keys(reverse)).toHaveLength(Object.keys(flavorLabels).length)
-    expect(reverse['甜甜的(桃桃果、豆子)']).toBe('sweet')
-    expect(reverse['辣辣的(成熟的紅蘿蔔)']).toBe('spicy')
+    expect(reverse['甜甜的（桃桃果、豆子）']).toBe('sweet')
+    expect(reverse['辣辣的（成熟的紅蘿蔔）']).toBe('spicy')
   })
 
   it('all environment labels can be reversed', () => {

@@ -6,7 +6,7 @@ export default defineConfig({
   ],
   transformers: [transformerDirectives()],
   shortcuts: {
-    'filter-label-base': 'text-xs font-600 text-text-subtle min-w-[3em] tracking-[0.04em]',
+    'filter-label-base': 'text-xs font-700 text-text-muted min-w-[3em] tracking-[0.06em] bg-surface-muted px-2 py-[3px] rounded-md border-l-2 border-l-solid border-l-primary',
     'filter-btn-base': 'px-3 py-1 border-1 border-solid border-surface-muted rounded-2xl bg-surface-raised text-[0.8125rem] cursor-pointer transition-all duration-150',
   },
   rules: [

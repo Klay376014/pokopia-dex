@@ -103,31 +103,33 @@ function onImgError(e: Event) {
         </div>
       </div>
 
-      <div class="mb-4">
-        <h3 class="text-[0.875rem] text-text-muted mb-2">出現時間</h3>
-        <div class="flex gap-[6px] flex-wrap">
-          <span
-            v-for="t in timeEntries"
-            :key="t.key"
-            :class="['tag tag-icon', { active: pokemon.time[t.key] }]"
-            :title="t.label"
-          >
-            <img :src="t.icon" :alt="t.label" class="tag-img" />
-          </span>
+      <div class="grid grid-cols-2 gap-4 mb-4">
+        <div>
+          <h3 class="text-[0.875rem] text-text-muted mb-2">出現時間</h3>
+          <div class="flex gap-[6px] flex-wrap">
+            <span
+              v-for="t in timeEntries"
+              :key="t.key"
+              :class="['tag tag-icon', { active: pokemon.time[t.key] }]"
+              :title="t.label"
+            >
+              <img :src="t.icon" :alt="t.label" class="tag-img" />
+            </span>
+          </div>
         </div>
-      </div>
 
-      <div class="mb-4">
-        <h3 class="text-[0.875rem] text-text-muted mb-2">出現天氣</h3>
-        <div class="flex gap-[6px] flex-wrap">
-          <span
-            v-for="w in weatherEntries"
-            :key="w.key"
-            :class="['tag tag-icon', { active: pokemon.weather[w.key] }]"
-            :title="w.label"
-          >
-            <img :src="w.icon" :alt="w.label" class="tag-img" />
-          </span>
+        <div>
+          <h3 class="text-[0.875rem] text-text-muted mb-2">出現天氣</h3>
+          <div class="flex gap-[6px] flex-wrap">
+            <span
+              v-for="w in weatherEntries"
+              :key="w.key"
+              :class="['tag tag-icon', { active: pokemon.weather[w.key] }]"
+              :title="w.label"
+            >
+              <img :src="w.icon" :alt="w.label" class="tag-img" />
+            </span>
+          </div>
         </div>
       </div>
 
@@ -147,17 +149,19 @@ function onImgError(e: Event) {
         </div>
       </div>
 
-      <div class="mb-4" v-if="pokemon.flavor">
-        <h3 class="text-[0.875rem] text-text-muted mb-2">口味</h3>
-        <div class="flex gap-2 flex-wrap">
-          <span class="tag active">{{ flavorLabels[pokemon.flavor] ?? pokemon.flavor }}</span>
+      <div class="grid grid-cols-2 gap-4 mb-4" v-if="pokemon.flavor || pokemon.environment">
+        <div v-if="pokemon.flavor">
+          <h3 class="text-[0.875rem] text-text-muted mb-2">口味</h3>
+          <div class="flex gap-2 flex-wrap">
+            <span class="tag active">{{ flavorLabels[pokemon.flavor] ?? pokemon.flavor }}</span>
+          </div>
         </div>
-      </div>
 
-      <div class="mb-4" v-if="pokemon.environment">
-        <h3 class="text-[0.875rem] text-text-muted mb-2">環境偏好</h3>
-        <div class="flex gap-2 flex-wrap">
-          <span class="tag active">{{ environmentLabels[pokemon.environment] ?? pokemon.environment }}</span>
+        <div v-if="pokemon.environment">
+          <h3 class="text-[0.875rem] text-text-muted mb-2">環境偏好</h3>
+          <div class="flex gap-2 flex-wrap">
+            <span class="tag active">{{ environmentLabels[pokemon.environment] ?? pokemon.environment }}</span>
+          </div>
         </div>
       </div>
 

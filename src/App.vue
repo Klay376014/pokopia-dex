@@ -7,6 +7,12 @@ import SearchableDropdown from './components/SearchableDropdown.vue'
 import PokemonDetail from './components/PokemonDetail.vue'
 import type { Pokemon, PokopiaData, HabitatInfo } from './types'
 import { skillLabels } from './skillLabels'
+import { flavorLabels, environmentLabels, thingLabels } from './favoriteLabels'
+
+// Short flavor labels for filter display (without ingredients)
+const flavorFilterLabels = Object.fromEntries(
+  Object.entries(flavorLabels).map(([k, v]) => [k, v.replace(/[（(].+$/, '')])
+)
 import pokopiaData from '../data/pokopia.json'
 import habitatsData from '../data/habitats.json'
 
@@ -17,29 +23,11 @@ const selectedPokemon = ref<Pokemon | null>(null)
 const searchQuery = ref('')
 
 // Filter state
-const selectedTimes = ref<string[]>([])
-const selectedWeathers = ref<string[]>([])
 const selectedSkills = ref<string[]>([])
 const selectedHabitat = ref<string | null>(null)
-
-// Derive available options from data
-const timeOptions = ['清晨', '白天', '黃昏', '夜晚']
-const timeKeys = ['dawn', 'day', 'dusk', 'night'] as const
-const weatherOptions = ['晴朗', '陰天', '下雨']
-const weatherKeys = ['sunny', 'cloudy', 'rainy'] as const
-
-const timeIcons: Record<string, string> = {
-  '清晨': new URL('../assets/time/dawn.webp', import.meta.url).href,
-  '白天': new URL('../assets/time/day.webp', import.meta.url).href,
-  '黃昏': new URL('../assets/time/dusk.webp', import.meta.url).href,
-  '夜晚': new URL('../assets/time/night.webp', import.meta.url).href,
-}
-
-const weatherIcons: Record<string, string> = {
-  '晴朗': new URL('../assets/weather/sun.webp', import.meta.url).href,
-  '陰天': new URL('../assets/weather/cloud.webp', import.meta.url).href,
-  '下雨': new URL('../assets/weather/rain.webp', import.meta.url).href,
-}
+const selectedFlavors = ref<string[]>([])
+const selectedEnvironments = ref<string[]>([])
+const selectedThings = ref<string[]>([])
 
 const allSkills = computed(() => {
   const skills = new Set<string>()
@@ -48,6 +36,10 @@ const allSkills = computed(() => {
   }
   return [...skills].sort()
 })
+
+const allFlavors = computed(() => Object.keys(flavorLabels))
+const allEnvironments = computed(() => Object.keys(environmentLabels))
+const allThings = computed(() => Object.keys(thingLabels))
 
 const allHabitatNames = computed(() => {
   return habitats.map(h => h.name)
@@ -69,22 +61,19 @@ const filteredPokemon = computed(() => {
       }
     }
 
-    // Time filter (OR within, AND with others)
-    if (selectedTimes.value.length > 0) {
-      const hasMatch = selectedTimes.value.some((t) => {
-        const idx = timeOptions.indexOf(t)
-        return idx >= 0 && p.time[timeKeys[idx]]
-      })
-      if (!hasMatch) return false
+    // Flavor filter (OR within, AND with others)
+    if (selectedFlavors.value.length > 0) {
+      if (!p.flavor || !selectedFlavors.value.includes(p.flavor)) return false
     }
 
-    // Weather filter (OR within, AND with others)
-    if (selectedWeathers.value.length > 0) {
-      const hasMatch = selectedWeathers.value.some((w) => {
-        const idx = weatherOptions.indexOf(w)
-        return idx >= 0 && p.weather[weatherKeys[idx]]
-      })
-      if (!hasMatch) return false
+    // Environment filter (OR within, AND with others)
+    if (selectedEnvironments.value.length > 0) {
+      if (!p.environment || !selectedEnvironments.value.includes(p.environment)) return false
+    }
+
+    // Things filter (OR within, AND with others)
+    if (selectedThings.value.length > 0) {
+      if (!p.things || !selectedThings.value.some(t => p.things!.includes(t))) return false
     }
 
     // Skill filter (OR within, AND with others)
@@ -145,23 +134,23 @@ function onNavigatePokemon(name: string) {
       />
       <div class="flex gap-4 flex-wrap">
         <FilterBar
-          label="時間"
-          :options="timeOptions"
-          :selected="selectedTimes"
-          :icons="timeIcons"
-          @toggle="v => toggleFilter(selectedTimes, v)"
+          label="口味"
+          :options="allFlavors"
+          :selected="selectedFlavors"
+          :labels="flavorFilterLabels"
+          @toggle="v => toggleFilter(selectedFlavors, v)"
         />
 
         <FilterBar
-          label="天氣"
-          :options="weatherOptions"
-          :selected="selectedWeathers"
-          :icons="weatherIcons"
-          @toggle="v => toggleFilter(selectedWeathers, v)"
+          label="環境"
+          :options="allEnvironments"
+          :selected="selectedEnvironments"
+          :labels="environmentLabels"
+          @toggle="v => toggleFilter(selectedEnvironments, v)"
         />
       </div>
 
-      <div class="flex gap-4 flex-wrap">
+      <div class="flex flex-col gap-[6px]">
         <CollapsibleFilterBar
           label="特長"
           :options="allSkills"
@@ -169,6 +158,15 @@ function onNavigatePokemon(name: string) {
           :labels="skillLabels"
           :defaultExpanded="false"
           @toggle="v => toggleFilter(selectedSkills, v)"
+        />
+
+        <CollapsibleFilterBar
+          label="喜歡的東西"
+          :options="allThings"
+          :selected="selectedThings"
+          :labels="thingLabels"
+          :defaultExpanded="false"
+          @toggle="v => toggleFilter(selectedThings, v)"
         />
       </div>
     </section>
