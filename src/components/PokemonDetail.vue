@@ -11,11 +11,13 @@ const habitatMap = new Map<string, HabitatInfo>(
 
 defineProps<{
   pokemon: Pokemon
+  bookmarked: boolean
 }>()
 
 defineEmits<{
   close: []
   navigate: [name: string]
+  toggleBookmark: [name: string]
 }>()
 
 function getArtworkUrl(pokemon: Pokemon): string {
@@ -67,7 +69,16 @@ function onImgError(e: Event) {
         @error="onImgError"
       />
 
-      <h2 class="text-center text-[1.25rem] mb-1">{{ pokemon.name_zh }}</h2>
+      <div class="flex items-center justify-center gap-2 mb-1">
+        <h2 class="text-[1.25rem]">{{ pokemon.name_zh }}</h2>
+        <button
+          class="detail-bookmark-btn border-none bg-transparent cursor-pointer p-1 flex items-center justify-center"
+          @click="$emit('toggleBookmark', pokemon.name_zh)"
+          :aria-label="bookmarked ? '取消收藏' : '加入收藏'"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" :fill="bookmarked ? 'oklch(0.55 0.22 27)' : 'none'" :stroke="bookmarked ? 'oklch(0.55 0.22 27)' : 'oklch(0.55 0.02 27)'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+      </div>
       <p class="text-center text-text-subtle text-[0.875rem] mb-4">Pokopia #{{ pokemon.pokopia_id }} / 全國 #{{ pokemon.national_id }}</p>
 
       <div class="mb-4" v-if="pokemon.habitats.length > 0">

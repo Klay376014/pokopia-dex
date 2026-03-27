@@ -5,9 +5,11 @@ import FilterBar from './components/FilterBar.vue'
 import CollapsibleFilterBar from './components/CollapsibleFilterBar.vue'
 import SearchableDropdown from './components/SearchableDropdown.vue'
 import PokemonDetail from './components/PokemonDetail.vue'
+import BookmarkToast from './components/BookmarkToast.vue'
 import type { Pokemon, PokopiaData, HabitatInfo } from './types'
 import { skillLabels } from './skillLabels'
 import { flavorLabels, environmentLabels, thingLabels } from './favoriteLabels'
+import { useBookmarks } from './composables/useBookmarks'
 
 // Short flavor labels for filter display (without ingredients)
 const flavorFilterLabels = Object.fromEntries(
@@ -19,10 +21,25 @@ import habitatsData from '../data/habitats.json'
 const data = pokopiaData as PokopiaData
 const habitats = habitatsData as HabitatInfo[]
 
+const { toggle, isBookmarked, bookmarkedIds, count: bookmarkCount } = useBookmarks()
+
+const toastMessage = ref<string | null>(null)
+
+function toggleBookmark(name: string) {
+  const wasBookmarked = isBookmarked(name)
+  toggle(name)
+  toastMessage.value = null
+  // Force reactivity by changing reference
+  requestAnimationFrame(() => {
+    toastMessage.value = wasBookmarked ? `已取消收藏 ${name}` : `已收藏 ${name}`
+  })
+}
+
 const selectedPokemon = ref<Pokemon | null>(null)
 const searchQuery = ref('')
 
 // Filter state
+const showBookmarkedOnly = ref(false)
 const selectedSkills = ref<string[]>([])
 const selectedHabitat = ref<string | null>(null)
 const selectedFlavors = ref<string[]>([])
@@ -53,6 +70,11 @@ function toggleFilter(arr: string[], value: string) {
 
 const filteredPokemon = computed(() => {
   return data.pokemon.filter(p => {
+    // Bookmark filter (AND with others)
+    if (showBookmarkedOnly.value) {
+      if (!bookmarkedIds.value.has(p.name_zh)) return false
+    }
+
     // Search filter (AND with other filters)
     if (searchQuery.value) {
       const q = searchQuery.value.toLowerCase()
@@ -117,6 +139,18 @@ function onNavigatePokemon(name: string) {
     </header>
 
     <section class="flex flex-col gap-[6px] p-[10px] bg-surface-raised rounded-lg shadow-[0_1px_3px_oklch(0_0_0/0.08)]">
+      <div class="flex items-center gap-2">
+        <button
+          class="bookmark-filter-btn flex items-center gap-1 py-[5px] px-3 rounded-lg border-1 border-solid text-[0.8125rem] font-500 cursor-pointer transition-[background,color,border-color] duration-200"
+          :class="showBookmarkedOnly ? 'bg-primary text-white border-primary' : 'bg-white text-text-muted border-surface-muted hover:border-text-subtle'"
+          @click="showBookmarkedOnly = !showBookmarkedOnly"
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" :fill="showBookmarkedOnly ? 'white' : 'oklch(0.55 0.22 27)'" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span>僅顯示收藏</span>
+          <span v-if="bookmarkCount > 0" class="text-xs opacity-70">({{ bookmarkCount }})</span>
+        </button>
+      </div>
+
       <div class="relative flex items-center">
         <span class="absolute left-[10px] text-base text-text-subtle pointer-events-none leading-none" aria-hidden="true">⌕</span>
         <input
@@ -178,15 +212,21 @@ function onNavigatePokemon(name: string) {
         v-for="p in filteredPokemon"
         :key="`${p.pokopia_id}-${p.national_id}-${p.name_zh}`"
         :pokemon="p"
+        :bookmarked="isBookmarked(p.name_zh)"
         @select="onSelectPokemon"
+        @toggle-bookmark="toggleBookmark"
       />
     </main>
+
+    <BookmarkToast :message="toastMessage" />
 
     <PokemonDetail
       v-if="selectedPokemon"
       :pokemon="selectedPokemon"
+      :bookmarked="isBookmarked(selectedPokemon.name_zh)"
       @close="onCloseDetail"
       @navigate="onNavigatePokemon"
+      @toggle-bookmark="toggleBookmark"
     />
   </div>
 </template>
