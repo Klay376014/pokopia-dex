@@ -13,7 +13,7 @@ import { useBookmarks } from './composables/useBookmarks'
 
 // Short flavor labels for filter display (without ingredients)
 const flavorFilterLabels = Object.fromEntries(
-  Object.entries(flavorLabels).map(([k, v]) => [k, v.replace(/[（(].+$/, '')])
+  Object.entries(flavorLabels).map(([k, v]) => [k, v[0] ?? ''])
 )
 import pokopiaData from '../data/pokopia.json'
 import habitatsData from '../data/habitats.json'
