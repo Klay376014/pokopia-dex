@@ -733,3 +733,91 @@ code:
 tests:
   - src/components/__tests__/CollapsibleFilterBar.test.ts
 -->
+
+---
+### Requirement: Vue Router multi-page architecture
+
+The application SHALL use Vue Router with web history (`createWebHistory`) to support clean URLs. A `_redirects` file SHALL be provided for Cloudflare Pages to handle SPA routing.
+
+#### Scenario: Dex route
+
+- **WHEN** the user navigates to `/`
+- **THEN** the application SHALL render `DexView.vue` with the existing Pokédex functionality unchanged
+
+#### Scenario: Maps route
+
+- **WHEN** the user navigates to `/maps`
+- **THEN** the application SHALL render `MapsView.vue` with the map placement interface
+
+
+<!-- @trace
+source: maps-placement-page
+updated: 2026-03-31
+code:
+  - node_modules/.vite/deps/vue.js
+  - src/App.vue
+  - docs/plans/2026-03-30-maps-placement-design.md
+  - assets/maps/bleak_beach.png
+  - bun.lock
+  - public/_redirects
+  - src/components/PokemonPickerModal.vue
+  - src/composables/useMapPlacements.ts
+  - package.json
+  - node_modules/.vite/deps/_metadata.json
+  - tsconfig.app.tsbuildinfo
+  - assets/maps/palette_town.png
+  - assets/maps/rocky_ridges.png
+  - assets/maps/withered_wastelands.png
+  - src/main.ts
+  - src/views/DexView.vue
+  - assets/maps/sparkling_skylands.png
+  - src/router/index.ts
+  - src/views/MapsView.vue
+  - node_modules/.vite/deps/vue.js.map
+-->
+
+---
+### Requirement: Navigation shell with active route indicator
+
+The application shell (`App.vue`) SHALL display a top navigation bar with links to all pages. The active route SHALL be visually indicated with a brand red underline.
+
+#### Scenario: Navigation bar display
+
+- **WHEN** any page is loaded
+- **THEN** the navigation bar SHALL show the Pokopia logo on the left and navigation links ("圖鑑", "地圖配置") on the right
+
+#### Scenario: Active route highlight
+
+- **WHEN** the user is on the dex route (`/`)
+- **THEN** the "圖鑑" link SHALL be highlighted with a brand red underline
+
+#### Scenario: Active maps route highlight
+
+- **WHEN** the user is on the maps route (`/maps`)
+- **THEN** the "地圖配置" link SHALL be highlighted with a brand red underline
+
+<!-- @trace
+source: maps-placement-page
+updated: 2026-03-31
+code:
+  - node_modules/.vite/deps/vue.js
+  - src/App.vue
+  - docs/plans/2026-03-30-maps-placement-design.md
+  - assets/maps/bleak_beach.png
+  - bun.lock
+  - public/_redirects
+  - src/components/PokemonPickerModal.vue
+  - src/composables/useMapPlacements.ts
+  - package.json
+  - node_modules/.vite/deps/_metadata.json
+  - tsconfig.app.tsbuildinfo
+  - assets/maps/palette_town.png
+  - assets/maps/rocky_ridges.png
+  - assets/maps/withered_wastelands.png
+  - src/main.ts
+  - src/views/DexView.vue
+  - assets/maps/sparkling_skylands.png
+  - src/router/index.ts
+  - src/views/MapsView.vue
+  - node_modules/.vite/deps/vue.js.map
+-->
