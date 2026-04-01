@@ -6,14 +6,17 @@ const props = defineProps<{
   allPokemon: Pokemon[]
   mapId: string
   isPlaced: (name: string) => boolean
+  getElsewhereInfo: (name: string) => { mapId: string; mapName: string } | null
 }>()
 
 const emit = defineEmits<{
   toggle: [name: string]
+  move: [fromMapId: string, name: string]
   close: []
 }>()
 
 const searchQuery = ref('')
+const confirmingMove = ref<string | null>(null)
 
 function getSpriteUrl(p: Pokemon): string {
   if (p.sprite_url) return p.sprite_url
@@ -28,6 +31,21 @@ const filteredPokemon = computed(() => {
     p => p.name_zh.toLowerCase().includes(q) || p.pokopia_id.includes(q)
   )
 })
+
+function onItemClick(name: string) {
+  const elsewhere = props.getElsewhereInfo(name)
+  if (elsewhere) {
+    confirmingMove.value = confirmingMove.value === name ? null : name
+  } else {
+    confirmingMove.value = null
+    emit('toggle', name)
+  }
+}
+
+function onConfirmMove(fromMapId: string, name: string) {
+  confirmingMove.value = null
+  emit('move', fromMapId, name)
+}
 
 function onBackdropClick(e: MouseEvent) {
   if (e.target === e.currentTarget) emit('close')
@@ -63,8 +81,12 @@ function onBackdropClick(e: MouseEvent) {
         >
           <button
             class="picker-item"
-            :class="{ 'picker-item--placed': isPlaced(p.name_zh) }"
-            @click="emit('toggle', p.name_zh)"
+            :class="{
+              'picker-item--placed': isPlaced(p.name_zh),
+              'picker-item--elsewhere': !!getElsewhereInfo(p.name_zh),
+              'picker-item--confirming': confirmingMove === p.name_zh,
+            }"
+            @click="onItemClick(p.name_zh)"
           >
             <img
               :src="getSpriteUrl(p)"
@@ -74,7 +96,23 @@ function onBackdropClick(e: MouseEvent) {
             <span class="picker-name">{{ p.name_zh }}</span>
             <span class="picker-id">{{ p.pokopia_id }}</span>
             <span v-if="isPlaced(p.name_zh)" class="picker-check" aria-label="已配置">✓</span>
+            <span v-else-if="getElsewhereInfo(p.name_zh)" class="picker-elsewhere-tag">
+              📍 {{ getElsewhereInfo(p.name_zh)!.mapName }}
+            </span>
           </button>
+
+          <!-- Inline move confirmation -->
+          <div v-if="confirmingMove === p.name_zh" class="move-confirm">
+            <span class="move-confirm-text">移到此地圖？</span>
+            <button
+              class="move-confirm-btn move-confirm-btn--yes"
+              @click.stop="onConfirmMove(getElsewhereInfo(p.name_zh)!.mapId, p.name_zh)"
+            >移過來</button>
+            <button
+              class="move-confirm-btn move-confirm-btn--cancel"
+              @click.stop="confirmingMove = null"
+            >取消</button>
+          </div>
         </li>
         <li v-if="filteredPokemon.length === 0" class="picker-empty">
           找不到符合的寶可夢
@@ -216,16 +254,18 @@ function onBackdropClick(e: MouseEvent) {
   background: oklch(0.97 0.02 27);
   border-color: oklch(0.55 0.22 27 / 0.3);
 }
+.picker-item--elsewhere {
+  opacity: 0.7;
+}
+.picker-item--confirming {
+  background: oklch(0.97 0.02 27);
+  border-color: oklch(0.55 0.22 27 / 0.4);
+  border-radius: 10px 10px 0 0;
+  opacity: 1;
+}
 .picker-sprite {
   width: 40px;
   height: 40px;
-  flex-shrink: 0;
-}
-.picker-sprite-placeholder {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: oklch(0.93 0.01 27);
   flex-shrink: 0;
 }
 .picker-name {
@@ -245,10 +285,64 @@ function onBackdropClick(e: MouseEvent) {
   color: oklch(0.55 0.22 27);
   flex-shrink: 0;
 }
+.picker-elsewhere-tag {
+  font-size: 0.6875rem;
+  color: oklch(0.52 0.08 60);
+  background: oklch(0.80 0.04 60 / 0.4);
+  border: 1px solid oklch(0.80 0.04 60);
+  border-radius: 6px;
+  padding: 2px 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 .picker-empty {
   text-align: center;
   padding: 32px 16px;
   color: oklch(0.60 0.015 27);
   font-size: 0.875rem;
+}
+
+/* Move confirmation row */
+.move-confirm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px 8px 60px;
+  background: oklch(0.97 0.02 27);
+  border: 1.5px solid oklch(0.55 0.22 27 / 0.4);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 2px;
+}
+.move-confirm-text {
+  flex: 1;
+  font-size: 0.8125rem;
+  color: oklch(0.45 0.02 27);
+}
+.move-confirm-btn {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1.5px solid;
+  transition: background 0.1s, color 0.1s;
+}
+.move-confirm-btn--yes {
+  background: oklch(0.55 0.22 27);
+  border-color: oklch(0.55 0.22 27);
+  color: white;
+}
+.move-confirm-btn--yes:hover {
+  background: oklch(0.42 0.22 27);
+  border-color: oklch(0.42 0.22 27);
+}
+.move-confirm-btn--cancel {
+  background: white;
+  border-color: oklch(0.93 0.01 27);
+  color: oklch(0.45 0.02 27);
+}
+.move-confirm-btn--cancel:hover {
+  background: oklch(0.97 0.005 27);
 }
 </style>

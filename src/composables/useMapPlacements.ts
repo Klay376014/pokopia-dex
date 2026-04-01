@@ -44,7 +44,20 @@ export function useMapPlacements() {
     return (placements.value[mapId] ?? []).includes(name)
   }
 
+  function movePokemon(fromMapId: string, toMapId: string, name: string) {
+    const next = { ...placements.value }
+    if (next[fromMapId]) {
+      next[fromMapId] = next[fromMapId].filter(n => n !== name)
+    }
+    if (!next[toMapId]) next[toMapId] = []
+    if (!next[toMapId].includes(name)) {
+      next[toMapId] = [...next[toMapId], name]
+    }
+    placements.value = next
+    saveToStorage(next)
+  }
+
   const allPlacements = computed(() => placements.value)
 
-  return { addPokemon, removePokemon, getPokemonNames, isPlaced, allPlacements }
+  return { addPokemon, removePokemon, movePokemon, getPokemonNames, isPlaced, allPlacements }
 }

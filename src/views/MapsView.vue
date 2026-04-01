@@ -36,7 +36,7 @@ const MAPS = [
   },
 ]
 
-const { addPokemon, removePokemon, getPokemonNames, isPlaced } = useMapPlacements()
+const { addPokemon, removePokemon, movePokemon, getPokemonNames, isPlaced, allPlacements } = useMapPlacements()
 
 const activeMapId = ref(MAPS[0].id)
 const activeMap = computed(() => MAPS.find(m => m.id === activeMapId.value)!)
@@ -63,6 +63,15 @@ function getSpriteUrl(p: Pokemon): string {
   if (p.sprite_url) return p.sprite_url
   const id = parseInt(p.national_id, 10)
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+}
+
+function getElsewhereInfo(pokemonName: string): { mapId: string; mapName: string } | null {
+  for (const [mapId, names] of Object.entries(allPlacements.value)) {
+    if (mapId !== activeMapId.value && names.includes(pokemonName)) {
+      return { mapId, mapName: MAPS.find(m => m.id === mapId)?.name ?? mapId }
+    }
+  }
+  return null
 }
 
 function togglePokemon(name: string) {
@@ -170,7 +179,9 @@ function togglePokemon(name: string) {
       :all-pokemon="data.pokemon"
       :map-id="activeMapId"
       :is-placed="(name: string) => isPlaced(activeMapId, name)"
+      :get-elsewhere-info="getElsewhereInfo"
       @toggle="togglePokemon"
+      @move="(fromMapId: string, name: string) => movePokemon(fromMapId, activeMapId, name)"
       @close="showPicker = false"
     />
   </div>
