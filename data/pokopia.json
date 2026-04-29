@@ -9870,6 +9870,37 @@
         "floral",
         "round"
       ]
+    },
+    {
+      "pokopia_id": "004",
+      "national_id": "0302",
+      "name_zh": "勾魂眼",
+      "habitats": [
+        "9004"
+      ],
+      "time": {
+        "dawn": true,
+        "day": true,
+        "dusk": true,
+        "night": true
+      },
+      "weather": {
+        "sunny": true,
+        "cloudy": true,
+        "rainy": true
+      },
+      "skills": [
+        "find"
+      ],
+      "flavor": "sour",
+      "environment": "dim",
+      "things": [
+        "eerie",
+        "shiny",
+        "luxurious",
+        "foodlike",
+        "ornamental"
+      ]
     }
   ]
 }
